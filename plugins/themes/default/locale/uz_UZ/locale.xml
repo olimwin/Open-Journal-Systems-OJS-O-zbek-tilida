@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../../../../lib/pkp/dtd/locale.dtd">
+
+<!--
+  * plugins/themes/custom/locale/ru_RU/locale.xml
+  *
+  * Copyright (c) 2014-2019 Simon Fraser University
+  * Copyright (c) 2003-2019 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  * Localization information: https://pkp.sfu.ca/wiki/index.php?title=OJS:_Russian_(ru_RU)
+  * Localization strings.
+  -->
+
+<locale name="uz_UZ" full_name="O'zbek">
+	<message key="plugins.themes.default.name">"Birlamchi mavzu" moduli</message>
+	<message key="plugins.themes.default.description">Standart terini amalga oshiradi.</message>
+
+	<!-- Параметры темы -->
+	<message key="plugins.themes.default.option.typography.label">Tipografiya</message>
+	<message key="plugins.themes.default.option.typography.description">Ushbu jurnalga mos keladigan shrift kombinatsiyasini tanlang.</message>
+	<message key="plugins.themes.default.option.typography.notoSans">Noto Sans: Keng diapazondagi tillarni qo‘llab-quvvatlash uchun Google tomonidan yaratilgan displey shrifti.</message>
+	<message key="plugins.themes.default.option.typography.notoSerif">Noto Serif: Serif, Googlening serif displey shrifti varianti.</message>
+	<message key="plugins.themes.default.option.typography.notoSerif_notoSans">Noto Serif/Noto Sans: serif sarlavhalari va asosiy matn matnisiz qoʻshimcha juftlik.</message>
+	<message key="plugins.themes.default.option.typography.notoSans_notoSerif">Noto Sans/Noto Serif: sans serif sarlavhalari va serif asosiy matnli qo‘shimcha juftlik.</message>
+	<message key="plugins.themes.default.option.typography.lato">Lato: mashhur zamonaviy sans serif.</message>
+	<message key="plugins.themes.default.option.typography.lora">Lora: keng serif, ekranda o‘qish uchun qulay.</message>
+	<message key="plugins.themes.default.option.typography.lora_openSans">Lora/Open Sans: serif sarlavhalari va sans serif asosiy matnli qo‘shimcha juftlik.</message>
+	<message key="plugins.themes.default.option.colour.label">Rang</message>
+	<message key="plugins.themes.default.option.colour.description">Sarlavha uchun rangni tanlang.</message>
+</locale>

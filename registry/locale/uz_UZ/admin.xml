@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../lib/pkp/dtd/locale.dtd">
+
+<!--
+  * locale/ru_RU/admin.xml
+  *
+  * Copyright (c) 2013-2019 Simon Fraser University
+  * Copyright (c) 2003-2019 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  * Localization information: https://pkp.sfu.ca/wiki/index.php?title=OJS:_Russian_(ru_RU)
+  * Localization strings.
+  -->
+
+<locale name="uz_UZ" full_name="O'zbek">
+	<message key="admin.hostedJournals">Saytdagi jurnallar</message>
+	<message key="admin.settings.journalRedirect">Jurnalni qayta yo'naltirish</message>
+	<message key="admin.settings.options">Parametrlar</message>
+	<message key="admin.settings.journalRedirectInstructions">Saytning asosiy sahifasi ushbu jurnalning asosiy sahifasi bo'ladi. Bu, masalan, saytda faqat bitta jurnal bo'lsa foydali bo'ladi.</message>
+	<message key="admin.settings.noJournalRedirect">Yo'naltirmang</message>
+	<message key="admin.settings.defaultMetricDescription">
+		Sizning OJS o'rnatishingiz bir nechta foydalanish ko'rsatkichlarini yozib olish uchun sozlangan. Foydalanish statistikasi bir nechta kontekstlarda ko'rsatiladi.
+		Faqat bitta foydalanish statistikasi qo'llanilishi kerak bo'lgan holatlar mavjud, masalan, eng ko'p ishlatiladigan maqolalarning tartiblangan ro'yxatini ko'rsatish yoki tartiblash
+		qidiruv natijalari. Iltimos, standart metrik sifatida sozlangan o'lchovlardan birini tanlang.
+	</message>
+	<message key="admin.languages.confirmDisable">Ushbu tilni o'chirishni xohlayotganingizga aminmisiz? Bu hozirda foydalanadigan barcha joylashtirilgan jurnallarga ta'sir qilishi mumkin.</message>
+	<message key="admin.languages.downloadUnavailable"><![CDATA[<p>Public Knowledge Project veb-serveridan til paketlarini yuklab olish hozirda mavjud emas, chunki:</p>
+	<ul>
+		<li>Sizning serveringizda GNU "tar" yordam dasturi o'rnatilmagan yoki uni server tomonidan bajarishga ruxsat berilmagan.</li>
+		<li>OJS emas odatda joylashgan tillar ro'yxati faylini o'zgartirishi mumkin «registry/locales.xml».</li>
+	</ul>
+<p>Til paketlarini qo'lda yuklab olish mumkin <a href="http://pkp.sfu.ca">веб-сайта PKP</a>.</p>]]></message>
+
+	<message key="admin.languages.primaryLocaleInstructions">Bu sayt va unga joylashtirilgan barcha jurnallar uchun standart til bo'ladi.</message>
+	<message key="admin.languages.supportedLocalesInstructions">Saytda qo'llab-quvvatlash uchun barcha tillarni tanlang. Tanlangan tillar ushbu saytda joylashgan barcha jurnallar uchun mavjud bo'ladi, shuningdek saytning har bir sahifasidagi tillarni tanlash menyusida paydo bo'ladi (bu sozlamani ma'lum bir jurnal sahifalarida o'zgartirish mumkin). Agar faqat bitta til tanlansa, tillarni almashtirish menyusi ko'rsatilmaydi, jurnallar uchun qo'shimcha til sozlamalari ham mavjud bo'lmaydi.</message>
+	<message key="admin.locale.maybeIncomplete">Belgilangan tillarni qo'llab-quvvatlash to'liq bo'lmasligi mumkin.</message>
+	<message key="admin.languages.confirmUninstall">Ushbu tilni o'chirishni xohlayotganingizga aminmisiz? Bu hozirda foydalanadigan barcha joylashtirilgan jurnallarga ta'sir qilishi mumkin.</message>
+	<message key="admin.languages.installNewLocalesInstructions">Ushbu tizimda ularni qo'llab-quvvatlash uchun qo'shimcha tillarni tanlang. Tillar joylashtirilgan jurnallarda ishlatilishidan oldin o'rnatilishi kerak. Yangi tillarni qo'llab-quvvatlashni qanday qo'shish haqida OJS hujjatlariga qarang.</message>
+	<message key="admin.languages.downloadFailed">Tilni yuklash muvaffaqiyatsiz tugadi. Quyidagi xabarlar ushbu xatoni tasvirlaydi.</message>
+	<message key="admin.languages.localeInstalled"> "{$Locale} " tili o'rnatildi.</message>
+	<message key="admin.languages.download">Tilni yuklab oling</message>
+	<message key="admin.languages.download.cannotOpen">Tilni yuklab oling PKP veb-saytidan til tutqichini ochib bo'lmaydi.</message>
+	<message key="admin.languages.download.cannotModifyRegistry">Odatda "registry/locales" da joylashgan tillar ro'yxati fayliga yangi til qo'shish mumkin emas.xml».</message>
+	<message key="admin.auth.ojs">OJS foydalanuvchi bazasi</message>
+	<message key="admin.auth.enableSyncProfiles">Foydalanuvchi profillarini sinxronlashni yoqing (agar ushbu autentifikatsiya moduli tomonidan qo'llab-quvvatlansa). Foydalanuvchi tizimga kirganda foydalanuvchi Profil ma'lumotlari avtomatik ravishda tashqi manbadan yangilanadi va OJS ichida qilingan profildagi o'zgarishlar (shu jumladan parolni o'zgartirish) avtomatik ravishda tashqi manbaga kiritiladi. Agar ushbu Sozlama o'chirilgan bo'lsa, OBS foydalanuvchi profili ma'lumotlari tashqi foydalanuvchi profili ma'lumot manbasidan mustaqil ravishda saqlanadi.</message>
+	<message key="admin.auth.enableSyncPasswords">Foydalanuvchi parolini o'zgartirishni yoqing (agar ushbu autentifikatsiya moduli tomonidan qo'llab-quvvatlansa). Agar ushbu Sozlama yoqilgan bo'lsa, foydalanuvchilar o'z parollarini OJS-da o'zgartirishi va unutilgan parolni tiklash uchun ojs-da parolni tiklash imkoniyatidan foydalanishi mumkin. Ushbu Sozlamalar o'chirilgan bo'lsa, ushbu autentifikatsiya manbai bo'lgan foydalanuvchilar uchun ushbu xususiyatlar mavjud bo'lmaydi.</message>
+	<message key="admin.auth.enableCreateUsers">Yangi foydalanuvchilarni yaratishni yoqing (agar ushbu autentifikatsiya moduli tomonidan qo'llab-quvvatlansa). Ushbu autentifikatsiya manbai bilan OJS vositalari tomonidan yaratilgan foydalanuvchilar, agar ular mavjud bo'lmasa, avtomatik ravishda tashqi autentifikatsiya manbasiga qo'shiladi. Bundan tashqari, agar ushbu manba standart autentifikatsiya manbai bo'lsa, foydalanuvchilarni ro'yxatdan o'tkazish orqali yaratilgan OJS hisoblari tashqi autentifikatsiya manbasiga ham qo'shiladi.</message>
+	<message key="admin.systemVersion">OJS versiyasi</message>
+	<message key="admin.systemConfiguration">OJS konfiguratsiyasi</message>
+	<message key="admin.systemConfigurationDescription"><![CDATA[OJS konfiguratsiya parametrlari из <tt>config.inc.php</tt>.]]></message>
+	<message key="admin.journals.createInstructions">Siz avtomatik ravishda ushbu jurnal menejeri tomonidan yozib olinadi. Yangi jurnal yaratilgandan so'ng, dastlabki jurnalni sozlashni yakunlash uchun siz jurnalni sozlash ustasiga yo'naltirilasiz.</message>
+	<message key="admin.journals.journalSettings">Jurnal sozlamalari</message>
+	<message key="admin.journals.noneCreated">Hech qanday jurnal yaratilmagan.</message>
+	<message key="admin.contexts.create">Jurnal yaratish</message>
+	<message key="admin.journals.urlWillBe">Bu jurnalni aniqlaydigan bitta qisqa so'z yoki qisqartma bo'lishi kerak. Jurnalning URL manzili bo'ladi {$sampleUrl}.</message>
+	<message key="admin.contexts.form.titleRequired">Ism majburiydir.</message>
+	<message key="admin.contexts.form.pathRequired">Yo'l majburiydir.</message>
+	<message key="admin.contexts.form.pathAlphaNumeric">Yo'lda faqat ingliz alifbosidagi harflar va raqamlar, pastki chiziqlar va defislar bo'lishi mumkin; yo'l harf yoki raqam bilan boshlanishi va tugashi kerak.</message>
+	<message key="admin.contexts.form.pathExists">Tanlangan yo'l allaqachon boshqa jurnal tomonidan ishlatilgan.</message>
+	<message key="admin.journals.enableJournalInstructions">Ushbu jurnalni saytdagi hamma uchun ko'rsatishni yoqing</message>
+	<message key="admin.journals.journalDescription">Jurnal tavsifi</message>
+	<message key="admin.journal.pathImportInstructions">Mavjud jurnal yo'li yoki yaratish uchun yangi yo'l (masalan, "ojs").</message>
+	<message key="admin.journals.importSubscriptions">Obunalarni import qilish</message>
+	<message key="admin.journals.transcode">Maqola metama'lumotlarini transkodlash ISO8859-1</message>
+	<message key="admin.journals.redirect">OJS 1 manzillarini OJS 2 manzillariga o'zgartirish uchun kod yarating</message>
+	<message key="admin.journals.form.importPathRequired">Import yo'li majburiydir.</message>
+	<message key="admin.journals.importErrors">Import muvaffaqiyatsiz tugadi.</message>
+	<message key="admin.mergeUsers">Foydalanuvchilarni birlashtirish</message>
+	<message key="admin.mergeUsers.mergeUser">Birlashtirish</message>
+	<message key="admin.mergeUsers.into.description">Oldingi Foydalanuvchining muallifligi, tahririyat topshiriqlari va boshqalarni baham ko'radigan foydalanuvchini tanlang.</message>
+	<message key="admin.mergeUsers.from.description">Boshqa foydalanuvchi hisobiga qo'shilish uchun foydalanuvchini (yoki bir nechtasini) tanlang (masalan, kimdir o'zi uchun ikkita hisob ochganda). Birinchisi tomonidan tanlangan hisob (lar) o'chiriladi va u bilan bog'liq barcha maqolalar, tahririyat topshiriqlari va boshqalar ikkinchi hisobga qo'shiladi.</message>
+	<message key="admin.mergeUsers.allUsers">Barcha yozib olingan foydalanuvchilar</message>
+	<message key="admin.mergeUsers.confirm">Siz tanlagan {$oldAccountCount} hisoblarini "{$newUsername} " foydalanuvchi nomi bilan hisob qaydnomasiga birlashtirmoqchi ekanligingizga ishonchingiz komilmi? Tanlangan {$old Account} hisoblar bundan keyin mavjud bo'lmaydi. Ushbu harakatni bekor qilib bo'lmaydi.</message>
+	<message key="admin.mergeUsers.noneEnrolled">Yozib olingan foydalanuvchilar yo'q.</message>
+
+	<!-- Kategoriyalar -->
+	<message key="admin.categories">Kategoriyalar</message>
+	<message key="admin.categories.enable.description">Sayt ma'muri ko'plab jurnallarni tartibga solishni osonlashtirish uchun bu erda toifalar to'plamini belgilashi mumkin. Keyin jurnal menejerlari har bir jurnal uchun ushbu toifalarning bir qismini tanlashlari mumkin va o'quvchilar jurnallar to'plamlarini toifalar bo'yicha ko'rib chiqishlari mumkin.</message>
+	<message key="admin.categories.disableCategories">Jurnallarni toifalarga ajratmang.</message>
+	<message key="admin.categories.enableCategories">Jurnal menejerlariga jurnallarni toifalar bo'yicha tartibga solishga ruxsat bering.</message>
+	<message key="admin.categories.editTitle">Kategoriyani tahrirlash</message>
+	<message key="admin.categories.createTitle">Kategoriya yaratish</message>
+	<message key="admin.categories.create">Yangi toifani yaratish</message>
+	<message key="admin.categories.noneCreated">Hech bir toifa yaratilmagan.</message>
+	<message key="admin.categories.confirmDelete">Ushbu toifani olib tashlamoqchi ekanligingizga ishonchingiz komilmi?</message>
+	<message key="admin.categories.name">Nomi</message>
+	<message key="admin.categories.nameRequired">Kategoriya nomi majburiydir.</message>
+	<message key="admin.presses.createInstructions">Siz avtomatik ravishda ushbu jurnal menejeri tomonidan yozib olinadi. Yangi jurnal yaratilgandan so'ng, dastlabki jurnalni sozlashni yakunlash uchun siz jurnalni sozlash ustasiga yo'naltirilasiz.</message>
+	<message key="admin.scheduledTask.subscriptionExpiryReminder">Obunani tugatish haqida eslatma</message>
+	<message key="admin.scheduledTask.openAccessNotification">Ommaviy kirish haqida bildirishnoma</message>
+	<message key="admin.scheduledTask.reviewReminder">Sharhlovchiga eslatma</message>
+</locale>

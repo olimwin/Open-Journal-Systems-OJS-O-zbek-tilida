@@ -1,0 +1,15 @@
+<?php return array (
+  'plugins.themes.default.name' => '"Birlamchi mavzu" moduli',
+  'plugins.themes.default.description' => 'Standart terini amalga oshiradi.',
+  'plugins.themes.default.option.typography.label' => 'Tipografiya',
+  'plugins.themes.default.option.typography.description' => 'Ushbu jurnalga mos keladigan shrift kombinatsiyasini tanlang.',
+  'plugins.themes.default.option.typography.notoSans' => 'Noto Sans: Keng diapazondagi tillarni qo‘llab-quvvatlash uchun Google tomonidan yaratilgan displey shrifti.',
+  'plugins.themes.default.option.typography.notoSerif' => 'Noto Serif: Serif, Googlening serif displey shrifti varianti.',
+  'plugins.themes.default.option.typography.notoSerif_notoSans' => 'Noto Serif/Noto Sans: serif sarlavhalari va asosiy matn matnisiz qoʻshimcha juftlik.',
+  'plugins.themes.default.option.typography.notoSans_notoSerif' => 'Noto Sans/Noto Serif: sans serif sarlavhalari va serif asosiy matnli qo‘shimcha juftlik.',
+  'plugins.themes.default.option.typography.lato' => 'Lato: mashhur zamonaviy sans serif.',
+  'plugins.themes.default.option.typography.lora' => 'Lora: keng serif, ekranda o‘qish uchun qulay.',
+  'plugins.themes.default.option.typography.lora_openSans' => 'Lora/Open Sans: serif sarlavhalari va sans serif asosiy matnli qo‘shimcha juftlik.',
+  'plugins.themes.default.option.colour.label' => 'Rang',
+  'plugins.themes.default.option.colour.description' => 'Sarlavha uchun rangni tanlang.',
+); ?>

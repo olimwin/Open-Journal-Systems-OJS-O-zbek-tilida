@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../lib/pkp/dtd/locale.dtd">
+
+<!--
+  * locale/ru_RU/submission.xml
+  *
+  * Copyright (c) 2014-2019 Simon Fraser University
+  * Copyright (c) 2003-2019 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  * Localization information: https://pkp.sfu.ca/wiki/index.php?title=OJS:_Russian_(ru_RU)
+  * Localization strings.
+  -->
+
+<locale name="uz_UZ" full_name="O'zbek">
+<!-- Yuborish ustasi -->
+<message key="submission.submit.title">Maqolani yuborish</message>
+<message key="submission.submit.userGroup">Mening rolimdan foydalanib yuborish...</message>
+<message key="submission.submit.userGroupDescription">Maqolani yuboradigan rolni tanlang.</message>
+<message key="submission.upload.selectComponent">Maqola komponentini tanlang</message>
+<message key="submission.title">Maqola nomi</message>
+<message key="submission.title.tip"><![CDATA[Kontent turi odatda "tasvir", "matn" yoki boshqa media turlari, jumladan, "dasturiy ta'minot" yoki "interaktiv" bo'ladi. Iltimos, materialingiz uchun eng mos turni tanlang. Misollarni <a target="_blank" href="http://dublincore.org/documents/2001/04/12/usageguide/generic.shtml#type">http://dublincore.org/documents/ sahifasida topish mumkin. 2001/04/12/usageguide/generic.shtml#type</a>]]></message>
+<message key="submission.submit.newSubmissionMultiple">Yangi material yuborishni boshlang</message>
+<message key="submission.submit.newSubmissionSingle">Yangi material</message>
+<message key="grid.action.workflow">Yuborish jarayoni</message>
+<message key="submission.abstract.wordCount.description">Avstrakt {$wordCount} dan oshmasligi kerak.</message>
+
+<message key="submission.issueEntry">Metama'lumotlar</message>
+<message key="submission.submit.whatNext.description">Jurnalga materialni topshirganingiz haqida xabar berildi, arizani tasdiqlash elektron pochtangizga yuborildi. Muharrir sizning arizangizni ko‘rib chiqqach, biz siz bilan bog‘lanamiz.</message>
+<message key="grid.action.galleyInIssueEntry">Bu dalil muammoda paydo bo'ldi</message>
+<message key="grid.action.issueEntry">Ushbu hikoya uchun metama’lumotlarni ko‘rsatish</message>
+
+<!-- Yuborilgan material haqida ma'lumot olish uchun modal oyna -->
+<message key="submission.issueEntry.modalTitle">Yuborgan material va nashrning metama'lumotlari</message>
+<message key="submission.issueEntry.submissionMetadata">Yuborgan material</message>
+<message key="submission.issueEntry.publicationMetadata">Nashr</message>
+<message key="submission.issueEntry.confirm">Quyidagi metama’lumotlar asosida ushbu maqola uchun muammoli yozuv yarating.</message>
+
+<!-- voqealar -->
+<message key="submission.event.articleGalleyMadeAvailable">“{$galleyFormatName}” maqola galleyi taqdim etildi.</message>
+<message key="submission.event.articleGalleyMadeUnavailable">“{$galleyFormatName}” maqola galleyi mavjud emas.</message>
+<message key="submission.event.publicIdentifiers">Yuborgan materialning umumiy identifikatorlari yangilandi.</message>
+
+<!-- dalillar to'plami -->
+<message key="grid.issueEntry.availableGalley.title">Formatni tasdiqlash</message>
+<message key="grid.issueEntry.availableGalley.removeMessage"><![CDATA[<p>Ushbu galley <em>endi o‘quvchilarga taqdim etilmaydi</em>.</p>]]></message >
+<message key="grid.issueEntry.availableGalley.message"><![CDATA[<p>Ushbu galley <em>o‘quvchilarga taqdim etilishi mumkin</em>.</p>]]></message>
+<message key="grid.action.availableArticleGalley">Ushbu oshxonani mavjud qilish</message>
+
+<!-- galley fayllari panjarasi -->
+<message key="submission.galleyFiles">Groofoil fayllari</message>
+<message key="submission.proofReadingDescription"><![CDATA[Dizayner bu yerda nashrga tayyorlangan toʻliq tugallangan fayllarni yuklaydi. Nashr qilishdan oldin yuklangan va tasdiqlangan tahrirlash fayllari bilan mualliflarni va boshqa foydalanuvchilarni dalillarni tekshirish uchun aniqlash uchun <em>Auditni tayinlash</em>-dan foydalaning.]]></message>
+<message key="grid.action.approveProof">Bu qoralamani isbotga kiritish uchun ma'qullang.</message>
+<message key="grid.action.pageProofApproved">Ushbu qoralama galleyga kiritish uchun tasdiqlangan.</message>
+<message key="submission.submit.titleAndSummary">Sarlavha va referat</message>
+<message key="submission.submit.upload.description">Ushbu kontent bilan bog‘langan fayllarni yuklang: maqola, multimedia, ma’lumotlar to‘plami, san’at asarlari va h.k.</message>
+<message key="submission.pageProofs">Tekshiruv</message>
+<message key="submission.confirmSubmit">Ushbu maqolani jurnalga yubormoqchimisiz?</message>
+<message key="workflow.review.externalReview">Ko'rib chiqish</message>
+<message key="editor.submission.decision.sendExternalReview">Ko‘rib chiqish uchun yuborish</message>
+<message key="submission.event.issueMetadataUpdated">Hikoya uchun muammo meta-ma'lumotlari yangilandi.</message>
+
+<message key="submission.upload.fileContents">Maqola komponenti</message>
+<message key="submission.complete">Tasdiqlangan</message>
+<message key="submission.incomplete">Tasdiqlash kutilmoqda</message>
+<message key="submission.submit.form.localeRequired">Yuborish uchun tilni tanlang.</message>
+<message key="submission.submit.submissionChecklist">Yuborish uchun material tayyorlash bo‘yicha nazorat ro‘yxati</message>
+<message key="submission.submit.submissionChecklistDescription">Shuningdek, quyida o'qishingiz kerak.Iltimos, material yuborishni davom ettirishdan oldin quyida keltirilgan barcha talablarga javob berganingizni tasdiqlang.</message>
+<message key="submission.submit.privacyStatement">Maxfiylik bayonoti</message>
+<message key="submission.submit.contributorRole">Yuboruvchining roli</message>
+<message key="submission.submit.form.authorRequired">Kamida bitta muallif kerak.</message>
+<message key="submission.submit.form.authorRequiredFields">Har bir muallif uchun ism, familiya va elektron pochta manzilini kiritishingiz kerak.</message>
+<message key="submission.submit.form.titleRequired">Maqolangiz nomini kiriting.</message>
+<message key="submission.submit.form.abstractRequired">Maqolangizning qisqacha mazmunini kiriting.</message>
+<message key="submission.submit.form.wordCountAlert">Referatingiz juda uzun. Iltimos, ushbu boʻlim uchun soʻz chegarasigacha saqlang.</message>
+<message key="submission.submit.form.contributorRoleRequired">Iltimos, jo'natuvchi rolini tanlang.</message>
+
+<message key="submission.citationFormat.notFound">So‘ralgan bibliografik iqtibos formatini olib bo‘lmadi.</message>
+
+<message key="submission.metadataDescription">Ushbu spetsifikatsiyalar jurnal mazmunini tavsiflash uchun foydalaniladigan xalqaro standart boʻlgan Dublin Core metamaʼlumotlar toʻplamiga asoslangan.</message>
+<message key="section.any">Har qanday bo'lim</message>
+</locale>

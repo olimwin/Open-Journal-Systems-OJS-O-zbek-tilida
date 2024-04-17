@@ -1,0 +1,787 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE email_texts SYSTEM "../../lib/pkp/dtd/emailTemplateData.dtd">
+
+<!--
+  * locale/ru_RU/emailTemplates.xml
+  *
+  * Copyright (c) 2014-2019 Simon Fraser University
+  * Copyright (c) 2003-2019 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  * Localization information: https://pkp.sfu.ca/wiki/index.php?title=OJS:_Russian_(ru_RU)
+  * Localized email templates XML file.
+  -->
+
+<email_texts locale="uz_UZ">
+	<email_text key="NOTIFICATION">
+		<subject>Saytdan yangi bildirishnoma «{$siteTitle}»</subject>
+		<body><![CDATA[Siz saytdan yangi bildirishnoma oldingiz «{$siteTitle}»:<br />
+<br />
+{$notificationContents}<br />
+<br />
+Ссылка: {$url}<br />
+<br />
+{$principalContactSignature}]]></body>
+		<description>Ushbu elektron pochta xabarnomasi elektron pochta orqali yuborilishini ko'rsatgan ro'yxatdan o'tgan foydalanuvchilarga yuboriladi.</description>
+	</email_text>
+	<email_text key="PASSWORD_RESET_CONFIRM">
+		<subject>Parolni tiklashni tasdiqlash</subject>
+		<body><![CDATA[Saytda parolingizni tiklash bo'yicha so'rov oldik. «{$siteTitle}».<br />
+<br />
+Agar siz ushbu so'rovni yubormagan bo'lsangiz, iltimos, ushbu xatga e'tibor bermang va parolingiz o'zgartirilmaydi. Agar siz parolingizni qayta o'rnatmoqchi bo'lsangiz, quyidagi havolani bosing.<br />
+<br />
+Parolimni tiklanish: {$url}<br />
+<br />
+{$principalContactSignature}]]></body>
+		<description>Ushbu elektron pochta ro'yxatdan o'tgan foydalanuvchiga parolni unutganligi yoki saytga kira olmaganligi haqida xabar berganida yuboriladi. Elektron pochtada foydalanuvchi parolini tiklash uchun bosishi mumkin bo'lgan havola (URL) mavjud.</description>
+	</email_text>
+	<email_text key="PASSWORD_RESET">
+		<subject>Parolni tiklash</subject>
+		<body><![CDATA[“{$siteTitle}” saytidagi parolingiz muvaffaqiyatli tiklandi. Iltimos, jurnaldan foydalanish uchun foydalanuvchi nomingiz va parolingizni saqlang.<br />
+<br />
+Foydalanuvchi nomi: {$username}<br />
+Parol: {$password}<br />
+<br />
+{$principalContactSignature}]]></body>
+		<description>Ushbu xat ro'yxatdan o'tgan foydalanuvchiga PASSWORD_RESET_CONFIRM xatida ko'rsatilgan protsedura bo'yicha parolini muvaffaqiyatli tiklagandan so'ng yuboriladi.</description>
+	</email_text>
+	<email_text key="USER_REGISTER">
+		<subject>Jurnalda ro'yxatdan o'tish</subject>
+		<body><![CDATA[Salom, {$userFullName}!<br />
+<br />
+Siz endi “{$contextName}” jurnalida foydalanuvchi sifatida roʻyxatdan oʻtgansiz. Ushbu maktubda biz sizning foydalanuvchi nomingiz va parolingizni ko'rsatdik, bu jurnal bilan sayt orqali ishlash uchun talab qilinadi. Buning uchun istalgan vaqtda jurnal foydalanuvchilari ro'yxatidan o'chirishni so'rashingiz mumkin, shunchaki men bilan bog'laning;<br />
+<br />
+Foydalanuvchi nomi: {$username}<br />
+Parol: {$password}<br />
+<br />
+Hurmat bilan,<br />
+{$principalContactSignature}]]></body>
+		<description>Ushbu elektron pochta yangi ro'yxatdan o'tgan foydalanuvchiga yuboriladi, uni tizimda kutib oladi va ularga saytga kirish uchun foydalanuvchi nomi va parolni taqdim etadi.</description>
+	</email_text>
+	<email_text key="USER_VALIDATE">
+		<subject>Hisobingizni tasdiqlang</subject>
+		<body><![CDATA[Salom, {$userFullName}!<br />
+<br />
+Siz “{$contextName}” jurnali hisobini yaratdingiz, lekin undan foydalanishni boshlashdan oldin elektron pochta manzilingizni tasdiqlashingiz kerak. Buning uchun quyidagi havolaga o'ting:<br />
+<br />
+{$activateUrl}<br />
+<br />
+Hurmat bilan,<br />
+{$principalContactSignature}]]></body>
+		<description>Ushbu elektron pochta yangi ro'yxatdan o'tgan foydalanuvchiga elektron pochta manzilini tasdiqlash uchun yuboriladi.</description>
+	</email_text>
+	<email_text key="REVIEWER_REGISTER">
+		<subject>“{$contextName}” jurnalida sharhlovchi sifatida roʻyxatdan oʻtish»</subject>
+		<body><![CDATA[Tajribangizni inobatga olgan holda, biz sizni "{$contextName}" jurnali uchun potentsial sharhlovchilar bazasida ro'yxatdan o'tkazish erkinligini oldik. Bu sizga hech qanday majburiyat yuklamaydi, balki jurnalimizga siz sharhlovchi bo'lishingiz mumkin bo'lgan materiallar kelib tushganda siz bilan bog'lanishimizga imkon beradi. Ko'rib chiqish taklifini olganingizdan so'ng, siz so'rovda qo'lyozmaning sarlavhasi va qisqacha mazmunini ko'rishingiz mumkin va siz doimo taklifni qabul qilish yoki rad etish imkoniyatiga ega bo'lasiz. Shuningdek, istalgan vaqtda ushbu sharhlovchilar roʻyxatidan ismingizni olib tashlashimizni soʻrashingiz mumkin.<br />
+<br />
+Biz sizga veb-sayt orqali jurnalimiz bilan har qanday aloqada foydalaniladigan foydalanuvchi nomi va parolni yuboramiz. Masalan, sharhlovchi sifatida sizni qiziqtirgan mavzuni ko'rsatib, foydalanuvchi profilingizdagi ma'lumotlaringizni sozlashingiz mumkin.<br />
+<br />
+Foydalanuvchi nomi: {$username}<br />
+Parol: {$password}<br />
+<br />
+Hurmat bilan,<br />
+{$principalContactSignature}]]></body>
+		<description>Ushbu elektron pochta yangi ro'yxatdan o'tgan sharhlovchiga yuboriladi, uni tizimga qabul qiladi va ularga saytga kirish uchun foydalanuvchi nomi va parolni beradi.</description>
+	</email_text>
+	<email_text key="PUBLISH_NOTIFY">
+		<subject>Yangi soni chop etildi</subject>
+		<body><![CDATA[Hurmatli o'quvchilar!<br />
+<br />
+{$contextName} jurnali hozirgina {$contextUrl} sahifasida oʻzining soʻnggi sonini chop etdi. Bu yerda nashrning mazmunini ko‘rib chiqishingizni, keyin esa sizni qiziqtirgan mavzulardagi maqola va postlarni o‘qish uchun veb-saytimizga tashrif buyurishingizni tavsiya qilamiz.<br />
+<br />
+Bizning ishimizga doimiy qiziqishingiz uchun tashakkur,<br />
+{$editorialContactSignature}]]></body>
+		<description>Ushbu xat ro'yxatdan o'tgan o'quvchilarga muharrirning bosh sahifasidagi "Foydalanuvchilarni xabardor qilish" havolasi orqali yuboriladi. U o‘quvchilarni yangi son chiqishi haqida xabardor qiladi va ularni jurnalning ko‘rsatilgan manzil (URL) bo‘yicha veb-saytiga tashrif buyurishga taklif qiladi.</description>
+	</email_text>
+	<email_text key="LOCKSS_EXISTING_ARCHIVE">
+		<subject>“{$contextName}” jurnali uchun arxiv soʻrovi»</subject>
+		<body><![CDATA[Hurmatli [Universitet kutubxonachisi]!<br />
+<br />
+«{$contextName}» &amp;lt;{$contextUrl}&amp;gt; — universitetingiz xodimi [xodimning ismi] [lavozim nomi] lavozimini egallagan jurnal. Jurnalimiz sizning va boshqa universitetlaringiz kutubxonalari bilan LOCKSS (Lot of Copies Keep Stuff Safe) mos arxiv yaratmoqchi.<br />
+<br />
+[Jurnalning qisqacha tavsifi]<br />
+<br />
+Jurnalimiz uchun LOCKSS Publisher Manifest URL manzili: {$contextUrl}/gateway/lockss<br />
+<br />
+Siz allaqachon LOCKSS da ishtirok etayotganingizni bilamiz. Agar biz jurnalimizni LOCKSS versiyangizda ro‘yxatdan o‘tkazish uchun qo‘shimcha metama’lumotlarni taqdim eta olsak, buni qilishdan mamnun bo‘lamiz.<br />
+<br />
+Hurmat bilan,<br />
+{$principalContactSignature}]]></body>
+		<description>Ushbu xat LOCKSS arxivi egasiga ushbu jurnalni o'z arxiviga qo'shishni ko'rib chiqishni so'raydi. Elektron pochta ushbu jurnal uchun LOCKSS nashriyot manifestining manzilini (URL) beradi.</description>
+	</email_text>
+	<email_text key="LOCKSS_NEW_ARCHIVE">
+		<subject>“{$contextName}” jurnali uchun arxiv soʻrovi»</subject>
+		<body><![CDATA[Hurmatli [Universitet kutubxonachisi]!<br />
+<br />
+«{$contextName}» &amp;lt;{$contextUrl}&amp;gt; — universitetingiz xodimi [xodimning ismi] [lavozim nomi] lavozimini egallagan jurnal. Jurnalimiz sizning va boshqa universitetlaringiz kutubxonalari bilan LOCKSS (Lot of Copies Keep Stuff Safe) mos arxiv yaratmoqchi.<br />
+<br />
+[Jurnalning qisqacha tavsifi]<br />
+<br />
+<body><![CDATA[LOCKSS &amp;lt;http://lockss.org/&amp;gt; dasturiy taʼminoti - kitobxonalar va nashriyotlar jamoasi uchun tarqatilgan boshqa keng doimiy saqlash muassasasi (tafsilotlar quyidagilarda). Uchinchi tarafdan ishga tushiriladigan dasturiy taʼminot oddiy shaxsiy kompyuterda boshqariladi va bepul; tizim Internetga qoʻyiladi va ishga tushirish uchun ariza qilmaslik kabi faoliyatlar talab qilmaydi.<br />
+<br />
+Bizning jurnalimizni arxivlashda sizga yordam bermoqchi boʻlsak, sizni LOCKSS jamoasi aʼzosi boʻlishga taklif qilamiz, uni oʻz universitetingiz xodimlari va boshqa ilmijotchilar tomonidan yaratilgan maqolalarni toʻplash va saqlashda yordam bermoqchi boʻlish uchun. Ushbu maqsadga erishish uchun, iltimos, kimdirning LOCKSS saytiga kirib, ushbu tizim qanday ishlashini bilish uchun maʼlumot olishiga buyurib, unga vazifani bermoqchi boʻlmasangiz, qayta koʻrib chiqing. Biz jurnalimiz uchun bu arxivni taʼminlash imkoniyatini taqdim etish imkoniyatingiz haqida javobingizni kutib qolamiz.<br />
+<br />
+Hurmat bilan,<br />
+{$principalContactSignature}]]></body>
+		<description>Ushbu xabar qabulgariyaga LOCKSS initsiativasi qatnashishni taklif etadi va bu jurnalni arxivga qo'shishni taklif qiladi. Xabarda LOCKSS initsiativasi haqida ma'lumot va unga qanday qo'shilishi mumkinligi haqida ma'lumotlar keltirilgan.</description>
+	</email_text>
+	<email_text key="SUBMISSION_ACK">
+		<subject>Jo'natishni tasdiqlash</subject>
+		<body><![CDATA[Salom, {$authorName}!<br />
+<br />
+Siz «{$contextName}» jurnaliga «{$submissionTitle}» materialini joʻnatishingiz uchun rahmat. Bizning ishlatiladigan onlayn jurnal boshqaruv tizimi orqali uni redaksiya jarayonidan oʻtishini kuzatishingiz mumkin:<br />
+<br />
+Material URL manzili: {$submissionUrl}<br />
+Foydalanuvchi nomi: {$authorUsername}<br />
+<br />
+Agar savollar boʻlsa, iltimos, menga murojaat qiling. Sizning ishingizni chop etish uchun bizning jurnalni tanlaganingiz uchun rahmat.<br />
+<br />
+{$editorialContactSignature}]]></body>
+<description>Ushbu e-pochta (agar yoqilgan bo'lsa) jurnalni topshirish jarayonini tugatgandan so'ng muallifga avtomatik ravishda yuboriladi. Maktubda materialning tahrir jarayoni orqali o‘tishini kuzatish haqida ma’lumot va taqdim etilgan material uchun muallifga minnatdorchilik bildirilgan.</description>
+</email_text>
+<email_text key="SUBMISSION_ACK_NOT_USER">
+<subject>Yuborishni tasdiqlash</subject>
+<body><![CDATA[Salom!<br />
+<br />
+{$submitterName} foydalanuvchisi “{$submissionTitle}” materialini “{$contextName}” jurnaliga yubordi. <br />
+<br />
+Agar sizda biron bir savol bo'lsa, iltimos, men bilan bog'laning. Asaringizni chop etish uchun bizning jurnalimizni tanlaganingiz uchun tashakkur.<br />
+<br />
+{$editorialContactSignature}]]></body>
+<description>Ushbu e-pochta (agar yoqilgan bo'lsa) yuborish jarayonida ko'rsatilgan OJS foydalanuvchilari bo'lmagan boshqa mualliflarga avtomatik ravishda yuboriladi.</description>
+</email_text>
+<email_text key="EDITOR_ASSIGN">
+<subject>Muharrir etib tayinlanish</subject>
+<body><![CDATA[Salom, {$editorialContactName}!<br />
+<br />
+Bo‘lim muharriri sifatidagi rolingiz doirasida sizga “{$submissionTitle}” jurnalining “{$contextName}” jurnalida tahrir jarayoni orqali o‘tishini nazorat qilish yuklangan.<br />
+<br />
+Yuborish URL manzili: {$submissionUrl}<br />
+Foydalanuvchi nomi: {$editorUsername}<br />
+<br />
+Hurmat bilan,<br />
+{$editorialContactSignature}]]></body>
+<description>Ushbu xat bo'lim muharririga muharrir unga materialning tahrir jarayoni orqali o'tishini nazorat qilishni topshirganligi haqida xabar beradi. Maktubda material va jurnal veb-saytiga qanday kirish mumkinligi haqida ma'lumotlar mavjud.</description>
+</email_text>
+<email_text key="REVIEW_REQUEST">
+<subject>Maqolani ko'rib chiqish uchun so'rov</subject>
+<body><![CDATA[Salom, {$reviewerName}!<br />
+<br />
+Ishonamanki, siz "{$contextName}" jurnaliga yuborilgan "{$submissionTitle}" materiali uchun ajoyib sharhlovchi bo'lasiz. Maqolaning qisqacha mazmuni quyida keltirilgan va umid qilamanki, siz biz uchun bu muhim vazifani o'z zimmangizga olasiz.<br />
+<br />
+Ko‘rib chiqish yoki ko‘rib chiqishni rad etishga roziligingizni tasdiqlash uchun {$responseDueDate} sanasidan oldin jurnal veb-saytiga kiring, shuningdek, materialga kirish hamda sharh va tavsiyalaringizni qoldiring. Veb-sayt manzili - {$contextUrl}<br />
+<br />
+Sharhning o'zi {$reviewDueDate} tomonidan yuborilishi kerak.<br />
+<br />
+Agar sizda jurnal veb-saytiga kirish uchun foydalanuvchi nomingiz va parolingiz bo'lmasa, parolingizni tiklash uchun ushbu havoladan foydalanishingiz mumkin (u sizga foydalanuvchi nomingiz bilan birga elektron pochta orqali yuboriladi). {$passwordResetUrl}<br />
+<br />
+Yuborish URL manzili: {$submissionReviewUrl}<br />
+<br />
+Oldindan rahmat<br />
+<br />
+{$editorialContactSignature}<br />
+<br />
+"{$submissionTitle}"<br />
+<br />
+{$submissionAbstract}]]></body>
+<description>Bu bo'lim muharriri tomonidan sharhlovchiga materialni ko'rib chiqishga rozilik yoki rad etishni so'rab yuborilgan xat. Maktubda sarlavha va referat, ko'rib chiqish muddati va materialning o'ziga qanday kirish mumkinligi kabi material haqida ma'lumot beriladi. Ushbu xabar Menejment &gt;da standart ko'rib chiqish jarayoni tanlanganda ishlatiladi; Sozlamalar &gt; Ish jarayoni &gt; Ko'rib chiqilmoqda. (Aks holda, REVIEW_REQUEST_ATTACHEDga qarang.)</description>
+</email_text>
+<email_text key="REVIEW_REQUEST_REMIND_AUTO">
+<subject>Maqolani ko'rib chiqish uchun so'rov</subject>
+<body><![CDATA[Salom, {$reviewerName}!<br />
+Bu “{$contextName}” jurnali uchun “{$submissionTitle}” materialini ko‘rib chiqish haqidagi so‘rovimizni eslatib o‘tamiz. Javobingizni {$responseDueDate} sanasigacha olishimizni kutgandik va bu sana allaqachon o‘tib ketgani uchun bu xat avtomatik tarzda yaratildi va yuborildi.
+<br />
+Ishonamanki, siz material uchun ajoyib sharhlovchi bo'lasiz. Maqolaning qisqacha mazmuni quyida keltirilgan va umid qilamanki, siz biz uchun bu muhim vazifani o'z zimmangizga olasiz.<br />
+<br />
+Iltimos, ko'rib chiqish yoki ko'rib chiqishni rad etishga roziligingizni tasdiqlash uchun jurnal veb-saytiga kiring, shuningdek, materialga kirish va sharh va tavsiyalaringizni qoldiring. Veb-sayt manzili - {$contextUrl}<br />
+<br />
+Sharhning o'zi {$reviewDueDate} tomonidan yuborilishi kerak.<br />
+<br />
+Agar sizda jurnal veb-saytiga kirish uchun foydalanuvchi nomingiz va parolingiz bo'lmasa, parolingizni tiklash uchun ushbu havoladan foydalanishingiz mumkin (u sizga foydalanuvchi nomingiz bilan birga elektron pochta orqali yuboriladi). {$passwordResetUrl}<br />
+<br />
+Yuborish URL manzili: {$submissionReviewUrl}<br />
+<br />
+Oldindan rahmat<br />
+<br />
+{$editorialContactSignature}<br />
+<br />
+"{$submissionTitle}"<br />
+<br />
+{$submissionAbstract}]]></body>
+<description>Ko'rib chiquvchining ko'rib chiqishda ishtirok etishini tasdiqlash sanasi o'tib ketganda (Sozlamalar > Ish jarayoni > Ko'rib chiqish bo'limidagi Ko'rib chiqish opsiyalariga qarang) va sharhlovchining to'g'ridan-to'g'ri havolaga kirishi o'chirib qo'yilganda, ushbu xat avtomatik ravishda yuboriladi. RejalashtirilganBu vazifalar yoqilgan va sozlangan boʻlishi kerak (sayt konfiguratsiya fayliga qarang).</description>
+</email_text>
+<email_text key="REVIEW_REQUEST_ONECLICK">
+<subject>Maqolani ko'rib chiqish uchun so'rov</subject>
+<body><![CDATA[Salom, {$reviewerName}!<br />
+<br />
+Ishonamanki, siz "{$contextName}" jurnaliga yuborilgan "{$submissionTitle}" materiali uchun ajoyib sharhlovchi bo'lasiz. Maqolaning qisqacha mazmuni quyida keltirilgan va umid qilamanki, siz biz uchun bu muhim vazifani o'z zimmangizga olasiz.<br />
+<br />
+Ko‘rib chiqishga roziligingizni tasdiqlash yoki ko‘rib chiqishni rad etish, shuningdek, materialga kirish va sharh va tavsiyalaringizni qoldirish uchun {$responseDueDate} sanasidan oldin jurnal veb-saytiga kiring.<br />
+<br />
+Sharhning o'zi {$reviewDueDate} tomonidan yuborilishi kerak.<br />
+<br />
+Yuborish URL manzili: {$submissionReviewUrl}<br />
+<br />
+Oldindan rahmat<br />
+<br />
+{$editorialContactSignature}<br />
+<br />
+"{$submissionTitle}"<br />
+<br />
+{$submissionAbstract}]]></body>
+<description>Bu bo'lim muharriri tomonidan sharhlovchiga materialni ko'rib chiqishga rozilik yoki rad etishni so'rab yuborilgan xat. Maktubda sarlavha va referat, ko'rib chiqish muddati va materialning o'ziga qanday kirish mumkinligi kabi material haqida ma'lumot beriladi. Ushbu xabar Menejment &gt;da standart ko'rib chiqish jarayoni tanlanganda ishlatiladi; Sozlamalar &gt; Ish jarayoni &gt; Havola orqali koʻrib chiqish va toʻgʻridan-toʻgʻri sharhlovchiga kirish yoqilgan.</description>
+</email_text>
+<email_text key="REVIEW_REQUEST_REMIND_AUTO_ONECLICK">
+<subject>Maqolani ko'rib chiqish uchun so'rov</subject>
+<body><![CDATA[Salom, {$reviewerName}!<br />
+Bu “{$contextName}” jurnali uchun “{$submissionTitle}” materialini ko‘rib chiqish haqidagi so‘rovimizni eslatib o‘tamiz. Javobingizni {$responseDueDate} sanasigacha olishimizni kutgandik va bu sana allaqachon o‘tib ketgani uchun bu xat avtomatik tarzda yaratildi va yuborildi.
+<br />
+Ishonamanki, siz material uchun ajoyib sharhlovchi bo'lasiz. Maqolaning qisqacha mazmuni quyida keltirilgan va umid qilamanki, siz biz uchun bu muhim vazifani o'z zimmangizga olasiz.<br />
+<br />
+Iltimos, koʻrib chiqish yoki koʻrib chiqishni rad etishga roziligingizni tasdiqlash uchun jurnal veb-saytiga kiring, shuningdek, materialga kirish va sharh va tavsiyalaringizni qoldiring.<br />
+<br />
+Sharhning o'zi {$reviewDueDate} tomonidan yuborilishi kerak.<br />
+<br />
+Yuborish URL manzili: {$submissionReviewUrl}<br />
+<br />
+Oldindan rahmat<br />
+<br />
+{$editorialContactSignature}<br />
+<br />
+"{$submissionTitle}"<br />
+<br />
+{$submissionAbstract}]]></body>
+<description>Ko'rib chiquvchining ko'rib chiqishda ishtirok etishini tasdiqlash sanasi o'tib ketganda (Sozlamalar &gt; Ish jarayoni &gt; Ko'rib chiqish bo'limidagi Ko'rib chiqish opsiyalariga qarang) va to'g'ridan-to'g'ri ko'rib chiquvchi havolasiga kirish yoqilganda, ushbu xat avtomatik ravishda yuboriladi. Rejalashtirilgan vazifalarni yoqish va sozlash kerak (sayt konfiguratsiya fayliga qarang).</description>
+</email_text>
+<email_text key="REVIEW_REQUEST_ATTACHED">
+<subject>Maqolani ko'rib chiqish uchun so'rov</subject>
+<body>	<![CDATA[Salom, {$reviewerName}!<br />
+<br />
+Ishonamanki, siz “{$submissionTitle}” materiali uchun ajoyib sharhlovchi boʻlasiz va biz uchun bu muhim vazifani bajarishingizni soʻrayman. Quyida ushbu jurnal uchun sharhlovchilar uchun ko'rsatmalar qo'shilgan va sharh materiallari ushbu xatga ilova qilingan. Materialni ko'rib chiqishingiz va tavsiyalaringiz {$reviewDueDate} tomonidan menga elektron pochta orqali yuborilishi kerak.<br />
+<br />
+Iltimos, {$responseDueDate} sanasidan oldin javobingizda bizga ko‘rib chiqish imkoniyati bor-yo‘qligini bildiring.<br />
+<br />
+Oldindan rahmat<br />
+<br />
+{$editorialContactSignature}<br />
+<br />
+<br />
+Taqrizchilar uchun ko'rsatmalar<br />
+<br />
+{$reviewGuidelines}<br />
+]]></body>
+<description>Bu bo'lim muharriri tomonidan sharhlovchiga materialni ko'rib chiqishga rozilik yoki rad etishni so'rab yuborilgan xat. Xatga ko'rib chiqish uchun material ilova qilingan. Agar elektron pochtani ko'rib chiqish jarayoni Management &gt; da tanlangan bo'lsa, bu xabar ishlatiladi. Sozlamalar &gt; Ish jarayoni &gt; Ko'rib chiqilmoqda. (Aks holda, REVIEW_REQUEST ga qarang.)</description>
+</email_text>
+<email_text key="REVIEW_REQUEST_SUBSEQUENT">
+<subject>Maqolani ko'rib chiqish uchun so'rov</subject>
+<body><![CDATA[Salom, {$reviewerName}!<br />
+<br />
+Bu maktub “{$submissionTitle}” materialiga tegishli bo‘lib, u “{$contextName}” jurnalida ko‘rib chiqilmoqda.<br />
+<br />
+Materialning oldingi versiyasini ko'rib chiqish natijalariga ko'ra, mualliflar o'z maqolalarining to'g'rilangan versiyasini yuborishdi. Agar buni baholashga yordam bersangiz, xursand bo'lardik.<br />
+<br />
+Ko‘rib chiqish yoki ko‘rib chiqishni rad etishga roziligingizni tasdiqlash uchun {$responseDueDate} sanasidan oldin jurnal veb-saytiga kiring, shuningdek, materialga kirish hamda sharh va tavsiyalaringizni qoldiring. Veb-sayt manzili - {$contextUrl}<br />
+<br />
+Sharhning o'zi {$reviewDueDate} tomonidan yuborilishi kerak.<br />
+<br />
+Agar sizda jurnal veb-saytiga kirish uchun foydalanuvchi nomingiz va parolingiz bo'lmasa, parolingizni tiklash uchun ushbu havoladan foydalanishingiz mumkin (u sizga foydalanuvchi nomingiz bilan birga elektron pochta orqali yuboriladi). {$passwordResetUrl}<br />
+<br />
+Yuborish URL manzili: {$submissionReviewUrl}<br />
+<br />
+Oldindan rahmat<br />
+<br />
+{$editorialContactSignature}<br />
+<br />
+"{$submissionTitle}"<br />
+<br />
+{$submissionAbstract}]]></body>
+<description>Bu bo'lim muharriri tomonidan ko'rib chiqishning ikkinchi yoki keyingi bosqichlarida materialni ko'rib chiqishga rozilik yoki rad etishni so'rab sharhlovchiga yuborilgan xat. Maktubda sarlavha va referat, ko'rib chiqish muddati va materialning o'ziga qanday kirish mumkinligi kabi material haqida ma'lumot beriladi. Ushbu xabar Menejment &gt;da standart ko'rib chiqish jarayoni tanlanganda ishlatiladi; Sozlamalar &gt; Ish jarayoni &gt; Ko'rib chiqilmoqda. (Aks holda, RREVIEW_REQUEST_ATTACHED_SUBSEQUENTga qarang.)</description>
+</email_text>
+<email_text key="REVIEW_REQUEST_ONECLICK_SUBSEQUENT">
+<subject>Maqolani ko'rib chiqish uchun so'rov</subject>
+<body><![CDATA[Salom, {$reviewerName}!<br /><br />
+Bu maktub “{$submissionTitle}” materialiga tegishli bo‘lib, u “{$contextName}” jurnalida ko‘rib chiqilmoqda.<br />
+<br />
+Materialning oldingi versiyasini ko'rib chiqish natijalariga ko'ra, mualliflar o'z maqolalarining to'g'rilangan versiyasini yuborishdi. Agar buni baholashga yordam bersangiz, xursand bo'lardik.<br />
+<br />
+Ko‘rib chiqishga roziligingizni tasdiqlash yoki ko‘rib chiqishni rad etish, shuningdek, materialga kirish va sharh va tavsiyalaringizni qoldirish uchun {$responseDueDate} sanasidan oldin jurnal veb-saytiga kiring.<br />
+<br />
+Sharhning o'zi {$reviewDueDate} tomonidan yuborilishi kerak.<br />
+<br />
+Yuborish URL manzili: {$submissionReviewUrl}<br />
+<br />
+Oldindan rahmat<br />
+<br />
+{$editorialContactSignature}<br />
+<br />
+"{$submissionTitle}"<br />
+<br />
+{$submissionAbstract}]]></body>
+<description>Bu bo'lim muharriri tomonidan ko'rib chiqishning ikkinchi yoki keyingi bosqichlarida materialni ko'rib chiqishga rozilik yoki rad etishni so'rab sharhlovchiga yuborilgan xat. Maktubda sarlavha va referat, ko'rib chiqish muddati va materialning o'ziga qanday kirish mumkinligi kabi material haqida ma'lumot beriladi. Ushbu xabar Menejment &gt;da standart ko'rib chiqish jarayoni tanlanganda ishlatiladi; Sozlamalar &gt; Ish jarayoni &gt; Havola orqali koʻrib chiqish va toʻgʻridan-toʻgʻri sharhlovchiga kirish yoqilgan.</description>
+</email_text>
+<email_text key="REVIEW_REQUEST_ATTACHED_SUBSEQUENT">
+<subject>Maqolani ko'rib chiqish uchun so'rov</subject>
+<body><![CDATA[Salom, {$reviewerName}!<br />
+<br />
+Bu maktub “{$submissionTitle}” materialiga tegishli bo‘lib, u “{$contextName}” jurnalida ko‘rib chiqilmoqda.<br />
+<br />
+Materialning oldingi versiyasini ko'rib chiqish natijalariga ko'ra, mualliflar o'z maqolalarining to'g'rilangan versiyasini yuborishdi. Agar buni baholashga yordam bersangiz, xursand bo'lardik.<br />
+<br />
+Quyida ushbu jurnal uchun sharhlovchilar uchun ko'rsatmalar qo'shilgan va sharh materiallari ushbu xatga ilova qilingan. Materialni ko'rib chiqishingiz va tavsiyalaringiz {$reviewDueDate} tomonidan menga elektron pochta orqali yuborilishi kerak.<br />
+<br />
+Iltimos, {$responseDueDate} sanasidan oldin javobingizda bizga ko‘rib chiqish imkoniyati bor-yo‘qligini bildiring.<br />
+<br />
+Oldindan rahmat<br />
+<br />
+{$editorialContactSignature}<br />
+<br />
+<br />
+Taqrizchilar uchun ko'rsatmalar<br />
+<br />
+{$reviewGuidelines}<br />
+]]></body>
+<description>Bu bo'lim muharriri tomonidan ko'rib chiqishning ikkinchi yoki keyingi bosqichlarida materialni ko'rib chiqishga rozilik yoki rad etishni so'rab sharhlovchiga yuborilgan xat. Xatga ko'rib chiqish uchun material ilova qilingan. Agar elektron pochtani ko'rib chiqish jarayoni Management &gt; da tanlangan bo'lsa, bu xabar ishlatiladi. Sozlamalar &gt; Ish jarayoni &gt; Ko'rib chiqilmoqda. (Aks holda, REVIEW_REQUEST_SUBSEQUENT-ga qarang.)</description>
+</email_text>
+<email_text key="REVIEW_CANCEL">
+<subject>Ko'rib chiqish so'rovi bekor qilindi</subject>
+<body><![CDATA[Salom, {$reviewerName}!<br />
+<br />
+Ayni paytda biz “{$contextName}” jurnali uchun “{$submissionTitle}” materialini ko‘rib chiqish haqidagi so‘rovimizni bekor qilishga qaror qildik. Bu sizga keltirgan noqulayliklar uchun uzr so'raymiz va kelajakda jurnalimiz materiallarini ko'rib chiqishda sizdan yordam so'rashimiz mumkinligiga umid qilamiz.<br />
+<br />
+Savollaringiz bo'lsa, men bilan bog'laning.<br />
+<br />
+{$editorialContactSignature}]]></body>
+<description>Bu boʻlim muharririning materialni koʻrib chiqishni boshlagan sharhlovchiga yuborilgan xati boʻlib, u koʻrib chiqish bekor qilinganligi haqida xabar beradi.</description>
+</email_text>
+<email_text key="REVIEW_CONFIRM">
+<subject>Men sharh berishga roziman</subject>
+<body><![CDATA[Hurmatli tahririyat!<br />
+<br />
+Men “{$contextName}” jurnali uchun “{$submissionTitle}” materialini ko‘rib chiqishga tayyorman. Men bilan bog'langaningiz uchun tashakkur; Ko‘rib chiqishni belgilangan sana, {$reviewDueDate} yoki undan oldinroq yakunlayman.<br />
+<br />
+{$reviewerName}]]></body>
+<description>Bu sharhlovchining maqolani koʻrib chiqish soʻroviga javoban boʻlim muharririga koʻrib chiqish soʻrovi qabul qilinganligi va koʻrib chiqish belgilangan sanagacha yuborilishi haqida boʻlim muharririga xabar berish uchun yuborilgan xat.</description >
+</email_text>
+<email_text key="REVIEW_DECLINE">
+<subject>Men sharh bera olmayman</subject>
+<body><![CDATA[Hurmatli tahririyat!<br />
+<br />
+Ayni paytda {$submissionTitle} ni {$contextName} uchun ko‘rib chiqa olmayman deb qo‘rqaman. Men bilan bog'langaningiz uchun rahmat, keyingi safar ham men bilan bog'lanishdan tortinmang.<br />
+<br />
+{$reviewerName}]]></body>
+<description>Bu boʻlim muharririni koʻrib chiqish soʻrovi rad etilganligi haqida xabardor qilish uchun maqolani koʻrib chiqish soʻroviga javoban boʻlim muharririga yuborilgan sharhlovchi xatidir.</description>
+</email_text>
+<email_text key="REVIEW_ACK">
+<subject>Ko'rib chiqish qabul qilinganligini tasdiqlash</subject>
+<body><![CDATA[Salom, {$reviewerName}!<br />
+<br />
+“{$contextName}” jurnali uchun “{$submissionTitle}” materialini ko‘rib chiqqaningiz uchun tashakkur. Biz chop etayotgan ish sifatiga qo'shgan hissangizni qadrlaymiz.<br />
+<br />
+{$editorialContactSignature}]]></body>
+<description>Ushbu maktub boʻlim muharriri tomonidan maqolaning taqrizini olganligi toʻgʻrisida va sharhlovchiga qoʻshgan hissasi uchun tashakkur sifatida yuborilgan.</description>
+</email_text>
+<email_text key="REVIEW_REMIND">
+<subject>Materialni ko'rib chiqish haqida eslatma</subject>
+<body><![CDATA[Salom, {$reviewerName}:<br />
+<br />
+Bu “{$contextName}” jurnali uchun “{$submissionTitle}” materialini ko‘rib chiqish haqidagi so‘rovimizni eslatib o‘tamiz. Biz ushbu sharhni {$reviewDueDate} sanasida qabul qilamiz deb umid qilgandik va uni imkon qadar tezroq tayyorlab bersangiz, xursand bo‘lamiz.<br />
+<br />
+Agar sizda jurnal veb-saytiga kirish uchun foydalanuvchi nomingiz va parolingiz bo'lmasa, parolingizni tiklash uchun ushbu havoladan foydalanishingiz mumkin (u sizga foydalanuvchi nomingiz bilan birga elektron pochta orqali yuboriladi). {$passwordResetUrl}<br />
+<br />
+Yuborish URL manzili: {$submissionReviewUrl}<br />
+<br />
+Iltimos, jurnalimizga ushbu muhim hissa qo'sha olishingizni tasdiqlang. Javobingizni kutaman.<br />
+<br />
+{$editorialContactSignature}]]></body>
+<description>Ushbu xat bo'lim muharriri tomonidan sharhlovchiga ko'rib chiqish muddati o'tganligini eslatish uchun yuborilgan.</description>
+</email_text>
+<email_text key="REVIEW_REMIND_ONECLICK">
+<subject>Materialni ko'rib chiqish haqida eslatma</subject>
+<body><![CDATA[Salom, {$reviewerName}!<br />
+<br />Bu “{$contextName}” jurnali uchun “{$submissionTitle}” materialini ko‘rib chiqish haqidagi so‘rovimizni eslatib o‘tamiz. Biz ushbu sharhni {$reviewDueDate} sanasida qabul qilamiz deb umid qilgandik va uni imkon qadar tezroq tayyorlab bersangiz, xursand bo‘lamiz.<br />
+<br />
+Yuborish URL manzili: {$submissionReviewUrl}<br />
+<br />
+Iltimos, jurnalimizga ushbu muhim hissa qo'sha olishingizni tasdiqlang. Javobingizni kutaman.<br />
+<br />
+{$editorialContactSignature}]]></body>
+<description>Ushbu xat bo'lim muharriri tomonidan sharhlovchiga ko'rib chiqish muddati o'tganligini eslatish uchun yuborilgan.</description>
+</email_text>
+<email_text key="REVIEW_REMIND_AUTO">
+<subject>Materialni tekshirish haqida avtomatik eslatma</subject>
+<body><![CDATA[Salom, {$reviewerName}!<br />
+<br />
+Bu “{$contextName}” jurnali uchun “{$submissionTitle}” materialini ko‘rib chiqish haqidagi so‘rovimizni eslatib o‘tamiz. Biz ushbu sharhni {$reviewDueDate} tomonidan qabul qilamiz deb umid qilgandik va bu xat avtomatik ravishda yaratildi va o‘sha sana allaqachon o‘tib ketgani uchun yuborildi. Tezroq tayyorlasangiz xursand bo'lamiz.<br />
+<br />
+Agar sizda jurnal veb-saytiga kirish uchun foydalanuvchi nomingiz va parolingiz bo'lmasa, parolingizni tiklash uchun ushbu havoladan foydalanishingiz mumkin (u sizga foydalanuvchi nomingiz bilan birga elektron pochta orqali yuboriladi). {$passwordResetUrl}<br />
+<br />
+Yuborish URL manzili: {$submissionReviewUrl}<br />
+<br />
+Iltimos, jurnalimizga ushbu muhim hissa qo'sha olishingizni tasdiqlang. Javobingizni kutaman.<br />
+<br />
+{$editorialContactSignature}]]></body>
+<description>Ko'rib chiquvchining ko'rib chiqish sanasi o'tib ketganda (Sozlamalar > Ish jarayoni > Ko'rib chiqish bo'limidagi Ko'rib chiqish opsiyalarini ko'ring) va sharhlovchining to'g'ridan-to'g'ri havolaga kirishi o'chirilganida, ushbu xat avtomatik ravishda yuboriladi. Rejalashtirilgan vazifalarni yoqish va sozlash kerak (sayt konfiguratsiya fayliga qarang).</description>
+</email_text>
+<email_text key="REVIEW_REMIND_AUTO_ONECLICK">
+<subject>Materialni tekshirish haqida avtomatik eslatma</subject>
+<body><![CDATA[Salom, {$reviewerName}!<br />
+<br />
+Bu “{$contextName}” jurnali uchun “{$submissionTitle}” materialini ko‘rib chiqish haqidagi so‘rovimizni eslatib o‘tamiz. Biz ushbu sharhni {$reviewDueDate} tomonidan qabul qilamiz deb umid qilgandik va bu xat avtomatik ravishda yaratildi va o‘sha sana allaqachon o‘tib ketgani uchun yuborildi. Tezroq tayyorlasangiz xursand bo'lamiz.<br />
+<br />
+Yuborish URL manzili: {$submissionReviewUrl}<br />
+<br /> Iltimos, jurnalimizga ushbu muhim hissani qo'sha olishingizni tasdiqlang. Javobingizni kutaman.<br />
+<br />
+{$editorialContactSignature}]]></body>
+<description>Ko'rib chiquvchining ko'rib chiqish muddati o'tib ketganda (Sozlamalar &gt; Ish jarayoni &gt; Ko'rib chiqish bo'limidagi Ko'rib chiqish opsiyalariga qarang) va to'g'ridan-to'g'ri ko'rib chiquvchi havolasiga kirish yoqilganda, ushbu xat avtomatik ravishda yuboriladi. Rejalashtirilgan vazifalarni yoqish va sozlash kerak (sayt konfiguratsiya fayliga qarang).</description>
+</email_text>
+<email_text key="EDITOR_DECISION_ACCEPT">
+<subject>Tahririyat qarori</subject>
+<body><![CDATA[Salom, {$authorName}!<br />
+<br />
+“{$contextName}” jurnaliga yuborilgan “{$submissionTitle}” materialingiz yuzasidan qaror qabul qildik.<br />
+<br />
+Bizning qarorimiz: materialni qabul qiling<br />
+<br />
+{$editorialContactSignature}<br />
+]]></body>
+<description>Bu muharrir yoki boʻlim muharriri tomonidan muallifga taqdim etilgan material boʻyicha yakuniy “Qabul qilaman” qarori haqida xabar berish uchun yuborilgan xat.</description>
+</email_text>
+<email_text key="EDITOR_DECISION_SEND_TO_EXTERNAL">
+<subject>Tahririyat qarori</subject>
+<body><![CDATA[Salom, {$authorName}!<br />
+<br />
+“{$contextName}” jurnaliga yuborilgan “{$submissionTitle}” materialingiz yuzasidan qaror qabul qildik.<br />
+<br />
+Bizning qarorimiz: Ko'rib chiqish uchun yuboring<br />
+<br />
+Yuborish URL manzili: {$submissionUrl}<br />
+<br />
+{$editorialContactSignature}<br />
+]]></body>
+<description>Bu muharrir yoki boʻlim muharriridan muallifga material tashqi koʻrib chiqish uchun yuborilganligi haqida xabar berish uchun yuborilgan xat.</description>
+</email_text>
+<email_text key="EDITOR_DECISION_SEND_TO_PRODUCTION">
+<subject>Tahririyat qarori</subject>
+<body><![CDATA[Salom, {$authorName}!<br />
+<br />
+“{$submissionTitle}” taqdimotingizni tahrirlash tugallandi. Endi biz uni ishlab chiqarishga kiritmoqdamiz.<br />
+<br />
+Yuborish URL manzili: {$submissionUrl}<br />
+<br />
+{$editorialContactSignature}<br />
+]]></body>
+<description>Bu muharrir yoki boʻlim muharriridan muallifga material ishlab chiqarilganligi haqida xabar berish uchun yuborilgan xat.</description>
+</email_text>
+<email_text key="EDITOR_DECISION_REVISIONS">
+<subject>Tahririyat qarori</subject>
+<body><![CDATA[Salom, {$authorName}!<br />
+<br />
+“{$contextName}” jurnaliga yuborilgan “{$submissionTitle}” materialingiz yuzasidan qaror qabul qildik.<br />
+<br />
+Bizning qarorimiz: sozlash talab qilinadi<br />
+<br />
+{$editorialContactSignature}<br />
+]]></body>
+<description>Bu muharrir yoki boʻlim muharriridan muallifga yuborilgan material boʻyicha yakuniy “Tahrirlash zarur” qarori haqida xabardor qilish uchun yuborilgan xat.</description>
+</email_text>
+<email_text key="EDITOR_DECISION_RESUBMIT">
+<subject>Tahririyat qarori</subject>
+<body><![CDATA[Salom, {$authorName}!<br />
+<br />
+“{$contextName}” jurnaliga yuborilgan “{$submissionTitle}” materialingiz yuzasidan qaror qabul qildik.<br />
+<br />
+Bizning qarorimiz: ko'rib chiqish uchun qayta yuborish<br />
+<br />
+{$editorialContactSignature}<br />
+]]></body>
+<description>Bu muharrir yoki boʻlim muharriri tomonidan muallifga yuborilgan material boʻyicha yakuniy “Koʻrib chiqish uchun qayta yuborish” qarori haqida xabardor qilish uchun yuborilgan xat.</description>
+</email_text>
+<email_text key="EDITOR_DECISION_DECLINE">
+<subject>Tahririyat qarori</subject>
+<body><![CDATA[Salom, {$authorName}!<br />
+<br />
+“{$contextName}” jurnaliga yuborilgan “{$submissionTitle}” materialingiz yuzasidan qaror qabul qildik.<br />
+<br />
+Bizning qarorimiz: materialni rad etish<br />
+<br />
+{$editorialContactSignature}<br />
+]]></body>
+<description>Bu muharrir yoki boʻlim muharriri tomonidan muallifga taqdim etilgan material boʻyicha yakuniy “Rad etish” qarori haqida xabar berish uchun yuborilgan xat.</description>
+</email_text>
+<email_text key="EDITOR_RECOMMENDATION">
+<subject>Muharrir tavsiyasi</subject>
+<body><![CDATA[Salom, {$editors}!<br />
+<br />“{$contextName}”ga yuborilgan “{$submissionTitle}” materialiga asoslanib, men quyidagilarni tavsiya qilishim mumkin: {$recommendation}<br />
+<br />
+{$editorialContactSignature}<br />
+]]></body>
+<description>Bu tavsiya etuvchi muharrir yoki boʻlim muharririning qaror muharrirlariga yoki boʻlim muharrirlariga taqdim etish boʻyicha yakuniy tavsiya haqida xabardor qilish uchun yuborgan xat.</description>
+</email_text>
+<email_text key="COPYEDIT_REQUEST">
+<subject>Adabiy tahrir uchun so'rov</subject>
+<body><![CDATA[Salom, {$participantName}!<br />
+<br />
+Men sizdan “{$contextName}” jurnali uchun “{$submissionTitle}” materialini quyidagi amallarni bajarish orqali tekshirib chiqishingizni soʻrayman.<br />
+1. Quyidagi kontent URL manzilini bosing.<br />
+2. Qoralamalar panelida mavjud boʻlgan barcha fayllarni oching va kerak boʻlganda tahrirlash muhokamalarini qoʻshib tahrirlang.<br />
+3. Tahrirlangan fayllarni saqlang va ularni Tahrirlangan panelga yuklang.<br />
+4. Muharrirga barcha fayllar tayyorlanganligi va ishlab chiqarishga chiqarilishi mumkinligi haqida xabar bering.<br />
+<br />
+Jurnal URL "{$contextName}": {$contextUrl}<br />
+Yuborish URL manzili: {$submissionUrl}<br />
+Foydalanuvchi nomi: {$participantUsername}<br />
+<br />
+{$editorialContactSignature}]]></body>
+<description>Bu hikoyaning adabiy muharririga adabiy tahrir jarayonini boshlashni so‘rab yuborilgan bo‘lim muharriri xati. Elektron pochtada material va unga qanday kirish mumkinligi haqida ma'lumotlar mavjud.</description>
+</email_text>
+<email_text key="LAYOUT_REQUEST">
+<subject>Tarzim so'rovi</subject>
+<body><![CDATA[Salom, {$participantName}!<br />
+<br />
+“{$contextName}” jurnali uchun “{$submissionTitle}” materialining isbotini quyidagi amallarni bajarish orqali yaratishingiz kerak.<br />
+1. Quyidagi kontent URL manzilini bosing.<br />
+2. Jurnalga kiring va jurnal standartlariga dalillarni tayyorlash uchun Ishlab chiqarishga tayyor panelidagi fayllardan foydalaning.<br />
+3. Galley fayllaringizni Galleys paneliga yuklang.<br />
+4. Tahrirlovchini Production Discussions orqali dalillar yuklanganligi va tayyorligi haqida xabardor qiling.<br />
+<br />
+Jurnal URL "{$contextName}": {$contextUrl}<br />
+Materialning URL manzili: {$submissionLayoutUrl}<br />
+Foydalanuvchi nomi: {$participantUsername}<br />
+<br />
+Agar siz hozir bu ishni yakunlay olmasangiz yoki biron bir savolingiz bo'lsa, iltimos, men bilan bog'laning. Jurnalimizga qo'shgan hissangiz uchun tashakkur.<br />
+<br />
+{$editorialContactSignature}]]></body>
+<description>Bu bo'lim muharririning maktub bo'lib, maket dizayneriga materialning maketini bajarish topshirilganligi to'g'risida bildirishnoma yuboriladi. Elektron pochtada material va unga qanday kirish mumkinligi haqida ma'lumotlar mavjud.</description>
+</email_text>
+<email_text key="LAYOUT_COMPLETE">
+<subject>Tasdiqlashlar bajarildi</subject>
+<body><![CDATA[Salom, {$editorialContactName}!<br />
+<br />
+“{$contextName}” jurnalidagi “{$submissionTitle}” materialining dalillari tayyor, tuzatishni boshlash mumkin.<br />
+<br />
+Savollaringiz bo'lsa, men bilan bog'laning.<br />
+<br />
+{$participantName}]]>
+</body> <description>Bu maket dizaynerining boʻlim muharririga yuborilgan maktub boʻlib, maket tugaganligi haqida xabar beradi.</description>
+</email_text>
+<email_text key="EMAIL_LINK">
+<subject>Ushbu maqola siz uchun qiziqarli bo'ladi</subject>
+<body><![CDATA[Oʻylaymizki, {$submissionTitle} (mualliflar: {$authorName}), {$volume}-jild, № {$number} ({)da chop etilgan “{$submissionTitle}” materialini koʻrish sizni qiziqtiradi. $year}) "{$contextName}" jurnali "{$articleUrl}".]]></body>
+<description>Ushbu elektron pochta shabloni roʻyxatdan oʻtgan oʻquvchiga maqola haqidagi maʼlumotni qiziqtirgan kishiga yuborish imkoniyatini beradi. Bu funksiya Reader Tools orqali mavjud va jurnal menejerlari tomonidan Reader Tools: Administration sahifasida yoqilishi kerak.</description>
+</email_text>
+<email_text key="SUBSCRIPTION_NOTIFY">
+<subject>Obuna haqida bildirishnoma</subject>
+<body><![CDATA[Salom, {$subscriberName}!<br />
+<br />
+Siz endi bizning onlayn jurnallarni boshqarish tizimimizda quyidagi obuna bilan “{$contextName}” jurnaliga obunachi sifatida roʻyxatdan oʻtgansiz:<br />
+<br />
+{$subscriptionType}<br />
+<br />
+Faqat obunachi kontentiga kirish uchun jurnal veb-saytiga “{$username}” foydalanuvchi nomingiz bilan kiring.<br />
+<br />
+Tizimga kirganingizdan so'ng istalgan vaqtda foydalanuvchi profili va parolingizni o'zgartirishingiz mumkin.<br />
+<br />
+Shuni esda tutingki, agar sizda tashkilot boʻylab obuna boʻlsa, tashkilotingizdagi foydalanuvchilar tizimga kirishlari shart emas, chunki obuna kontenti soʻrovlari tizim tomonidan avtomatik tarzda autentifikatsiya qilinadi.<br />
+<br />
+Agar sizda biron bir savol bo'lsa, iltimos, men bilan bog'laning.<br />
+<br />
+{$subscriptionContactSignature}]]></body>
+<description>Ushbu xat roʻyxatdan oʻtgan oʻquvchiga menejer unga obuna yaratganligi haqida xabar beradi. Elektron pochtada jurnalning URL manzili va kirish ko‘rsatmalari mavjud.</description>
+</email_text>
+<email_text key="OPEN_ACCESS_NOTIFY">
+<subject>Muammo allaqachon umumiy domenda</subject>
+<body><![CDATA[Hurmatli o'quvchilar!<br />
+<br />
+{$contextName} jurnali oʻzining navbatdagi sonini ommaga taqdim etdi. Bu yerda nashrning mazmunini ko‘rib chiqishingizni, keyin esa sizni qiziqtirgan mavzulardagi maqola va postlarni o‘qish uchun veb-saytimizga ({$contextUrl}) tashrif buyurishingizni tavsiya qilamiz.<br />
+<br />
+Bizning ishimizga doimiy qiziqishingiz uchun rahmat<br />
+<br />
+{$editorialContactSignature}]]></body>
+<description>Ushbu e-pochta xati muammo hammaga ochiqligi haqida elektron pochta xabarnomalarini olish uchun roʻyxatdan oʻtgan roʻyxatdan oʻtgan oʻquvchilarga yuboriladi.</description>
+</email_text>
+<email_text key="SUBSCRIPTION_BEFORE_EXPIRY">
+<subject>Obuna muddati tugashi haqida bildirishnoma</subject>
+<body><![CDATA[Salom, {$subscriberName}!<br />
+<br />“{$contextName}” jurnaliga obunangiz tez orada tugaydi.<br />
+<br />
+{$subscriptionType}<br />
+Obunaning amal qilish muddati: {$expiryDate}<br />
+<br />
+Ushbu jurnalga kirishingiz to'xtatilmasligi uchun jurnal veb-saytiga o'ting va obunangizni yangilang. Jurnal veb-saytiga “{$username}” foydalanuvchi nomingiz bilan kirishingiz mumkin.<br />
+<br />
+Agar sizda biron bir savol bo'lsa, iltimos, men bilan bog'laning.<br />
+<br />
+{$subscriptionContactSignature}]]></body>
+<description>Ushbu xat obunachiga uning obunasi tez orada tugashi haqida xabar beradi. Elektron pochtada jurnalning URL manzili va kirish ko‘rsatmalari mavjud.</description>
+</email_text>
+<email_text key="SUBSCRIPTION_AFTER_EXPIRY">
+<subject>obuna muddati tugashi haqida bildirishnoma</subject>
+<body><![CDATA[Salom, {$subscriberName}!<br />
+<br />
+“{$contextName}” jurnaliga obunangiz muddati tugadi.<br />
+<br />
+{$subscriptionType}<br />
+Obunaning amal qilish muddati: {$expiryDate}<br />
+<br />
+Obunani yangilash uchun jurnal veb-saytiga o'ting. Jurnal veb-saytiga “{$username}” foydalanuvchi nomingiz bilan kirishingiz mumkin.<br />
+<br />
+Agar sizda biron bir savol bo'lsa, iltimos, men bilan bog'laning.<br />
+<br />
+{$subscriptionContactSignature}]]></body>
+<description>Ushbu xat obunachiga obuna muddati tugaganligi haqida xabar beradi. Elektron pochtada jurnalning URL manzili va kirish ko‘rsatmalari mavjud.</description>
+</email_text>
+<email_text key="SUBSCRIPTION_AFTER_EXPIRY_LAST">
+<subject>Obuna muddati tugagan - oxirgi eslatma</subject>
+<body><![CDATA[Salom, {$subscriberName}!<br />
+<br />
+“{$contextName}” jurnaliga obunangiz muddati tugadi.<br />
+Esda tutingki, bu sizga elektron pochta orqali yuboriladigan oxirgi eslatmadir.<br />
+<br />
+{$subscriptionType}<br />
+Obunaning amal qilish muddati: {$expiryDate}<br />
+<br />
+Obunani yangilash uchun jurnal veb-saytiga o'ting. Jurnal veb-saytiga “{$username}” foydalanuvchi nomingiz bilan kirishingiz mumkin.<br />
+<br />
+Agar sizda biron bir savol bo'lsa, iltimos, men bilan bog'laning.<br />
+<br />
+{$subscriptionContactSignature}]]></body>
+<description>Ushbu xat obunachiga obuna muddati tugaganligi haqida xabar beradi. Elektron pochtada jurnalning URL manzili va kirish ko‘rsatmalari mavjud.</description>
+</email_text>
+<email_text key="SUBSCRIPTION_PURCHASE_INDL">
+<subject>Obuna sotib olish: individual</subject>
+<body><![CDATA[Saytda quyidagi tafsilotlarga ega "{$contextName}" jurnaliga individual obuna sotib olindi.<br />
+<br />
+Obuna turi:<br />
+{$subscriptionType}<br />
+<br />
+Foydalanuvchi:<br />
+{$userDetails}<br />
+<br />
+A'zolik ma'lumotlari (agar taqdim etilgan bo'lsa):<br />
+{$a'zolik<br />
+<br />Ushbu obunani koʻrish yoki tahrirlash uchun quyidagi URL manzilidan foydalaning.<br />
+<br />
+Obuna URL manzili: {$subscriptionUrl}<br />
+]]></body>
+<description>Ushbu xat obuna menejeriga sayt orqali individual obuna sotib olingani haqida xabar beradi. E-pochtada obuna haqida umumiy ma’lumot va sotib olingan obunaga tezkor kirish havolasi mavjud.</description>
+</email_text>
+<email_text key="SUBSCRIPTION_PURCHASE_INSTL">
+<subject>Obuna sotib olish: tashkilot uchun</subject>
+<body><![CDATA[Saytdagi tashkilot uchun quyidagi tafsilotlar bilan “{$contextName}” jurnaliga obuna sotib olindi. Obunani faollashtirish uchun taqdim etilgan obuna URL manzilidan foydalaning va obuna holatini “Faol” qilib belgilang.<br />
+<br />
+Obuna turi:<br />
+{$subscriptionType}<br />
+<br />
+Tashkilot:<br />
+{$institutionName}<br />
+{$institutionMailingAddress}<br />
+<br />
+Domen nomi (agar ko'rsatilgan bo'lsa):<br />
+{$domen<br />
+<br />
+IP diapazonlari (agar ko'rsatilgan bo'lsa):<br />
+{$ipRanges}<br />
+<br />
+Aloqa uchun shaxs:<br />
+{$userDetails}<br />
+<br />
+A'zolik ma'lumotlari (agar taqdim etilgan bo'lsa):<br />
+{$a'zolik<br />
+<br />
+Ushbu obunani koʻrish yoki tahrirlash uchun quyidagi URL manzilidan foydalaning.<br />
+<br />
+Obuna URL manzili: {$subscriptionUrl}<br />
+]]></body>
+<description>Ushbu xat obuna menejeriga tashkilotga obuna sayt orqali sotib olinganligi haqida xabar beradi. E-pochtada obuna haqida umumiy ma’lumot va sotib olingan obunaga tezkor kirish havolasi mavjud.</description>
+</email_text>
+<email_text key="SUBSCRIPTION_RENEW_INDL">
+<subject>Obunani yangilash: individual</subject>
+<body><![CDATA[Sayt quyidagi tafsilotlar bilan “{$contextName}” jurnaliga individual obunani yangiladi.<br />
+<br />
+Obuna turi:<br />
+{$subscriptionType}<br />
+<br />
+Foydalanuvchi:<br />
+{$userDetails}<br />
+<br />
+A'zolik ma'lumotlari (agar taqdim etilgan bo'lsa):<br />
+{$a'zolik<br />
+<br />
+Ushbu obunani koʻrish yoki tahrirlash uchun quyidagi URL manzilidan foydalaning.<br />
+<br />
+Obuna URL manzili: {$subscriptionUrl}<br />
+]]></body>
+<description>Ushbu xat obuna menejeriga sayt orqali individual obuna yangilanganligi haqida xabar beradi. Emailda obuna haqida umumiy maʼlumot va yangilangan obunangizga tezkor kirish havolasi mavjud.</description>
+</email_text>
+<email_text key="SUBSCRIPTION_RENEW_INSTL">
+<subject>Obunani yangilash: tashkilot uchun</subject>
+<body><![CDATA[Veb-saytda tashkilotning "{$contextName}" jurnaliga obunasi quyidagi tafsilotlar bilan yangilandi.<br />
+<br />
+Obuna turi:<br />
+{$subscriptionType}<br />
+<br />
+Tashkilot:<br />
+{$institutionName}<br />
+{$institutionMailingAddress}<br />
+<br />
+Domen nomi (agar ko'rsatilgan bo'lsa):<br />
+{$domen<br />
+<br />
+IP diapazonlari (agar ko'rsatilgan bo'lsa):<br />
+{$ipRanges}<br />
+<br />
+Aloqa uchun shaxs:<br />
+{$userDetails}<br />
+<br />
+A'zolik ma'lumotlari (agar taqdim etilgan bo'lsa):<br />
+{$a'zolik<br />
+<br />
+Ushbu obunani koʻrish yoki tahrirlash uchun quyidagi URL manzilidan foydalaning.<br />
+<br />
+Obuna URL manzili: {$subscriptionUrl}<br />
+]]></body>
+<description>Ushbu xat obuna menejeriga tashkilot obunasi sayt orqali yangilanganligi haqida xabar beradi. Emailda obuna haqida umumiy maʼlumot va yangilangan obunangizga tezkor kirish havolasi mavjud.</description>
+</email_text>
+<email_text key="CITATION_EDITOR_AUTHOR_QUERY">
+<subject>Bibliografik manbalarni tahrirlash</subject>
+<body><![CDATA[Salom, {$authorFirstName}!<br />
+<br />
+Iltimos, “{$submissionTitle}” maqolangizdagi quyidagi havola uchun toʻgʻri formatlangan bibliografik maʼlumotnomani tekshiring yoki bizga yuboring:<br />
+<br />
+{$rawCitation}<br />
+<br />
+Oldindan rahmat!<br />
+<br />
+{$userFirstName}<br />
+"{$contextName}" jurnalining adabiy muharriri<br />
+]]></body>
+<description>Ushbu xat adabiy muharrirlarga mualliflardan iqtiboslar haqida qoʻshimcha maʼlumot soʻrash imkonini beradi.</description>
+</email_text>
+<email_text key="REVISED_VERSION_NOTIFY">
+<subject>Tuzatilgan versiya yuklandi</subject>
+<body><![CDATA[Hurmatli tahririyat!<br />
+<br />
+Saytga “{$submissionTitle}” materialining tuzatilgan versiyasi yuklandi (muallif – {$authorName}).<br />
+<br />
+Yuborish URL manzili: {$submissionUrl}<br />
+<br />
+{$editorialContactSignature}]]></body>
+        <description>Muallif maqolaning qayta koʻrib chiqilgan versiyasini yuklaganida, ushbu xat avtomatik ravishda tayinlangan muharrirga yuboriladi.</description>
+</email_text>
+<email_text key="NOTIFICATION_CENTER_DEFAULT">
+<subject>“{$contextName}” jurnali xabari</subject>
+<body><![CDATA[Iltimos, xabaringizni kiriting.]]></body>
+<description>Birlamchi xabar (boʻsh) xabarnoma markazi xabarlar roʻyxati muharririda ishlatiladi.</description>
+</email_text>
+<email_text key="EDITOR_DECISION_INITIAL_DECLINE">
+<subject>Tahririyat qarori</subject>
+<body>
+<![CDATA[Salom, {$authorName}!<br />
+<br />
+“{$contextName}” jurnaliga yuborilgan “{$submissionTitle}” materialingiz yuzasidan qaror qabul qildik.<br />
+<br />
+Bizning qarorimiz: materialni rad etish<br />
+<br />
+{$editorialContactSignature}<br />]]></body>
+<description>Agar muharrir o'z materialini dastlabki bosqichda, ko'rib chiqish bosqichidan oldin rad etishga qaror qilsa, ushbu xat muallifga yuboriladi</description>
+</email_text>
+</email_texts>

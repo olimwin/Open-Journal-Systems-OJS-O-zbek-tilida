@@ -1,0 +1,1125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../lib/pkp/dtd/locale.dtd">
+
+<!--
+  * locale/ru_RU/locale.xml
+  *
+  * Copyright (c) 2013-2019 Simon Fraser University
+  * Copyright (c) 2003-2019 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  * Localization information: https://pkp.sfu.ca/wiki/index.php?title=OJS:_Russian_(ru_RU)
+  * Localization strings.
+  -->
+
+<locale name="uz_UZ" full_name="O'zbek">
+	<!--
+	 * Этот файл состоит из нескольких основных разделов, разделяемых
+	 * комментариями, подобными данному. Эти разделы называются:
+	 *  ОБЩЕЕ - Содержит часто используемые слова
+	 *  СУЩНОСТИ - Содержит термины, относящиеся к основным сущностям
+	 *             системы, например, Статья, Журнал, Раздел
+	 *  ИНТЕРФЕЙС - Содержит фразы, организованные по разделам
+	 *              интерфейса пользователя, в которых они появляются.
+	 *  ЛОГ - Содержит фразы, связанные с записями в логах
+	 *  РАЗНОЕ - Строки, которые не попали в остальные разделы
+	 *  УМОЛЧАНИЯ - Значения по умолчанию для параметров настройки.
+	-->
+
+	<!-- общее -->
+	<message key="context.current">Joriy jurnal:</message>
+	<message key="context.select">Boshqa jurnalga o'tish:</message>
+
+	<!-- Категории -->
+	<message key="navigation.categories">Kategoriyalar</message>
+	<message key="navigation.categories.browse">Ko'rib chiqish</message>
+
+
+
+	<message key="reviewer.article.enterReviewForm">Ko'rib chiqish shaklini to'ldirish uchun belgini bosing.</message>
+	<message key="reviewer.submission.reviewFormResponse.form.responseRequired">Iltimos, kerakli maydonlarni to'ldiring.</message>
+
+	<!-- формы рецензии (конец) -->
+
+	<!--
+	 *
+	 * ОБЩЕЕ - Этот раздел содержит наиболее часто используемые слова
+	 *
+	-->
+
+	<!-- Общие сообщения -->
+	<message key="common.openJournalSystems">Open Journal Systems</message>
+	<message key="common.confirmComplete">Ushbu vazifani tugallangan deb belgilashni xohlayotganingizga aminmisiz? Shundan so'ng siz o'zgarishlar qila olmaysiz.</message>
+	<message key="common.payment">To'lov</message>
+	<message key="common.payments">To'lovlar</message>
+	<message key="common.homePageHeader.altText">Bosh sahifa sarlavhasi</message>
+	<message key="common.journalHomepageImage.altText">Jurnalning asosiy sahifasi tasviri</message>
+
+	<!-- Общие сообщения форм -->
+
+	<!-- Общие сообщения электронной почты -->
+
+	<!-- Общие термины локализации -->
+
+	<!-- Общие сообщения об ошибках -->
+
+	<!-- Навигация -->
+	<message key="navigation.journalHelp">Yordam</message>
+	<message key="navigation.current">Joriy nashr</message>
+	<message key="navigation.otherJournals">Boshqa jurnallar</message>
+	<message key="navigation.browseByIssue">Nashrlar bo'yicha</message>
+	<message key="navigation.browseByAuthor">Mualliflar bo'yicha</message>
+	<message key="navigation.infoForAuthors">Mualliflar uchun</message>
+	<message key="navigation.infoForLibrarians">Kutubxonachilar uchun</message>
+	<message key="navigation.competingInterestGuidelines">Manfaatlar to'qnashuvi deklaratsiyasini to'ldirish bo'yicha yo'riqnoma</message>
+	<message key="navigation.infoForAuthors.long">Mualliflar uchun ma'lumot</message>
+	<message key="navigation.infoForLibrarians.long">Kutubxonachilar uchun ma'lumot</message>
+
+
+	<!-- Очереди статей -->
+	<message key="common.queue.long.submissionsUnassigned">Tayinlanmagan</message>
+	<message key="common.queue.short.submissionsUnassigned">Yangi</message>
+	<message key="common.queue.long.submissionsInEditing">Tahrirlash jarayonidagi materiallar</message>
+	<message key="common.queue.short.submissionsInEditing">Tahrirda</message>
+	<message key="common.queue.long.submissionsInReview">Rezyurada bo'lgan materiallar</message>
+	<message key="common.queue.short.submissionsInReview">Rezyurada</message>
+	<message key="common.queue.long.submissionsArchives">Arxivlar</message>
+	<message key="common.queue.short.submissionsArchives">Arxivlar</message>
+	<message key="common.queue.long.active">Ish jarayonida</message>
+	<message key="common.queue.short.active">Ish jarayonida</message>
+	<message key="common.queue.long.completed">Arxiv</message>
+	<message key="common.queue.short.completed">Arxiv</message>
+
+
+	<!--
+	 *
+	 * СУЩНОСТИ - Этот раздел содержит термины, относящиеся к основным
+	 *            сущностям системы, например, Статья, Журнал, Раздел
+	 *
+	-->
+
+	<!-- Общие термины раздела -->
+	<message key="section.section">Bo‘lim</message>
+	<message key="section.sections">Jurnal bo‘limlari</message>
+	<message key="section.title">Bo‘lim nomi</message>
+	<message key="section.abbreviation">Qisqartma</message>
+	<message key="section.abbreviation.example">(Masalan, Maqolalar=MQ)</message>
+	<message key="section.policy">Bo‘lim qoidalari</message>
+
+
+	<!-- Общие термины статьи -->
+	<message key="article.article">Maqola</message>
+	<message key="article.articles">Maqolalar</message>
+	<message key="common.publishedSubmission">Nashr etilgan maqola</message>
+	<message key="common.publishedSubmissions">Nashr etilgan maqolalar</message>
+	<message key="article.submissionId">Material IDsi</message>
+	<message key="article.title">Nomi</message>
+	<message key="article.authors">Mualliflar</message>
+	<message key="article.indexingInformation">Indekslash ma’lumotlari</message>
+	<message key="article.metadata">Metama’lumotlar</message>
+	<message key="article.journalSection">Jurnal bo‘limi</message>
+	<message key="article.file">Fayl</message>
+	<message key="article.suppFile">Qo‘shimcha fayl</message>
+	<message key="article.suppFiles">Qo‘shimcha fayllar</message>
+	<message key="article.suppFilesAbbrev">Qo'sh. fayllar</message>
+	<message key="article.discipline">Akademik yo'nalishlar va fan bo'limlari</message>
+	<message key="article.subject">Kalit so'zlar</message>
+	<message key="article.coverage">Qamrov</message>
+	<message key="article.type">Turi, usuli yoki yondashuv</message>
+	<message key="article.language">Til</message>
+	<message key="article.sectionEditor">RR</message>
+	<message key="article.commentsToEditor">Muallifning sharhlari</message>
+	<message key="article.submission">Material</message>
+	<message key="article.submissions">Materiallar</message>
+	<message key="article.details">Tafsilotlar</message>
+	<message key="article.abstract">Annotatsiya</message>
+	<message key="article.coverPage.altText">Muqova rasmi</message>
+	<message key="article.accessLogoOpen.altText">Ochiq kirish</message>
+	<message key="article.accessLogoRestricted.altText">Cheklangan kirish</message>
+	<message key="article.comments.sectionDefault">Standart bo'yicha</message>
+	<message key="article.comments.disable">O'chirish</message>
+	<message key="article.comments.enable">Yoqish</message>
+	<message key="article.fontSize">Shrift o'lchami</message>
+	<message key="article.fontSize.small.altText">Mayda</message>
+	<message key="article.fontSize.medium.altText">O'rta</message>
+	<message key="article.fontSize.large.altText">Katta</message>
+	<message key="article.return">Maqola tafsilotlariga qaytish</message>
+
+
+	<!-- Отслеживание отправленного материала - Общее -->
+	<message key="submission.submissionEditing">Yuborilgan materialni tahrirlash</message>
+	<message key="submission.changeSection">O'zgartirish</message>
+	<message key="submission.sent">Yuborildi</message>
+	<message key="submission.editorDecision">Tahririyat qarori</message>
+	<message key="submission.round">Raund&amp;nbsp;{$round}</message>
+	<message key="submission.editorReview">Tahririyat sharhi</message>
+	<message key="submission.notifyAuthor">Muallifga xabar berish</message>
+	<message key="submission.notifyEditor">Tahririyatga xabar berish</message>
+	<message key="submission.editorAuthorRecord">Tahrirchi/Muallif muloqot yozuvlari</message>
+	<message key="submission.reviewersVersion">Recenzent izohlarini o'z ichiga olgan fayl versiyasi</message>
+	<message key="submission.postReviewVersion">Recenziyadan keyingi fayl versiyasi</message>
+	<message key="submission.editorVersion">Tahrirchi versiyasi</message>
+	<message key="submission.authorsRevisedVersion">Muallif tomonidan tuzatilgan fayl versiyasi</message>
+	<message key="submission.authorVersion">Muallif versiyasi</message>
+	<message key="submission.copyediting">Matn tahriri</message>
+	<message key="submission.copyedit">Matn tahr.</message>
+	<message key="submission.proofreading">Korrektura</message>
+	<message key="submission.scheduling">Rejalashtirish</message>
+	<message key="submission.scheduledIn">«{$issueName}» sonida chop etish rejalashtirilgan.</message>
+	<message key="submission.scheduledIn.tba">Keyinchalik belgilanadi</message>
+	<message key="submissions.sec">Bo'lim</message>
+	<message key="submissions.step1">1-qadam</message>
+	<message key="submissions.step3">3-qadam</message>
+	<message key="submissions.queuedReview">Nazoratda</message>
+	<message key="submissions.scheduled">Rejalashtirilgan</message>
+	<message key="submissions.published">Chop etilgan</message>
+	<message key="submissions.initial">Boshlang'ich</message>
+	<message key="submissions.proofread">Korrektura</message>
+	<message key="submissions.initialProof">Boshlang'ich tekshirish</message>
+	<message key="submissions.postAuthor">Muallifdan so'ng</message>
+	<message key="submissions.reviewRound">Nazorat davri</message>
+	<message key="submissions.proof">Korr.</message>
+	<message key="submissions.editorDecision">Tahrirchi qarari</message>
+	<message key="submissions.editorRuling">Tahrirchi qarori</message>
+	<message key="submission.eventLog">Amallar jurnali</message>
+
+
+	<!-- Поисковая машина для списка отправленных материалов -->
+	<message key="submissions.copyeditComplete">Tahrirchi o'tdi</message>
+	<message key="submissions.layoutComplete">Dizayn o'tdi</message>
+	<message key="submissions.proofreadingComplete">Korrektura o'tdi</message>
+
+	<!-- Замечания к отправленным материалам -->
+
+	<!-- Общие термины журнала -->
+	<message key="journal.currentIssue">Hozirgi chiqarish</message>
+	<message key="journal.journals">Jurnallar</message>
+	<message key="journal.path">Yo'l</message>
+	<message key="context.context">Jurnal</message>
+	<message key="journal.issn">ISSN</message>
+	<message key="journal.viewAllIssues">Barcha chiqarishlarni ko'rsatish</message>
+
+
+	<!-- Пользователь -->
+	<message key="user.noRoles.selectUsersWithoutRoles">Bu jurnalda nomlangan rollarga ega bo'lmagan foydalanuvchilarni yoqish.</message>
+	<message key="user.profile.profileImage">Profil rasmi</message>
+	<message key="user.showAllJournals">Mening jurnallarimni ko'rsatish</message>
+	<message key="user.registerForOtherJournals">Boshqa jurnallarga ro'yxatdan o'tish</message>
+	<message key="user.reviewerPrompt">Ushbu jurnal uchun materiallarni rivojlantirishni istaysizmi?</message>
+	<message key="user.reviewerPrompt.userGroup">Ha, "{$userGroup}" rollarini so'rayman.</message>
+	<message key="user.reviewerPrompt.optin">Ha, men jurnal uchun materiallarni rivojlantirish so'rovlariga javob berishni istayman.</message>
+	<message key="user.register.contextsPrompt">Ushbu saytdagi qaysi jurnallarga ro'yxatdan o'tmoqchisiz?</message>
+	<message key="user.register.otherContextRoles">Quyidagi rollarni so'rayman.</message>
+	<message key="user.register.noContextReviewerInterests">Agar siz biror jurnalda rivojlantiruvchi rolni so'raysiz, iltimos, sizni rivojlantiruvchi sifatida qiziqtiradigan mavzularni kiriting.</message>
+	<message key="user.myJournals">Mening jurnallarim</message>
+	<message key="user.manageMySubscriptions">Mening obunachilarimni boshqarish</message>
+	<message key="user.noRoles.chooseJournal">Sizning hisobingiz hozirda hech qanday jurnalga bog'liq emas. Iltimos, jurnallarni tanlang:</message>
+	<message key="user.noRoles.noRolesForJournal">Sizning hisobingiz hozirda ushbu jurnalda hech qanday rol aniqlanmagan. Iltimos, quyidagi harakatlardan birini tanlang:</message>
+	<message key="user.noRoles.submitArticle">Taklifni yuboring</message>
+	<message key="user.noRoles.submitArticleRegClosed">Maqola yuborish: mualliflar ro'yxati hozirda yopiq.</message>
+	<message key="user.noRoles.regReviewer">Rivojlantiruvchi sifatida ro'yxatdan o'tish</message>
+	<message key="user.noRoles.regReviewerClosed">Rivojlantiruvchi sifatida ro'yxatdan o'tish: rivojlantiruvchilar ro'yxati hozirda yopiq.</message>
+
+
+	<!-- Роли -->
+	<message key="user.role.manager">Jurnal boshqaruvi</message>
+	<message key="user.role.subEditor">Bo'lim muharriri</message>
+	<message key="user.role.subscriptionManager">Obuna boshqaruvi</message>
+	<message key="user.role.managers">Jurnal boshqaruvchilari</message>
+	<message key="user.role.subEditors">Bo'lim muharrirlari</message>
+	<message key="user.role.subscriptionManagers">Obuna boshqaruvchilari</message>
+	<message key="user.role.journalAssistant">Jurnal yordamchisi</message>
+	<message key="user.role.journalAssistants">Jurnal yordamchilari</message>
+
+
+	<!-- Общие термины выпуска -->
+	<message key="issue.issue">Chiqarish</message>
+	<message key="issue.issues">Chiqarishlar</message>
+	<message key="issue.title">Nomi</message>
+	<message key="issue.volume">Tom</message>
+	<message key="issue.number">Raqam</message>
+	<message key="issue.vol">Tom</message>
+	<message key="issue.no">№</message>
+	<message key="issue.year">Yil</message>
+	<message key="issue.noIssues">Chiqarishlar yo'q</message>
+	<message key="issue.toc">Mundarija</message>
+	<message key="issue.abstract">Mazmuni</message>
+	<message key="issue.coverPage.altText">Muqova</message>
+	<message key="issue.fullIssue">Butun chiqarish</message>
+	<message key="issue.nonpdf.title">Chiqarishni yuklab oling</message>
+	<message key="issue.viewIssue">Chiqarishni ko'rib chiqish</message>
+	<message key="issue.return">Chiqarish to'plami haqida ma'lumotlarga qaytish</message>
+
+
+	<!-- Общие термины типа подписки -->
+	<message key="subscriptionTypes.currency">Valyuta</message>
+	<message key="subscriptionTypes.year">yil</message>
+	<message key="subscriptionTypes.years">yillar</message>
+	<message key="subscriptionTypes.month">oy</message>
+	<message key="subscriptionTypes.months">oylar</message>
+	<message key="subscriptionTypes.nonExpiring">Muddati o'tmagan</message>
+	<message key="subscriptionTypes.format">Format</message>
+	<message key="subscriptionTypes.format.online">Elektron</message>
+	<message key="subscriptionTypes.format.print">Chop etilgan</message>
+	<message key="subscriptionTypes.format.printOnline">Chop etilgan va elektron</message>
+
+
+	<!-- Общие термины подписки -->
+	<message key="subscriptions.inactive">Faol emas</message>
+	<message key="subscriptions.status">Holat</message>
+	<message key="subscriptions.status.active">Faol</message>
+	<message key="subscriptions.status.needsInformation">Ma'lumot talab etiladi</message>
+	<message key="subscriptions.status.needsApproval">Tasdiqlash talab etiladi</message>
+	<message key="subscriptions.status.awaitingManualPayment">Qo'llanma to'lovni kutish</message>
+	<message key="subscriptions.status.awaitingOnlinePayment">Onlayn to'lovni kutish</message>
+	<message key="subscriptions.status.noSubscription">Sizda faol obuna yo'q.</message>
+	<message key="subscriptions.status.other">Boshqa, izohlar uchun ko'ring</message>
+	<message key="subscriptions.individualDescription">Shaxsiy obunalar saytdagi kontentga kirish uchun saytdan kirishni talab qiladi.</message>
+	<message key="subscriptions.institutionalDescription">Tashkilot obunalariga kirish qilish uchun foydalanuvchilar saytdan kirishni talab qilmaydi. Obunaga kirish uchun foydalanuvchining domen va/yoki IP-manzilidan foydalaniladi.</message>
+	<message key="subscriptions.institutionalOnlinePaymentDescription"><![CDATA[<strong>Izoh:</strong> Saytdan sotib olingan tashkilot obunalariga kirish qilish uchun, obuna faollashtirilgandan oldin domen va IP-manzillarining tasdiqlanishi talab qilinadi.]]></message>
+
+
+	<!--
+	 *
+	 * ЛОГ - Этот раздел содержит фразы, связанные с записями в логах.
+	 *
+	-->
+	<message key="submission.event.general.defaultEvent">Yuborish hodisasi</message>
+	<message key="submission.event.submissionSubmitted">Maqola yuborildi</message>
+	<message key="submission.event.general.issueScheduled">Maqola narxini yo'qotilganlar qatoriga yuborildi</message>
+	<message key="submission.event.general.issueAssigned">Maqola chiqarilgan narxiga ajratildi</message>
+	<message key="submission.event.general.articlePublished">Maqola chop etildi</message>
+
+	<message key="submission.event.author.authorRevision">Muallif to'g'ri versiyani yubordi</message>
+
+	<message key="submission.event.general.authorRevision">Muallif o'zgartirilgan faylni yangiladi</message>
+
+	<message key="submission.event.editor.editorAssigned">Maqola uchun tahrirlash ushbu nishongacha ajratildi</message>
+	<message key="submission.event.editor.editorUnassigned">Maqola uchun tahrirlash ushbu nishongacha olib tashlandi</message>
+	<message key="submission.event.editor.editorDecision">Tahrirlash xaqida qaror yuborildi</message>
+	<message key="submission.event.editor.editorFile">Tahrirlash fayli yangilandi</message>
+	<message key="submission.event.editor.submissionArchived">Maqola arxivga yuborildi</message>
+	<message key="submission.event.editor.submissionRestored">Maqola arxivdan tiklandi</message>
+
+
+	<message key="submission.event.copyedit.copyeditorAssigned">Muallif o'zgartirilgan fayl uchun litaratura muharriri ajratildi</message>
+	<message key="submission.event.copyedit.copyeditorUnassigned">Muallif o'zgartirilgan fayl uchun litaratura muharriri nishonlanmadi</message>
+	<message key="submission.event.copyedit.copyeditInitiated">Litaratura o'zgartirish boshlandi</message>
+	<message key="submission.event.copyedit.copyeditRevision">Litaratura muharriri to'g'ri versiyani yangiladi</message>
+	<message key="submission.event.copyedit.copyeditInitialCompleted">Boshlang'ich litaratura o'zgartirish yakunlandi</message>
+	<message key="submission.event.copyedit.copyeditFinalCompleted">Yekun litaratura o'zgartirish yakunlandi</message>
+	<message key="submission.event.copyedit.copyeditSetFile">Litaratura o'zgartirilgan fayl yangilandi</message>
+
+	<message key="submission.event.proofread.proofreaderAssigned">Muallif o'zgartirilgan fayl uchun tekshiruvchi ajratildi</message>
+	<message key="submission.event.proofread.proofreaderUnassigned">Muallif o'zgartirilgan fayl uchun tekshiruvchi nishonlanmadi</message>
+	<message key="submission.event.proofread.proofreadInitiated">Tekshiruvchi boshlandi</message>
+	<message key="submission.event.proofread.proofreadRevision">Tekshiruvchi to'g'ri versiyani yangiladi</message>
+	<message key="submission.event.proofread.proofreadCompleted">Tekshiruvchi yakunlandi</message>
+
+	<message key="submission.event.layout.layoutEditorAssigned">Maqola uchun maketlash ishlab chiqaruvchi ajratildi</message>
+	<message key="submission.event.layout.layoutEditorUnassigned">Maqola uchun maketlash ishlab chiqaruvchi nishonlanmadi</message>
+	<message key="submission.event.layout.layoutInitiated">Maketlash boshlandi</message>
+	<message key="submission.event.layout.layoutGalleyCreated">Yozuv tayyorlandi</message>
+	<message key="submission.event.layout.layoutComplete">Maketlash yakunlandi</message>
+
+	<!--
+	 *
+	 * ИНТЕРФЕЙС - Содержит фразы, организованные по разделам
+	 *             интерфейса пользователя, в которых они появляются.
+	 *
+	-->
+
+	<!-- Просмотр статьи читателем -->
+	<message key="reader.subscribersOnly">Faqat abunachilar uchun</message>
+	<message key="reader.subscriptionRequiredLoginText">Ushbu maqolaga kirish uchun abonelik kerak. Abonelikni tekshirish uchun, jurnalingizning saytiga o'zingizning hisobingiz bilan kirishingiz kerak.</message>
+	<message key="reader.openAccess">Ochiq kirish</message>
+	<message key="reader.subscriptionAccess">Abonelik talab qilinadi</message>
+	<message key="reader.subscriptionOrFeeAccess">Abonelik yoki to'lov talab qilinadi</message>
+	<message key="reader.purchasePrice">({$price} {$currency})</message>
+
+	<!-- Комментарии читателей -->
+	<message key="comments.commentsOnArticle">Ushbu maqolaga sharhlar</message>
+	<message key="comments.authenticated"><![CDATA[(<a href="{$publicProfileUrl}" target="_parent">{$userName}</a>)]]></message>
+
+	<!-- Поиск -->
+	<message key="search.results.orderBy">Natijalarni tartiblash bo'yicha</message>
+	<message key="search.results.orderBy.article">Maqolaning nomi</message>
+	<message key="search.results.orderBy.author">Muallif</message>
+	<message key="search.results.orderBy.date">Nashr sanasi</message>
+	<message key="search.results.orderBy.issue">Chiqarilgan son</message>
+	<message key="search.results.orderBy.journal">Jurnaling nomi</message>
+	<message key="search.results.orderBy.popularityAll">Ommaboplik (hamma vaqtlarda)</message>
+	<message key="search.results.orderBy.popularityMonth">Ommaboplik (oxirgi oyda)</message>
+	<message key="search.results.orderBy.relevance">Majburiyat</message>
+	<message key="search.results.orderDir.asc">O'sish tartibida</message>
+	<message key="search.results.orderDir.desc">Kamayish tartibida</message>
+	<message key="search.results.similarDocuments">Oxirgi hujjatlarga o'xshashlar</message>
+
+
+	<message key="admin.auth.defaultSourceDescription"><![CDATA[<p>Ojs bo'lmagan standart autentifikatsiya manbasini ko'rsatish quyidagi ta'sirga ega:</p>
+<ul>
+	<li>Agar foydalanuvchi ushbu saytda autentifikatsiya manbasida mavjud bo'lgan foydalanuvchi nomi bilan yangi hisob qaydnomasini ro'yxatdan o'tkazishga harakat qilsa (lekin OJS ma'lumotlar bazasida emas), ro'yxatdan o'tishga urinish faqat foydalanuvchi autentifikatsiya manbasida ushbu hisobga mos keladigan parolni kiritgan taqdirdagina ruxsat etiladi.</li>
+</ul>]]></message>
+
+	<!-- Информация системы -->
+	<message key="admin.overwriteConfigFileInstructions"><![CDATA[<h4>Diqqat!</h4>
+<p>Tizim konfiguratsiya faylini avtomatik ravishda yoza olmaydi. O'zgartirilgan konfiguratsiya sozlamalarini qo'llash uchun siz ochishingiz kerak <tt>config.inc.php</tt> tegishli matn muharririda va uning tarkibini quyidagi matn qutisi tarkibiga almashtiring. </p>]]></message>
+
+
+	<!-- Слияние пользователей администратром сайта -->
+
+	<!-- Управление подпиской -->
+	<message key="subscriptionManager.subscriptionManagement">Obunachilikni boshqarish</message>
+	<message key="subscriptionManager.individualSubscriptions">Shaxsiy obunachiliklar</message>
+	<message key="subscriptionManager.institutionalSubscriptions">Tashkilot obunachiliklari</message>
+	<message key="subscriptionManager.subscriptionTypes">Obunachilik turlari</message>
+
+
+	<!-- Управление журналом -->
+
+	<!-- Статистика и отчеты -->
+
+	<!-- Управление модулями -->
+
+	<!-- Управление платежами -->
+
+	<!-- Общая информация модулей -->
+	<message key="plugins.categories.viewableFiles">Maqolalar bo'limining fayllar modullari</message>
+	<message key="plugins.categories.viewableFiles.description">Maqolalar bo'limining fayllar modullari, turli turlarda hujjatlarni maqola qismi sifatida ko'rsatishni qo'shadi.</message>
+	<message key="plugins.categories.auth.description">Autentifikatsiya modullari Open Journal Systemsning foydalanuvchilarni boshqa tizimlarga, masalan, LDAP-serverlarga, autentifikatsiyani delegat qilishiga imkon beradi.</message>
+	<message key="plugins.categories.generic.description">Umumiy modullar Open Journal Systems imkoniyatlarini boshqa kategoriyalardan qo'shimcha usullar bilan kengaytirish uchun ishlatiladi.</message>
+
+
+	<message key="manager.setup.lockssDescription"><![CDATA[Open Journal Systems LOCKSS (Lots of Copies Keep Stuff Safe) tizimini qo'llab-quvvatlaydi, shuningdek, jurnal kontentining xavfsiz va doimiy arxivini ta'minlash uchun. Agar jurnalizm jurnalining LOCKSS global tarmog'iga yoki PKP PN tashqi tarmog'ida qatnashsa, shularni yoqib qo'yish kerak: ]]></message>
+
+	<message key="manager.setup.clockssDescription"><![CDATA[Open Journal Systems ham CLOCKSS (Controlled Lots of Copies Keep Stuff Safe) tizimini qo'llab-quvvatlaydi, shuningdek, jurnal uchun xavfsiz va doimiy arxivni ta'minlash uchun. Agar jurnalizm CLOCKSS arxiviga shartnoma imzolasa, shularni yoqib qo'yish kerak:]]></message>
+
+	<message key="manager.setup.porticoDescription"><![CDATA[Portico - bu raqamli nashrlarni, elektron jurnallarni, kitoblarni va raqamli tarixiy kolleksiyalarni saqlash uchun ishlab chiqarilgan nonkommercia xizmatdir. Agar jurnalizm Portico bilan shartnoma imzolasa, shularni yoqib qo'yish kerak:]]></message>
+
+	<!-- Настройка (Шаг 3) -->
+	<message key="manager.setup.authorCopyrightNotice.sample"><![CDATA[<h3>Misol Creative Commons litsenziyasiga asoslangan avtorlik huquqlari xabarnomasi</h3>
+<h4>1. Ochiq muvofiqiyat ko'rsatuvlari taklifi</h4>
+Shunday jurnalda nashrga ega avtorlar hammohu tushunarlik qo'shimchalar bilan kelajakda qiyamat beradi:
+<ol type="a">
+	<li>Avtorlar ishlar uchun avtorlik huquqlarini saklashadi va shunga maqolaning birinchi nashri huquqini jurnalga beradi, unda maqolani Creative Commons Attribution litsenziyasi shartlari bo'yicha litsenziya beradi, ushbu litsenziyaga qarab boshqalarga shunday ishni amalga oshirish imkoniyati beradi: maqola avtorligi va ushbu maqolani jurnaldagi original nashriga havola kiritish. </li>
+	<li>Avtorlar jurnal tomonidan nashrga qo'yilgan ish versiyasi haqida quyidagi shartnomaviy shartnomalarini imzolash mumkin (masalan, uni universitet ro'yxatiga qo'yish yoki uni kitobda nashrga berish), shuningdek, uni bu jurnaldagi original nashrga havola kirish bilan. </li>
+	<li>Avtorlar haqiqatda qolib turgan yo'llarda (masalan, universitet ro'yxatiga yoki shaxsiy veb-saytida) ishlarini internet tarmog'iga (ma'lumot, uni ushbu jurnal tomonidan ko'rib chiqish maqsadi bilan rassmtraviyashda) chop etishga ruhsat beriladi, chunki ushbu ishning muntazam muhokama va shunday chop etilgan ishlar Сони қўшимча кўпроқни келтиради (<a target="_new" href="http://opcit.eprints.org/oacitation-biblio.html">Очиқ мувофиқиятнинг таъсири</a>).</li>
+</ol>
+
+<h4>2. Kechiktirilgan ochiq muvofiqiyat ko'rsatuvlari taklifi</h4>
+Shunday jurnalda nashrga ega avtorlar hammohu tushunarlik qo'shimchalaribilan kelajakda qiyamat beradi:
+<ol type="a">
+	<li>Avtorlar ishlar uchun avtorlik huquqlarini saklashadi va shunga maqolaning birinchi nashri huquqini jurnalga beradi, unda maqolani Creative Commons Attribution litsenziyasi shartlari bo'yicha litsenziya beradi, ushbu litsenziyaga qarab boshqalarga shunday ishni amalga oshirish imkoniyati beradi: maqola avtorligi va ushbu maqolani jurnaldagi original nashriga havola kiritish. </li>
+	<li>Avtorlar jurnal tomonidan nashrga qo'yilgan ish versiyasi haqida quyidagi shartnomaviy shartnomalarini imzolash mumkin (masalan, uni universitet ro'yxatiga qo'yish yoki uni kitobda nashrga berish), shuningdek, uni bu jurnaldagi original nashrga havola kirish bilan. </li>
+	<li>Avtorlar haqiqatda qolib turgan yo'llarda (masalan, universitet ro'yxatiga yoki shaxsiy veb-saytida) ishlarini internet tarmog'iga (ma'lumot, uni ushbu jurnal tomonidan ko'rib chiqish maqsadi bilan rassmtraviyashda) chop etishga ruhsat beriladi, chunki ushbu ishning muntazam muhokama va shunday chop etilgan ishlar Сони қўшимча кўпроқни келтиради (<a target="_new" href="http://opcit.eprints.org/oacitation-biblio.html">Очиқ мувофиқиятнинг таъсири</a>).</li>
+</ol>]]></message>
+
+
+	<!-- Настройка (Шаг 4) -->
+	<message key="manager.setup.basicEditorialStepsDescription"><![CDATA[Qadamlar: Materiallar qatorida &gt; Materialni baholash &gt; Materialni tahrirlash &gt; Chiqish muqovasi. <br /> <br /> Bu tahririy jarayonning bu ko'rinishlarini boshqarish uchun modelni tanlang. (Bu yoki bo'lim "Jarayonni boshqarish"da "Muharrir" qismini aniqlash uchun nashr etuvchini va bo'lim muharrirlarini aniqlash uchun "Muharrirlar"ga o'ting.)]]></message>
+	<message key="manager.setup.referenceLinkingDescription"><![CDATA[<p>Ovchilar mavzusida opublikatsiyalangan materiallarga o'tkazuvchilarni onlayn variantlarini topish imkonini berish uchun quyidagi imkoniyatlardan foydalanish mumkin.</p>
+
+<ol>
+	<li><strong>Ovchi vositasini qo'shish</strong><p>Nashr etuvchi "Qidiruv havzasiga" ovchi vositasi qo'sha olishi mumkin, bu ovchi vositasini kiritilgan ma'lumotlarga ishora qilishga yordam beradi. Bu, o'quvchilarga muallifning ishora qilgan manbaning nomini kiriting va so'ng uningni oldindan tanlangan ilmiy ishlar ma'lumotlar bazalarida qidirishiga imkon beradi.</p></li>
+	<li><strong>Adabiyot ro'yxatidagi hyper havolalarni qo'llash</strong><p>Verstachi internetda topilishi mumkin bo'lgan manbalarga hyper havola qo'shishi mumkin, quyidagi ko'rsatmalardan foydalanib (ko'rsatmalar tahrirlanishi mumkin).</p></li>
+</ol>]]></message>
+
+
+	<!-- Настройка (Шаг 5) -->
+
+	<!-- Языки -->
+
+	<!-- Управление разделами -->
+
+	<!-- Импорт/Экспорт -->
+
+	<!-- Группы / Редакция -->
+
+
+
+	<!-- Управление пользователями -->
+	<message key="manager.people.confirmDisable">Ushbu foydalanuvchini o'chirishni istaysizmi? Bu foydalanuvchiga o'z hisobiga kiringan holda tizimga kirishni taqiqlaydi.
+
+Shuningdek (kerak bo'lsa), foydalanuvchiga uning hisobini o'chirish sababini ko'rsating.</message>
+	<message key="manager.people.noAdministrativeRights"><![CDATA[Uzr, ushbu foydalanuvchi hisobini boshqarish uchun sizda etarli ma'muriy huquqlar mavjud emas. Mumkin bo'lgan sabablar:
+		<ul>
+			<li>Ushbu foydalanuvchi sayt administratori</li>
+			<li>Ushbu foydalanuvchi boshqarishingiz mumkin bo'lmagan jurnallarda faol</li>
+		</ul>
+	Ushbu vazifa sayt administratori tomonidan bajarilishi kerak.
+	]]></message>
+
+
+
+	<!-- Управление электронной почтой -->
+
+	<!-- Управление политикой подписки -->
+
+	<!-- Управление типами подписки -->
+
+	<!-- Управление подписками -->
+
+	<!-- Управление типами объявлений -->
+
+	<!-- Управление объявлениями -->
+
+	<!-- Редактор -->
+	<message key="editor.submissionReview.notes">
+	<![CDATA[<ol>
+	<li>Belgilangan qatorlar redaktor tomonidan ma'lum bir hujjat bajarilishi talab etilgan amallarni ko'rsatadi, quyidagi belgilashlar ishlatiladi:</li>
+		<ul>
+			<li class="highlightReviewerNotNotified">Rezensent belgilangan, ammo elektron pochta orqali xabardor qilmadi</li>
+			<li class="highlightNoDecision">Barcha rezensentlar izohlar bilan o'zlarining rezensiyalarini yuborganlar, lekin qaror qabul qilinmadi</li>
+			<li class="highlightRevisedCopyUploaded">Muallif hujjatning to'g'rilangan versiyasini saytga yukladi</li>
+			<li class="highlightReviewerConfirmationOverdue">Rezensent o'z rezensiyaga qatnashishni muddati ichida tasdiqlamadi</li>
+			<li class="highlightReviewerCompletionOverdue">Rezensent rezensiyani belgilangan muddat ichida taqdim etmadi</li>
+		</ul>
+	</li>
+	<li>"Bajarish muddati" maydoni rezensent rezensiyaga qatnashishga rozilik bildirgani paydo bo'lganida to'ldiriladi; bu rezensiyaga berilgan muddatning tugashiga qancha hafta qoldigini yoki (minus belgisi bilan) rezensiyani taqdim qilish muddatining kechiktirilgan haftalarning sonini ko'rsatadi.</li>
+</ol>]]> </message>
+
+	<message key="editor.submissionEditing.notes">
+	<![CDATA[<ol>
+	<li>Belgilangan qatorlar redaktor tomonidan ma'lum bir hujjat bajarilishi talab etilgan amallarni ko'rsatadi, quyidagi belgilashlar ishlatiladi:</li>
+		<ul>
+			<li class="highlightCopyediting">Literatura tahrir davrida amalga oshirish talab etiladi</li>
+			<li class="highlightLayoutEditing">Qaranglash davrida amalga oshirish talab etiladi</li>
+			<li class="higlightProofreading">Tekshirish davrida amalga oshirish talab etiladi</li>
+		</ul>
+	</li>
+</ol>]]> </message>
+
+	<!-- Главная страница редактора -->
+
+	<!-- Старые выпуски -->
+
+	<!-- Создать выпуск / Данные выпуска -->
+
+	<!-- Опубликованные выпуски -->
+
+	<!-- Меню навигации боковой панели -->
+
+	<!-- Используются редактором в процессе рецензирования / редактирования материала -->
+
+
+
+
+
+
+	<!-- Редактор раздела -->
+	<message key="sectionEditor.activeEditorialAssignments">Faol muharririy vazifalar</message>
+	<message key="sectionEditor.completedEditorialAssignments">Bajarilgan muharririy vazifalar</message>
+	<message key="sectionEditor.noneAssigned">Belgilangan ma'lumotlar yo'q.</message>
+	<message key="sectionEditor.copyedit.confirmRenotify">Bu adabiy tahrirchiga bildirish jo'natilganda vazifa boshlanishidan boshlab qayta boshlanadi. Siz rostanmi?</message>
+	<message key="sectionEditor.author.confirmRenotify">Ushbu muallifga bildirish jo'natilganda vazifa boshlanishidan boshlab qayta boshlanadi. Siz rostanmi?</message>
+	<message key="sectionEditor.layout.confirmRenotify">Bu maketchi haqida xabarnomani jo'natish vazifa boshlanishidan boshlab qayta boshlanadi. Siz rostanmi?</message>
+	<message key="sectionEditor.proofreader.confirmRenotify">Bu tekshiruvchi haqida bildirish jo'natilganda vazifa boshlanishidan boshlab qayta boshlanadi. Siz rostanmi?</message>
+
+	<message key="sectionEditor.regrets.breadcrumb">Kechirimlar</message>
+	<message key="sectionEditor.regrets.title">#{$submissionId} Reviyadorlar tomonidan kechirilgan va bekor qilinganlar, avvalgi raundlar</message>
+	<message key="sectionEditor.regrets">Kechirimlar</message>
+	<message key="sectionEditor.regrets.link">Reviyadorlar tomonidan kechirilgan va bekor qilinganlar, avvalgi raundlarni ko'rish</message>
+	<message key="sectionEditor.regrets.reviewRound">Reviyaga olish, raund {$round}</message>
+	<message key="sectionEditor.regrets.decisionRound">Muharrirning qarori, raund {$round}</message>
+	<message key="sectionEditor.regrets.regretsAndCancels">Reviyadorlarning kechirilishi va bekor qilinishlari</message>
+	<message key="sectionEditor.regrets.regret">Kechirim</message>
+	<message key="sectionEditor.regrets.result">Natija</message>
+	<message key="sectionEditor.review.enrollReviewer">Mavjud foydalanuvchi-ni reviyador sifatida yozing</message>
+	<message key="sectionEditor.review.createReviewer">Yangi reviyador yarating</message>
+
+	<!-- Верстальщик -->
+	<message key="layoutEditor.activeEditorialAssignments">Faol muharririy vazifalar</message>
+	<message key="layoutEditor.completedEditorialAssignments">Bajarilgan muharririy vazifalar</message>
+	<message key="layoutEditor.noActiveAssignments">Aktiv muharririy vazifalar yo'q.</message>
+	<message key="layoutEditor.layoutEditingAssignments">Maketlash vazifalari</message>
+	<message key="layoutEditor.galley.uploadGalleyFormat">Muharririy formatni yuklash</message>
+	<message key="layoutEditor.galley.replaceGalley">Faylni almashtirish</message>
+	<message key="layoutEditor.galley.uploadSuppFile">Qo'shimcha faylni yuklash</message>
+	<message key="submission.layout.imageInvalid">Noto'g'ri tasvir formati. Qabul qilingan formatlar: .gif, .jpg va .png.</message>
+	<message key="submission.layout.galley.remotelyHostedContent">Ushbu muharririy veb-saytda mavjud bo'ladi.</message>
+	<message key="submission.layout.galley.remoteURL">Tashqi manba (URL)da joylashgan tarkib manbasi</message>
+
+	<!-- Рецензент -->
+	<message key="reviewer.pendingReviews">Baholashga kutib qolgan maqolalar</message>
+	<message key="reviewer.completedReviews">Yakunlandi</message>
+	<message key="reviewer.averageQuality">Sifat o'rtasi</message>
+
+	<!-- Используются в рецензировании материала -->
+	<message key="reviewer.article.fileToBeReviewed">Baholanishi kerak bo'lgan fayl</message>
+	<message key="reviewer.article.notifyTheEditor">Muhrimni xabardor qilish</message>
+	<message key="reviewer.article.canDoReview">Baholashni amalga oshirishga roziman</message>
+	<message key="reviewer.article.cannotDoReview">Baholashni rad etdim</message>
+	<message key="reviewer.article.restrictedFileAccess">Qo'llanuvchi faqatgina baholashni qabul qilganda maqolaga kirishi mumkin</message>
+	<message key="reviewer.article.submissionEditor">Maqola muhrimi</message>
+	<message key="reviewer.article.reviewerCommentsDescription">Baholashchi izohlaringizni bu joyga kiriting yoki qo'yib oling</message>
+	<message key="reviewer.article.editorToEnter">Kirish uchun muhrim</message>
+	<message key="reviewer.article.sendReminder">Eslatma yuborish</message>
+	<message key="reviewer.article.automatic">(Avtomatik)</message>
+	<message key="reviewer.article.recommendation">Tavsiya</message>
+	<message key="reviewer.article.submitReview">Baholashni muhrimga yuborish</message>
+	<message key="reviewer.article.reviewerComments">Izohlar</message>
+	<message key="reviewer.article.uploadedFile">Yuklangan fayllar</message>
+	<message key="reviewer.article.reviewersAnnotatedVersion">Baholashchi tomonidan belgilangan versiya</message>
+	<message key="reviewer.article.reviewersAnnotatedVersionDescription">(Agar siz muharrir uchun faylga belgilarni qo'shmoqchi bo'lsangiz, faylni kompyuteringizga saqlang va Baholan/ Yuklashdan foydalaning.)</message>
+	<message key="reviewer.article.schedule.request">Muhrim so'rovi</message>
+	<message key="reviewer.article.schedule.response">Sizning javobingiz</message>
+	<message key="reviewer.article.schedule.submitted">Baholash yuborildi</message>
+	<message key="reviewer.article.schedule.due">Baholashni yuborish muddati</message>
+	<message key="reviewer.article.decision.accept">Maqolani qabul qilish</message>
+	<message key="reviewer.article.decision.pendingRevisions">Taqdimotni to'liq qayta ishlash lozim</message>
+	<message key="reviewer.article.decision.resubmitHere">Qayta baholash uchun yuborish</message>
+	<message key="reviewer.article.decision.resubmitElsewhere">Boshqa joyga yuborish</message>
+
+	<message key="reviewer.article.decision.decline">Maqolani rad etish</message>
+	<message key="reviewer.article.decision.seeComments">Izohlarni ko'rish</message>
+	<message key="reviewer.article.schedule">Reja</message>
+	<message key="reviewer.article.submissionToBeReviewed">Baholanishi kerak bo'lgan maqola</message>
+	<message key="reviewer.article.reviewSchedule">Baholash rejası</message>
+	<message key="reviewer.article.reviewSteps">Baholash qadamları</message>
+	<message key="reviewer.article.reviewerGuidelines">Baholashchi uchun qo'llanma</message>
+	<message key="reviewer.article.reviewGuidelinesDescription"><![CDATA[Baholashchi uchun qo'llanma baholashchilarni bu jurnaldagi nashrlar uchun murojaat qilingan maqolaning baholashi to'g'risida qiyosiy natijalarini baholash kriteriyalariga tanishtiradi va foydalanuvchilarga samarali va foydali baholashni tayyorlash bo'yicha qo'shimcha ko'rsatmalar qilishi mumkin. Baholash uchun yozilgan baholar bo'yicha baholashchilarning ikkita matn maydoni mavjud: birinchisi "Avtor va muhrim" va ikkinchisi "Muhrim uchun". Alternativ ravishda, sayt ma'murining "Baholash shakllari" bo'limida baholash shaklini yarata oladi. Shu o'tishda, muhrimlar avtorlarga baholarni ko'rsatish imkoniyatini beradi.]]></message>
+	<message key="reviewer.article.notifyEditorA">Maqola muhrimiga ma'lum qilish (</message>
+	<message key="reviewer.article.notifyEditorB">) Siz baholash berishga rozisiz.</message>
+	<message key="reviewer.article.consultGuidelines">Agar siz baholash berishni rejalashtirayotgan bo'lsangiz, quyidagi Baholashchi uchun qo'llanmani ko'rib chiqing.</message>
+	<message key="reviewer.article.downloadSubmission">Fayllarni yuklab olish uchun, ushbu maqola bilan bog'liq fayllarni o'z ichiga olgan nomlarga bosing (ularni ekranga chiqaring yoki chop eting).</message>
+	<message key="reviewer.article.enterCompetingInterests"><![CDATA[Usuli baholanayotgan tadqiqot bo'yicha sarguzasht mavjud yoki mavjud emasligini ko'rsating (ko'rsating <a target="_new" class="action" href="{$competingInterestGuidelinesUrl}">Foydalanuvchi So'rovlar Bayonoti to'ldirish bo'yicha ko'rsatmalar</a>).]]></message>
+	<message key="reviewer.competingInterests">Tadbirkorlik munosabatlari</message>
+	<message key="reviewer.article.enterReviewA">Baholashni kirish (yoki joylashtirish) uchun belgilarni bosing.</message>
+	<message key="reviewer.article.uploadFile">Bir xil qilib, siz muhrim uchun va/va yoki avtor uchun fayllarni yuklashingiz mumkin.</message>
+	<message key="reviewer.article.selectRecommendation">Tavsiyaning tanlovlari va baholashni yakunlash uchun baholarni yuborish.</message>
+	<message key="reviewer.article.selectRecommendation.byEditor">Baholanadigan qo'lda tavsiyaning belgilash yoki o'zgartirish.</message>
+	<message key="reviewer.article.mustSelectDecision">Tavsiya tanlanmadi. Baholash uchun tavsiyani tanlashingiz kerak.</message>
+	<message key="reviewer.article.confirmDecision">Qaroringizni yozishdan so'ng, siz ushbu baholashda o'zgartirishlarni kiritishingiz mumkin emas. Davom etishga rozimisiz?</message>
+
+	<!-- Используются в редактировании материала -->
+	<message key="copyeditor.article.fileToCopyedit">Nashrlash uchun fayl</message>
+	<message key="copyeditor.article.copyeditorFile">Nashrlash muharririning fayli</message>
+	<message key="copyeditor.article.copyeditorFinalFile">Nashrlash muharririning yakunlangan fayli</message>
+
+	<!-- Корректор -->
+	<message key="proofreader.noProofreadingAssignments">Tuzatish uchun topshiriqlar yo'q</message>
+
+	<!-- Автор -->
+
+
+	<!-- Отправка статьи (Шаг 1) -->
+
+
+	<!-- Отправка статьи (Шаг 2) -->
+
+	<!-- Отправка статьи (Шаг 3) -->
+	<message key="author.submit.uploadInstructions"><![CDATA[
+<p>Materialni ushbu jurnalga jo'natish uchun keltiladigan qadamlarni bajarib ko'ring.</p>
+<ol>
+<li>Ushbu sahifada "Ko'rib chiqish" (yoki "Faylni tanlash") tugmasini bosing va kompyuteringiz jigarida yozilgan faylni tanlash uchun dialog oynasi ochiladi.</li>
+<li>Jo'natishga tayyorlangan faylni tanlang.</li>
+<li>Faylni tanlash oynada "Ochish" tugmasini bosing — tanlangan faylning nomi ushbu sahifaga qo'shiladi.</li>
+<li>Ushbu sahifada "Serverga yuklash" tugmasini bosing — fayl kompyuterdan jurnal veb-saytiga yuklanadi va jurnal qoidalariga mos kelgan tarzda ismlanadi.</li>
+<li>Material yuklandiktan keyin, sahifaning to'g'ri pastki qismida "Saqlash va davom ettirish" tugmasini bosing.</li>
+</ol>]]></message>
+
+
+	<!-- Отправка статьи (Шаг 4) -->
+
+	<!-- Отправка статьи (Шаг 4a): Дополнительные файлы -->
+
+	<!-- Отправка статьи (Шаг 5) -->
+
+	<!-- Используются в рецензировании / редактировании материала -->
+	<message key="submission.review.mustUploadFileForReview">Sharhlovchi versiyasi bo'lgan fayl yuklanmaguncha so'rov xati yuborilishi mumkin emas.</message>
+
+	<!-- Отслеживание материала - связанные с литературным редактированием -->
+	<message key="submission.copyedit.mustUploadFileForInitialCopyedit">Bosh redaksiya uchun faylni yuklamasangiz, murojaatnoma yuborish mumkin emas.</message>
+	<message key="submission.copyedit.mustUploadFileForCopyedit">Fayl literaturni redaktatsiya uchun yuklanmagan, ushbu sababtan murojaatnoma yuborish mumkin emas.</message>
+	<message key="submission.copyedit.initialCopyedit">Bosh redaksiya</message>
+	<message key="submission.copyedit.editorsCopyedit">Muharrir tomonidan redaktatsiya</message>
+	<message key="submission.copyedit.editorAuthorReview">Muallif tomonidan redaktatsiya</message>
+	<message key="submission.copyedit.finalCopyedit">Oxirgi redaktatsiya</message>
+	<message key="submission.copyedit.copyeditVersion">Redaktatsiya versiyasi</message>
+	<message key="submission.copyedit.selectCopyeditor">Literaturni redaktorni tanlash</message>
+	<message key="submission.copyedit.useFile">Fayldan foydalanish</message>
+	<message key="submission.copyedit.copyeditComments">Literaturni redaktatsiya bo'yicha izohlar</message>
+	<message key="submission.copyedit.instructions">Literaturni redaktatsiya uchun ma'lumotlar</message>
+
+	<!-- Отслеживание материала - связанные с версткой -->
+	<message key="submission.layout.noLayoutFile">Отсутствует (Перед отправкой запроса загрузите окончательную версию из литературного редактирования как версию для верстки)</message>
+	<message key="submission.layout.publicGalleyId">Открытый идентификатор гранки</message>
+	<message key="submission.layout.galleyPublicIdentificationExists">Открытый идентификатор гранки уже существует.</message>
+	<message key="submission.layout.assignLayoutEditor">Назначить верстальщика</message>
+	<message key="submission.layout.replaceLayoutEditor">Заменить верстальщика</message>
+	<message key="submission.layout.layoutComments">Комментарии к верстке</message>
+	<message key="submission.layout.instructions">Руководство по верстке</message>
+	<message key="submission.layout.referenceLinking">Вставка гиперссылок на источники</message>
+
+	<!-- Отслеживание материала - связанные с корректурой -->
+	<message key="submission.proofreadingComments">Kommentariyalar taqdim etish bo'yicha</message>
+	<message key="submission.proofread.corrections">Tekshirishlarga o'zgartirishlar</message>
+	<message key="submission.proofread.instructions">Tekshirish bo'yicha qo'llanma</message>
+
+	<!-- История материала -->
+
+	<message key="submission.logType.article">Maqola</message>
+	<message key="submission.logType.author">Muallif</message>
+	<message key="submission.logType.editor">Muhaqqiq</message>
+	<message key="submission.logType.review">Nazorat</message>
+	<message key="submission.logType.copyedit">Tahrir</message>
+	<message key="submission.logType.layout">Dizayn</message>
+	<message key="submission.logType.proofread">Tasdiqlash</message>
+
+	<!-- Журнал событий для материала -->
+
+	<!-- Журнал писем для материала -->
+
+	<!-- Комментарии к материалу -->
+	<message key="submission.comments.editorAuthorCorrespondence">Muhaqqiq/Muallif maktublari</message>
+	<message key="submission.comments.copyeditComments">Tahrirga oid izohlar</message>
+	<message key="submission.comments.viewableDescription"><![CDATA[Bu izohlar muallifga ko'rsatilishi mumkin.<br />
+	(Saqlanganidan so'ng, qo'shimcha izohlar qo'shish mumkin.)]]></message>
+	<message key="submission.comments.canShareWithAuthor">Muallif va muhaqqiq uchun</message>
+	<message key="submission.comments.cannotShareWithAuthor">Muhaqqiq uchun</message>
+	<message key="submission.comments.blindCcReviewers">Jo'natilganidan so'ng, tahrirlangan nusxani nazoratchilarga ko'rsatish uchun (BCC) ko'rsatish.</message>
+	<message key="submission.comments.forAuthorEditor">Muallif va muhaqqiq uchun</message>
+	<message key="submission.comments.forEditor">Muhaqqiq uchun</message>
+	<message key="submission.comments.saveAndEmailAuthor">Saqlash va muallifga e-mail yuborish</message>
+	<message key="submission.comments.saveAndEmailEditor">Saqlash va muhaqqiqga e-mail yuborish</message>
+
+	<!-- Регистрация -->
+	<message key="user.register.selectContext">Ro'yxatdan o'tish uchun jurnalni tanlang:</message>
+	<message key="user.register.noJournals">Saytda siz ro'yxatdan o'tish uchun mavjud jurnallar yo'q.</message>
+	<message key="user.register.privacyStatement">Maxfiylik bayonoti</message>
+	<message key="user.register.registrationDisabled">Ushbu jurnal hozircha yangi foydalanuvchilarni ro'yxatdan o'tkazmaydi.</message>
+	<message key="user.register.form.passwordLengthTooShort">Kiritgan parolingiz juda qisqa.</message>
+	<message key="user.register.readerDescription">Jurnalning yangi chiqishlarini elektron pochta orqali olish.</message>
+	<message key="user.register.openAccessNotificationDescription">Jurnal chiqishiga ochiq murojaat mavjud bo'lganda elektron pochta orqali bildirish oladi.</message>
+	<message key="user.register.authorDescription">Jurnalga maqola yuborish imkoniyatiga egadir.</message>
+	<message key="user.register.reviewerDescriptionNoInterests">Ushbu jurnal uchun maqolalar ustida nazorat qilishga rozilik bildiradi.</message>
+	<message key="user.register.reviewerDescription">Ushbu saytdagi maqolalar ustida nazorat qilishga rozilik bildiradi.</message>
+	<message key="user.register.reviewerInterests">Nazoratchi sifatida sizning qiziqtirgan sohalaringizni (asosiy mavzular, tadqiqot usullari) ko'rsating:</message>
+	<message key="user.register.form.emailConsentAllContexts">Ha, meni men ro'yxatdan o'tgan barcha jurnallarda yangi nashrlar va e'lonlardan habardor qilishlari uchun xohlayman.</message>
+	<message key="user.register.form.privacyConsentThisContext"><![CDATA[Ha, men ushbu jurnal <a href="{$privacyUrl}" target="_blank">maxfiylik siyosatida</a> məlumatlarimni to'plash va saqlash uchun ruxsat beraman.]]></message>
+	<message key="user.register.form.missingContextConsent">Siz ro'yxatdan o'tayotgan har qanday jurnalning maxfiylik siyosatiga rozilik bildirmoqchisiz.</message>
+	<message key="user.register.form.missingSiteConsent">Siz ushbu saytning maxfiylik siyosatiga rozilik bildirmoqchisiz.</message>
+
+	<!-- Подписки -->
+	<message key="user.subscriptions.mySubscriptions">Mening obunalarim</message>
+	<message key="user.subscriptions.subscriptionStatus">Obuna holati</message>
+	<message key="user.subscriptions.statusInformation">Faol va muddati tugagan obunalar quyidagilarni o'z ichiga oladi va ularga holat haqida ma'lumotlar keltiriladi. Shuningdek, har bir obunaga quyidagi holat ma'lumotlari qo'shilishi mumkin.</message>
+	<message key="user.subscriptions.status">Holat</message>
+	<message key="user.subscriptions.statusDescription">Ta'rif</message>
+	<message key="user.subscriptions.status.needsInformationDescription">Obuna faollashtirilishi uchun qo'shimcha ma'lumotlarga ehtiyoj bor</message>
+	<message key="user.subscriptions.status.needsApprovalDescription">Obuna faollashtirilishi uchun uni tekshirish zarur</message>
+	<message key="user.subscriptions.status.awaitingManualPaymentDescription">Qo'llab-quvvatlash to'lovi qo'llab-quvvatlash to'lovi boshlandi, lekin hali qabul qilinmadi</message>
+	<message key="user.subscriptions.status.awaitingOnlinePaymentDescription">Onlayn to'lov amalga oshirildi, lekin keyinroq bekor qilindi yoki amalga oshirilmadi</message>
+	<message key="user.subscriptions.individualSubscriptions">Shaxsiy obuna</message>
+	<message key="user.subscriptions.institutionalSubscriptions">Tashkiliy obunalar</message>
+	<message key="user.subscriptions.renew">Uzaytirish</message>
+	<message key="user.subscriptions.purchase">Sotib olish</message>
+	<message key="user.subscriptions.purchaseNewSubscription">Yangi obuna sotib olish</message>
+	<message key="user.subscriptions.purchaseIndividualSubscription">Shaxsiy obuna sotib olish</message>
+	<message key="user.subscriptions.purchaseInstitutionalSubscription">Tashkiliy obuna sotib olish</message>
+	<message key="user.subscriptions.expires">Muddati tugaydi: {$date}</message>
+	<message key="user.subscriptions.expired">Muddati tugadi: {$date}</message>
+	<message key="user.subscriptions.viewSubscriptionTypes">Mavjud obuna turlarini ko'rsatish</message>
+	<message key="user.subscriptions.form.typeId">Obuna turi</message>
+	<message key="user.subscriptions.form.membership">A'zolik</message>
+	<message key="user.subscriptions.form.membershipRequired">Tanlangan obuna turiga a'zolik ma'lumotlari talab etiladi.</message>
+	<message key="user.subscriptions.form.typeIdValid">Iltimos, to'g'ri obuna turini tanlang.</message>
+	<message key="user.subscriptions.form.subscriptionExists">Bu foydalanuvchi ushbu hisobga shaxsiy obuna allaqachon bor.</message>
+	<message key="user.subscriptions.form.membershipInstructions">A'zolik haqida ma'lumotlar (tanlangan obuna turi uchun zarur bo'lsa).</message>
+	<message key="user.subscriptions.form.institutionName">Tashkiliy nomi</message>
+	<message key="user.subscriptions.form.institutionNameRequired">Tashkiliy nom kerak.</message>
+	<message key="user.subscriptions.form.institutionMailingAddress">Pochta manzili</message>
+	<message key="user.subscriptions.form.domain">Domen</message>
+	<message key="user.subscriptions.form.domainInstructions"><![CDATA[Agar bu erda domen kiritilsa, IP-manzillar oraliqini kiriting shart emas.<br />Qabul qilingan qiymatlar — domen nomlari (masalan, lib.sfu.ca).]]></message>
+	<message key="user.subscriptions.form.domainIPRangeRequired">Tanlangan obuna turi uchun autentifikatsiya uchun domen va/va IP-manzillar oraliqini ko'rsatish talab etiladi.</message>
+	<message key="user.subscriptions.form.domainValid">Iltimos, to'g'ri domen nomini kiriting.</message>
+	<message key="user.subscriptions.form.ipRange">IP-manzillar oraliqlari</message>
+	<message key="user.subscriptions.form.ipRangeItem"><![CDATA[&#8226;]]></message>
+	<message key="user.subscriptions.form.ipRangeInstructions"><![CDATA[Agar bu erda IP-manzillar oraliqlari kiritilsa, domenni ko'rsatish shart emas.<br />Qabul qilingan qiymatlar — IP-manzilla (masalan, 142.58.103.1), IP-manzillar oraliqi (masalan, 142.58.103.1 - 142.58.103.4), «*» belgisi bilan IP-manzillar oraliqi (masalan, 142.58.*.*) va sinflandirilmagan marshrutlashtirish masalasi bo'yicha IP-manzillar oraliqi (masalan, 142.58.100.0/24).]]></message>
+	<message key="user.subscriptions.form.ipRangeValid">Iltimos, to'g'ri IP-manzillar oraliqini kiriting.</message>
+	<message key="user.subscriptions.form.deleteIpRange">O'chirish</message>
+	<message key="user.subscriptions.form.addIpRange">Qo'shish</message>
+
+	<!-- Поиск -->
+	<message key="search.browseAuthorIndex">Mualliflar ro'yxatini ko'rish</message>
+	<message key="search.searchFor">Maqolalarni qidirish</message>
+	<message key="search.withinJournal">Jurnalda</message>
+	<message key="search.allJournals">Barcha jurnallar</message>
+	<message key="search.authorIndex">Mualliflar ro'yxatini ko'rish</message>
+	<message key="search.authorDetails">Muallif haqida ma'lumot</message>
+	<message key="search.syntaxInstructions"><![CDATA[Qidiruv tavsiyalari: <ul>
+<li>Ro'yxatda katta-kichik harflariga e'tibor berilmaydi (katta va kichik harflar farq qilinmaydi)</li>
+<li>Umumiy so'zlar e'tiborqa olinmaydi</li>
+<li>Odatda so'rovingizdagi barcha so'zlarga ega bo'lgan maqolalar faqat ko'rsatiladi (ya'ni <em>VA</em> sharti qo'llanilgan deb hisoblanadi)</li>
+<li>Bir nechta terminlarga ega bo'lgan maqolalarni qidirish uchun so'zlar <em>YOKI</em> bilan ajratiladi, masalan, <em>ta'lim YOKI o'qitish</em></li>
+<li>Qo'shimcha murakkab so'rovlarni yaratish uchun to'rtburchak qavslardan foydalaning, masalan, <em>arxiv ((jurnal YOKI konferensiya) EMAS dissertatsiyalar)</em></li>
+<li>Fraza qanday e'tibor qilinishini aniqlash uchun sitatlar (<strong>"</strong> belgi) qo'llaning, masalan, <em>"ochiq murojaatda chop etilganlar"</em></li>
+<li>Qidiruvdan so'zni tashlab tashlang, oldinga <strong>-</strong> (chiziq) yoki <em>NOT</em> qo'ying, masalan, <em>uchinish -yo'riqnoma</em> yoki <em>uchinish NOT yo'riqnoma</em></li>
+<li>Maxsus belgi sifatida <strong>*</strong> belgisidan foydalaning, bu belgi har qanday belgilar ketma-ketligini o'rnatadi, masalan, <em>ijtimo* ahlak</em> "ijtimoiy" yoki "sotsiologik" so'zlarini o'z ichiga oladi</li>
+</ul>]]></message>
+
+
+	<!-- Промежуточная страница для PDF -->
+	<message key="article.pageTitle">"{$title}" ko'rib chiqish</message>
+	<message key="article.pdf.title">Portable Document Format (PDF)</message>
+	<message key="article.download">Ushbu PDF faylini yuklab olish</message>
+	<message key="article.pluginMissing"><![CDATA[<p>Tanlangan PDF fayli, agar sizning veb-brauzeringizda PDF fayllarni o'qish uchun modul o'rnatilgan bo'lsa (masalan, eng so'nggi <a href="https://get.adobe.com/reader/">Adobe Acrobat Reader</a>).</p>]]></message>
+
+	<!-- Промежуточная страница для гранок в форматах, отличных от PDF и HTML -->
+	<message key="article.nonpdf.title">Maqolani yuklab olish</message>
+	<message key="article.nonpdf.note"><![CDATA[Tanlangan fayl avtomatik ravishda yuklanishi kerak. Agar bu sodir bo'lmasa, quyidagi havolaga bosing. E'tibor bering, bu faylni ko'rish uchun maxsus dastur yoki modul talab qilishi mumkin.<br /><br />Agar fayl avtomatik ravishda yuklanmasa, <a href="{$url}">bu erda</a> bosing.]]></message>
+
+	<!-- Индекс сайта -->
+	<message key="site.journalsHosted">Bu saytda joylashtirilgan jurnallar</message>
+	<message key="site.journalView">Jurnalni ko'rib chiqish</message>
+	<message key="site.journalRegister">Ro'yxatdan o'tish</message>
+	<message key="site.journalCurrent">Hozirgi son</message>
+	<message key="site.noJournals">Mavjud jurnal yo'q.</message>
+
+
+	<!-- Индекс текущего номера -->
+	<message key="current.current">Hozirgi</message>
+	<message key="current.noCurrentIssue">Hozirgi son yo'q</message>
+	<message key="current.noCurrentIssueDesc">Ushbu jurnalda chop etilgan hozirgi son yo'q.</message>
+
+	<!-- Индекс архивов -->
+	<message key="archive.archives">Arxivlar</message>
+	<message key="archive.archivesPageNumber">Arxivlar - Sahifa {$pageNumber}</message>
+	<message key="archive.browse">Avvalgi chiqishlarni ko'rish</message>
+	<message key="archive.issueUnavailable">Chiqish mavjud emas</message>
+
+	<!-- О журнале -->
+	<message key="about.statistics">Statistika</message>
+	<message key="about.contact">Kontaktlar</message>
+	<message key="about.aboutContext">Jurnal haqida</message>
+	<message key="about.history">Jurnal tarixi</message>
+	<message key="about.editorialTeam">Tahririyat</message>
+	<message key="about.editorialTeam.biography">Biografiya</message>
+	<message key="about.editorialPolicies">Tahririy siyosat</message>
+	<message key="about.focusAndScope">Jurnal kontseptsiyasi</message>
+	<message key="about.sectionPolicies">Jurnal bo'limlariga oid qoidalar</message>
+	<message key="about.submissions">Materiallarni jo'natish</message>
+	<message key="about.onlineSubmissions.login">Tizimga kirish</message>
+	<message key="about.onlineSubmissions.register">Ro'yxatdan o'tish</message>
+	<message key="about.onlineSubmissions.registrationRequired">Materialni jo'natish uchun sizning {$login} yoki {$register} kerak.</message>
+	<message key="about.onlineSubmissions.submissionActions">{$newSubmission} yoki {$viewSubmissions}.</message>
+	<message key="about.onlineSubmissions.submitToSection"><![CDATA[Materialni jo'natish <a href="{$url}">"{$name}" bo'limiga</a>.]]></message>
+	<message key="about.onlineSubmissions.newSubmission">Yangi materialni jo'natish</message>
+	<message key="about.onlineSubmissions.viewSubmissions">Oldinroq jo'natilgan materiallarni ko'rish</message>
+	<message key="about.authorGuidelines">Mualliflar uchun ko'rsatmalar</message>
+	<message key="about.submissionPreparationChecklist">Materialni jo'natishni tayyorlash tekshiruvi ro'yxati</message>
+	<message key="about.submissionPreparationChecklist.description">Jo'natish jarayonining bir bosqichi sifatida, mualliflar o'zlarining materiallarini quyidagi barcha nuqtalarga mosligini tekshirishi kerak, agar ular bu talablarga javob bermasalar, ularning materiallari qaytarilishi mumkin.</message>
+	<message key="about.copyrightNotice">Avtorlik huquqlari to'g'risida ogohlantirish</message>
+	<message key="about.privacyStatement">Maxfiylik bayonoti</message>
+	<message key="about.authorFees">Mualliflarning to'lovlari</message>
+	<message key="about.authorFeesMessage">Ushbu jurnal mualliflardan quyidagi to'lovlarni qabul qiladi.</message>
+	<message key="about.peerReviewProcess">Peer reyting jarayoni</message>
+	<message key="about.publicationFrequency">Nashr qilish chastotasi</message>
+	<message key="about.openAccessPolicy">Ochiq murojaat siyosati</message>
+	<message key="about.delayedOpenAccess">Cheksiz ochiq murojaat</message>
+	<message key="about.delayedOpenAccessDescription1">Ushbu jurnalning tarkibi izlash mumkin bo'lishi uchun</message>
+	<message key="about.delayedOpenAccessDescription2">oy davomida nashr etiladi.</message>
+	<message key="about.authorSelfArchive">Muallif tomonidan o'zining arxivini yaratish</message>
+	<message key="about.archiving">Arxivlash</message>
+	<message key="about.subscriptions">Obunalar</message>
+	<message key="about.subscriptions.individual">Shaxsiy obunalar</message>
+	<message key="about.subscriptions.institutional">Tashkilot obunasi</message>
+	<message key="about.subscriptionsContact">Obuna uchun aloqa shaxsi</message>
+	<message key="about.subscriptionTypes.name">Ism</message>
+	<message key="about.subscriptionTypes.format">Format</message>
+	<message key="about.subscriptionTypes.duration">Davomiyligi</message>
+	<message key="about.subscriptionTypes.cost">Narxi</message>
+	<message key="about.availableSubscriptionTypes">Obuna turlari</message>
+	<message key="about.memberships">A'zoliklar</message>
+	<message key="about.aboutThisPublishingSystem">Ushbu chop etish tizimi haqida</message>
+	<message key="about.aboutThisPublishingSystem.altText">OJS redaktsiya va nashr jarayoni</message>
+	<message key="about.aboutOJSJournal"><![CDATA[Ushbu jurnal Open Journal Systems {$ojsVersion} dan foydalanadi, bu jurnalni boshqarish va nashr qilish uchun ochiq manbalarga ega dastur. Bu dastur <a href="http://pkp.sfu.ca/">Public Knowledge Project</a> tomonidan GNU General Public License litsenziyasi asosida ishlab chiqilgan, qo'llab-quvvatlanadi va bepul tarqalgan.]]></message>
+	<message key="about.aboutOJSSite"><![CDATA[Ushbu sayt Open Journal Systems {$ojsVersion} dan foydalanadi, bu jurnalni boshqarish va nashr qilish uchun ochiq manbalarga ega dastur. Bu dastur <a href="http://pkp.sfu.ca/">Public Knowledge Project</a> tomonidan GNU General Public License litsenziyasi asosida ishlab chiqilgan, qo'llab-quvvatlanadi va bepul tarqalgan.]]></message>
+
+	<!-- Объявления -->
+
+	<!-- Помощь -->
+	<message key="help.ojsHelp">Open Journal Systems bo'yicha yordam</message>
+	<message key="help.ojsHelpAbbrev">OJS bo'yicha yordam</message>
+	<message key="help.searchReturnResults">Qidiruv natijalariga qaytish</message>
+	<message key="help.goToEditPage">{$sectionTitle}ni tahrirlash</message>
+
+
+	<!-- Пожертвования -->
+	<message key="donations.thankYou">Rahmat</message>
+	<message key="donations.thankYouMessage">Sizning xizmatlaringiz uchun rahmat. Biz sizning qo'llab-quvvatingizni baland baholaymiz.</message>
+
+	<!-- Платежи -->
+	<message key="payment.loginRequired">To'lovni amalga oshirish uchun tizimga kirmang.</message>
+	<message key="payment.loginRequired.forArticle">Bu maqolaga kirish uchun obuna yoki ushbu maqolani xarid qilgan bo'lishingiz kerak. Obunangizni tekshirish, oldingi xaridlariga kirish yoki maqolani sotib olish uchun tizimga kiring.</message>
+	<message key="payment.loginRequired.forIssue">Ushbu chiqishqa kirish uchun obuna yoki ushbu chiqishni xarid qilgan bo'lishingiz kerak. Obunangizni tekshirish, oldingi xaridlariga kirish yoki chiqishni sotib olish uchun tizimga kiring.</message>
+	<message key="payment.loginRequired.forDonation">Xayr-ahvollik qilish uchun tizimga kirmang.</message>
+
+	<message key="payment.paid">To'langan</message>
+	<message key="payment.payNow">Hozir to'lang</message>
+	<message key="payment.waive">To'lovni bekor qilish</message>
+	<message key="payment.alreadyPaid">Oxirgi o'qish</message>
+	<message key="payment.alreadyPaidMessage">Agar to'lovni jo'natgan bo'lsangiz, matn yuborish jarayonini tugatish uchun. To'lov qabul qilinguncha materialni ko'rib chiqishni davom ettirmaydi. To'lov qabul qilinganini tekshirish uchun "Hozir to'lang" tugmasini bosib ko'ring.</message>
+	<message key="payment.paymentReceived">To'lov qabul qilindi</message>
+	<message key="payment.paymentSent">To'lov allaqachon yuborilgan</message>
+	<message key="payment.authorFees">Mualliflarning to'lovi</message>
+	<message key="payment.type.submission">Jo'natish to'lovi</message>
+	<message key="payment.type.publication">Nashr to'lovi</message>
+	<message key="payment.type.fastTrack">Tezlik rejasi uchun to'lov</message>
+	<message key="payment.type.membership">Shaxsiy a'zolik uchun to'lov</message>
+	<message key="payment.type.purchaseArticle">Maqola sotib olish to'lovi</message>
+	<message key="payment.type.purchaseIssue">Nomer sotib olish to'lovi</message>
+	<message key="payment.type.subscription">Obuna to'lovi</message>
+	<message key="payment.type.donation">Xayr-ahvollik</message>
+
+	<message key="payment.donation.makeDonation">Xayr-ahvollik qilish</message>
+
+	<message key="payment.submission.paySubmission">Materialni jo'natish to'lovini amalga oshiring</message>
+	<message key="payment.publication.payPublication">Nashr to'lovini amalga oshiring</message>
+	<message key="payment.publication.publicationPaid">Nashr to'lovi amalga oshirildi</message>
+
+	<message key="payment.membership.buyMembership">Shaxsiy a'zolik sotib olish</message>
+	<message key="payment.membership.renewMembership">Shaxsiy a'zolikni yangilang</message>
+	<message key="payment.membership.ends">Tugaydi</message>
+
+	<message key="payment.subscription.purchase">Obuna sotib olish</message>
+	<message key="payment.subscription.renew">Obunani yangilash</message>
+	<message key="payment.subscription.expires">Muddati tugaydi</message>
+
+	<!-- Установщик -->
+	<message key="installer.appInstallation">OJSni o'rnatish</message>
+	<message key="installer.ojsUpgrade">OJSni yangilash</message>
+	<message key="installer.installationInstructions"><![CDATA[<h4>OJS versiyasi {$version}</h4>
+
+<p>O'zingizni <strong>Open Journal Systems</strong> o'rnatganingiz uchun tashakkur. Iltimos, davom etishdan oldin bu dastur bilan keladigan <a href="{$baseUrl}/docs/README.md">README</a> faylini o'qing. Batafsil ma'lumot uchun Public Knowledge Project va ularga tegishli dasturlar haqida batafsilroq ma'lumot olish uchun, Iltimos, <a href="http://pkp.sfu.ca/" target="_blank">PKP saytini</a> tashrif buyuring. Agar OJS haqida xato topib bo'lsangiz yoki OJS haqida texnik yordam so'rasangiz, Iltimos, <a href="http://forum.pkp.sfu.ca" target="_blank">yordam forumiga</a> murojaat qiling yoki PKP xat ko'rsatish jamoasiga xabar yuboring.</p>
+
+<h4>Yangilash</h4>
+
+<p>Agar siz mavjud OJS o'rnatmasdan o'zingizni yangilovchi bo'lsangiz, <a href="{$upgradeUrl}">bu yerni bosing</a>.</p>
+
+<h4>Tavsiya etiladigan tizim talablari</h4>
+
+<ul>
+	<li><a href="http://www.php.net/" target="_blank">PHP</a> >= {$phpRequiredVersion}; Siz hozir PHP {$phpVersion} dan foydalanmoqdasiz{$wrongPhpText}</li>
+	<li><a href="http://www.mysql.com/" target="_blank">MySQL</a> >= 4.1 yoki <a href="http://www.postgresql.org/" target="_blank">PostgreSQL</a> >= 9.1.5</li>
+	<li><a href="http://httpd.apache.org/" target="_blank">Apache</a> >= 1.3.2x yoki >= 2.0.4x yoki Microsoft IIS 6</li>
+	<li>Operatsion tizim: yuqoridagilardan foydalanadigan va uni qo'llab-quvvatlaydigan barcha operatsion tizimlar, masalan, <a href="http://www.linux.org/" target="_blank">Linux</a>, <a href="http://www.bsd.org/" target="_blank">BSD</a>, <a href="http://www.oracle.com/sun/" target="_blank">Solaris</a>, <a href="http://www.apple.com/" target="_blank">Mac OS X</a>, <a href="http://www.microsoft.com/">Windows</a></li>
+</ul>
+
+<p>PiKePning barcha mumkin bo'lgan dastur va platforma versiyalari to'g'risida sinovlarni amalga oshirish uchun PKP resurslari mavjud emasligi sababli, ishonchli ish yoki qo'llab-quvvatlashning kutilmaganligi.</p>
+
+<p>Bu sozlamalarni sozlash o'zingizning tizimida so'nggi darajada bajariladi, OJS asosiy katalogida joylashgan <tt>config.inc.php</tt> faylini tahrirlash orqali yoki sayt boshqaruv interfeysidan foydalanib.</p>
+
+<h4>Qo'llab-quvvatlangan DBMSlar</h4>
+
+<p>Hozirda OJS faqat MySQL va PostgreSQLda sinov qilingan, shuningdek, ADOdb tomonidan qo'llab-quvvatlangan boshqa ma'lumotlar bazalari (yuzaga kelishi yoki qisman) yoki kodlar o'zgartirilishi mumkin. Alternativ DBMSlar uchun mosliklar va/toshlar PKP loyihalar guruhi tomonga yuborilishi mumkin.</p>
+]]> </message>
+	<message key="installer.preInstallationInstructions"><![CDATA[
+<h4>O'rnatishga tayyorgarliklar</h4>
+
+
+<p>1. Quyidagi fayllar va kataloglar (va ularning ichki ma'lumotlari) yozishga ruxsat berilishi kerak:</p>
+<ul>
+	<li><tt>config.inc.php</tt> yozish uchun bo'sh (shart emas): {$writable_config}</li>
+	<li><tt>public/</tt> yozish uchun bo'sh: {$writable_public}</li>
+	<li><tt>cache/</tt> yozish uchun bo'sh: {$writable_cache}</li>
+	<li><tt>cache/t_cache/</tt> yozish uchun bo'sh: {$writable_templates_cache}</li>
+	<li><tt>cache/t_compile/</tt> yozish uchun bo'sh: {$writable_templates_compile}</li>
+	<li><tt>cache/_db</tt> yozish uchun bo'sh: {$writable_db_cache}</li>
+</ul>
+
+<p>2. Yuklangan fayllarni saqlash uchun katalog yaratilgan va yozish uchun ruxsat etilgan bo'lishi kerak (ko'proq fayllar parametri).</p>]]></message>
+	<message key="installer.upgradeInstructions"><![CDATA[<h4>OJS versiyasi {$version}</h4>
+
+<p>O'zingizni <strong>Open Journal Systems</strong>ni yangilab oldingiz uchun tashakkur. Iltimos, davom etishdan oldin bu dastur bilan keladigan <a href="{$baseUrl}/docs/README.md">README</a> va <a href="{$baseUrl}/docs/UPGRADE.md">UPGRADE</a> fayllarini o'qing. Batafsil ma'lumot uchun Public Knowledge Project va ularga tegishli dasturlar haqida batafsilroq ma'lumot olish uchun, Iltimos, <a href="http://pkp.sfu.ca/" target="_blank">PKP saytini</a> tashrif buyuring. Agar OJS haqida xato topib bo'lsangiz yoki OJS haqida texnik yordam so'rasangiz, Iltimos, <a href="http://forum.pkp.sfu.ca" target="_blank">yordam forumiga</a> murojaat qiling yoki PKP xat ko'rsatish jamoasiga xabar yuboring.</p>
+<p>O'zingizni yangilovchilar bo'lib, <strong>isbotan maslahat beriladi</strong> bazaga o'z ma'lumotlaringizni saqlash uchun. OJS katalogi, fayllari va sahifalari uchun nusxani qanday yaratish maqsadida, iltimos, batafsil ma'lumotni o'qing.</p>
+<p>Agar PHPni <a href="http://www.php.net/features.safe-mode" target="_blank">PHP Safe Mode</a> rejimida ishga tushirgan bo'lsangiz, iltimos, php.ini konfiguratsiya faylining max_execution_time qiymatini katta qiymatga sozlang. Agar bu yoki boshqa vaqt chegaralari (masalan, Apache uchun Timeout qiymati) yetib tushgan va yangilash jarayoni to'xtatilgan bo'lsa, qo'llab-quvvatlash to'g'risida qo'lda keltirilganlarni qo'llab-quvvatlash zarur.</p>]]></message>
+	<message key="installer.localeSettingsInstructions"><![CDATA[To'liq Unicode (UTF-8) qo'llab-quvvatlash uchun, har bir belgi kodini UTF-8 sifatida tanlang. Iltimos, uni foydalanish bo'yicha OJS dokumentatsiyasiga o'zingizga qiziqqan tilni qo'llab-quvvatlash uchun ko'rsatmalar.</p>
+<p>Sizning serveringiz hozir MBStringni qo'llab-quvvatlaydimi: <strong>{$supportsMBString}</strong>]]></message>
+	<message key="installer.allowFileUploads"><![CDATA[Serveringiz fayllarni yuklashga ruxsat bermoqda: <strong>{$allowFileUploads}</strong>]]></message>
+	<message key="installer.maxFileUploadSize"><![CDATA[Serveringizning maksimal yuklab olinadigan fayl hajmi: <strong>{$maxFileUploadSize}</strong>]]></message>
+	<message key="installer.localeInstructions">Bu tizimda foydalaniladigan asosiy tilni tanlang. Agar siz bu ro'yxatda mavjud bo'lmagan tillarni qo'llab-quvvatlashni xohlaysiz, iltimos, OJS dokumentatsiyasiga murojaat qiling.</message>
+	<message key="installer.additionalLocalesInstructions">Bu tizimda qo'llab-quvvatlash kerak bo'lgan qo'shimcha tillarni tanlang. Ushbu tillar saytda joylashgan jurnallarda foydalanish uchun mavjud bo'ladi. Qo'shimcha tillar ham, har doim sayt boshqaruv interfeysi orqali o'rnatilishi mumkin.</message>
+	<message key="installer.filesDirInstructions"><![CDATA[O'zingizni yuklab olingan fayllarni saqlash uchun mavjud katalogning to'liq yo'lini kiriting. Ushbu katalog to'g'riroq Internet orqali o'tkazib bo'lmaydi. <strong>Iltimos, o'rnatishdan oldin ushbu katalogni mavjud va yozishga ruxsat etilganligiga ishonch hosil qiling.</strong> Fayllar yo'llari Windowsda to'g'ri qavslar ishlatilishi kerak, masalan, «C:/myjournal/files».]]></message>
+	<message key="installer.databaseSettingsInstructions">OJS ma'lumotlarni saqlash uchun SQL tilini qo'llab-quvvatlaydigan ma'lumotlar bazasiga kirishni talab qiladi. Yuqoridagi tizim talablari uchun qo'llab-quvvatlangan ma'lumotlar bazalari ko'rsatkichlari keltirilgan. Quyidagi maydonlarda bazaga ulanish parametrlarini kiriting.</message>
+	<message key="installer.installApplication">Open Journal Systemsni o'rnatish</message>
+	<message key="installer.upgradeApplication">Open Journal Systemsni yangilash</message>
+	<message key="installer.reinstallAfterDatabaseError"><![CDATA[<strong>Ogohlantirish:</strong> Agar bazaga o'rnatishda muvaffaqiyatsizlik yuzaga kelsa, sizning OJS ma'lumotlar bazasini yoki uning jadvalini o'chirish kerak bo'ladi, keyin OJS ma'lumotlar bazasini qayta o'rnatishga harakat qilishingiz mumkin.]]></message>
+	<message key="installer.overwriteConfigFileInstructions"><![CDATA[<h4>MUHIM!</h4>
+<p>O'rnashdiruvchi faylni avtomatik ravishda qayta yozib bo'lmadi. Iltimos, tizimdan foydalanishdan oldin mos mavzudagi matnni quyidagi matnli matn maydonida kiriting.</p>]]></message>
+	<message key="installer.installationComplete"><![CDATA[<p>OJS o'rnatish muvaffaqiyatli tugallandi.</p>
+<p>Sistemaning foydalanishni boshlash uchun, oldingi sahifada kiritgan foydalanuvchi nomi va parolini ishlatib, <a href="{$loginUrl}">tizimga kirishingiz mumkin</a>.</p>
+<p>Agar siz PKP jamoasining a'zosi bo'lishni xohlaysiz, siz:</p>
+<ol>
+	<li><a href="http://pkp.sfu.ca/blog" target="_new">PKP blogini</a> o'qing va yangiliklarni va yangilanishlarni RSS ga obuna bo'ling.</li>
+	<li>Agar sizda savollar yoki izohlaringiz bo'lsa, 
+	<a href="http://forum.pkp.sfu.ca" target="_new">yordam forumini</a> tashrif buyuring.</li>
+</ol>]]></message>
+
+	<message key="installer.upgradeComplete"><![CDATA[<p>IOS-ning {$version} versiyasiga yangilanishi muvaffaqiyatli yakunlandi.</p>
+<p>Config konfiguratsiya faylida o'rnatilgan sozlamani o'rnatishni unutmang config.inc.php yana qiymatga qaytadi <em>On</em>.</p>
+<p>Agar siz hali ro'yxatdan o'tmagan bo'lsangiz va yangiliklar va yangilashlarni olishni istasangiz, <strong>iltimos, <a href="http://pkp.sfu.ca/ojs/register" target="_new">http://pkp.sfu.ca/ojs/register</a>ga ro'yxatdan o'ting.</strong> Agar sizning savollaringiz yoki takliflaringiz bolsa, iltimos, <a href="http://forum.pkp.sfu.ca" target="_new">o'rinbosarlik forumiga</a> tashrif bering.</p>
+
+	<!-- Предупреждения установщика при обновлении -->
+	<message key="site.upgradeAvailable.admin"><![CDATA[OJS uchun yangi versiya mavjud! Siz hozir OJS {$currentVersion} foydalanmoqdasiz. Eng so'nggi versiya — OJS {$latestVersion}. Iltimos, yangi versiyani yuklab olish va yangilash bo'yicha qo'llanmani olish uchun <a href="http://pkp.sfu.ca/ojs_download" target="_new">ushbu sahifaga</a> kirib oling.]]> 
+		</message>
+	<message key="site.upgradeAvailable.manager"><![CDATA[OJS uchun yangi versiya mavjud! Siz hozir OJS {$currentVersion} foydalanmoqdasiz. Eng so'nggi versiya — OJS {$latestVersion}. Iltimos, ushbu yangi versiyadan ma'lum etish uchun sayt administratoriga ({$siteAdminName}, <a href="mailto:{$siteAdminEmail}">{$siteAdminEmail}</a>) murojaat qiling. Batafsil ma'lumotlar <a href="http://pkp.sfu.ca/ojs_download" target="_new">bu joyda</a> topilishi mumkin.]]>
+		</message>
+	
+	<!-- Записи в журнале событий о статьях -->
+	<message key="log.author.documentRevised">Muallif {$authorName} {$submissionId} maqolasini to'g'riladi. Yangi fayl ID - {$fileId}.</message>
+	<message key="log.review.reviewerUnassigned">{$reviewerName} rivojlanganligi {$round}-bosqichda {$submissionId} materialining ko'rib chiqilishidan bo'shatildi.</message>
+	<message key="log.review.reviewInitiated">{$round}-bosqichda {$submissionId} materialini {$reviewerName} tomonidan boshlandi.</message>
+	<message key="log.review.reviewReinitiated">{$round}-bosqichda {$submissionId} materialini {$reviewerName} tomonidan qayta boshlandi.</message>
+	<message key="log.review.reviewCleared">{$round}-bosqichda {$submissionId} materialini {$reviewerName} tomonidan tozalangan.</message>
+	<message key="log.review.reviewerRated">{$reviewerName} {$round}-bosqichda {$submissionId} materialining baholashiga tayinlandi.</message>
+	<message key="log.review.reviewDueDateSet">{$round}-bosqichdagi {$submissionId} materialining ko'rib chiqilish muddati {$reviewerName} tomonidan {$dueDate} ga sozlandi.</message>
+	<message key="log.review.reviewRecommendationSet">{$round}-bosqichdagi {$submissionId} materialining tavsiyasi {$reviewerName} tomonidan belgilandi.</message>
+	<message key="log.review.reviewRecommendationSetByProxy">{$round}-bosqichdagi {$submissionId} materialining tavsiyasi {$reviewerName} tomonidan belgilandi. ({$editorName}) tomonidan belgilangan.</message>
+	<message key="log.review.resubmit">{$submissionId} materiali qayta ko'rib chiqilish uchun yuborildi.</message>
+	<message key="log.review.reviewDeclined">{$reviewerName} {$submissionId} materialining {$round}-bosqichdagi ko'rib chiqilishidan rad etdi.</message>
+	<message key="log.review.reviewAccepted">{$reviewerName} {$submissionId} materialining {$round}-bosqichdagi ko'rib chiqilishiga rozilik bildirdi.</message>
+	<message key="log.review.reviewDeclinedByProxy">{$userName} {$reviewerName} tomonidan belgilangan {$submissionId} materialining {$round}-bosqichdagi ko'rib chiqilishidan rad etdi.</message>
+	<message key="log.review.reviewAcceptedByProxy">{$userName} {$reviewerName} tomonidan belgilangan {$submissionId} materialining {$round}-bosqichdagi ko'rib chiqilishiga rozilik bildirdi.</message>
+	<message key="log.review.reviewFileByProxy">{$userName} {$reviewerName} tomonidan belgilangan {$submissionId} materialining {$round}-bosqichdagi ko'rib chiqilish fayli yuklandi.</message>
+	<message key="log.review.reviewerFile">Ko'rib chiqilish fayli yuklandi.</message>
+	<message key="log.editor.decision">{$submissionId} maqolasiga {$decision} aniqlangan muhokama qabul qilindi. ({$editorName} tomonidan)</message>
+	<message key="log.editor.recommendation">{$submissionId} maqolasiga {$decision} tavsiyasi berildi. ({$editorName} tomonidan)</message>
+
+
+	<message key="log.copyedit.initiate">{$copyeditorName} tomonidan {$submissionId} materiali uchun redaktura boshlandi.</message>
+	<message key="log.copyedit.copyeditFileSet">Redaktura uchun standart fayl tanlandi.</message>
+	<message key="log.copyedit.initialEditComplete">Literatura redaktori {$copyeditorName} asosiy redakturani {$submissionId} materialini tugatdi.</message>
+	<message key="log.copyedit.finalEditComplete">Literatura redaktori {$copyeditorName} boshlang'ich tahrirni {$submissionId} materialini tugatdi.</message>
+	<message key="log.copyedit.copyeditorAssigned">Literatura redaktori {$copyeditorName} {$submissionId} materiali uchun tayinlandi.</message>
+	<message key="log.copyedit.copyeditorFile">Literatura redaktori tomonidan tuzilgan materialning versiyasi saytga yuklandi.</message>
+	<message key="log.copyedit.authorFile">Muallif tomonidan literatura redaktori bosqichida tuzilgan materialning versiyasi saytga yuklandi.</message>
+
+	<message key="log.layout.layoutEditorAssigned">Tayyorlovchi {$editorName} {$submissionId} materiali uchun tayyorlovchi sifatida tayinlandi.</message>
+	<message key="log.layout.layoutEditorUnassigned">Tayyorlovchi {$editorName} {$submissionId} materiali tayyorlashdan ozod qilingan.</message>
+	<message key="log.layout.layoutEditComplete">Tayyorlovchi {$editorName} {$submissionId} materialini tayyorladi.</message>
+
+	<message key="log.editor.metadataModified">Bu maqolaning metadata-lari redaktor ({$editorName}) tomonidan o'zgartirildi.</message>
+	<message key="log.editor.editorFile">Redaktor tomonidan tuzilgan materialning versiyasi saytga yuklandi.</message>
+	<message key="log.editor.archived">{$submissionId} materiali arxivga o'chirildi.</message>
+	<message key="log.editor.restored">{$submissionId} materiali arxivdan qaytarildi va tartibga olinmoqda.</message>
+	<message key="log.editor.editorAssigned">Redaktor {$editorName} {$submissionId} materiali uchun redaktor sifatida tayinlandi.</message>
+
+	<message key="log.proofread.assign">Foydalanuvchi {$assignerName} foydalanuvchi {$proofreaderName}ni {$submissionId} materialining korrketor qilishiga tayinladi.</message>
+	<message key="log.proofread.complete">Korrekto {$proofreaderName} {$submissionId} materialini nashr qilish uchun yuborildi.</message>
+
+	<message key="log.imported">Foydalanuvchi {$userName} {$submissionId} maqolasini import qildi.</message>
+
+	<!-- Строки для инструментов читателя -->
+
+
+	<!-- Настройки инструментов читателя -->
+	<message key="rt.admin.settings">O'quvchi vositalari sozlamalari</message>
+
+	<message key="rt.admin.settings.description">O'quvchi vositalari maqolalarni, indeksatsiyaga yo'naltirilgan jurnallar bo'limlarida chiqadi. O'quvchi vositalari chop etilgan material uchun qo'shimcha vositalar to'plamidan va soha bo'yicha bog'langan materiallarga kirish vositalar to'plamidan iborat.</message>
+	<message key="rt.admin.settings.enableReadingTools">O'quvchi vositalarini ko'rsatilgan jurnallar bo'limlari uchun yoqish.</message>
+	<message key="rt.admin.settings.relatedItems">Ilm sohasi</message>
+	<message key="rt.admin.settings.relatedItemsLink"><![CDATA[Ko'rsatilgan har bir soha uchun bog'langan materiallarni ko'rish, qo'shish, o'zgartirish va o'chirish uchun <a href="{$relatedItemsLink}" class="action">Bog'langan materiallar to'plamlari</a>ga murojaat qiling.]]></message>
+
+	<message key="rt.admin.options">Vositalar (jurnal materiallari)</message>
+	<message key="rt.admin.relatedItems">Vositalar (bog'langan materiallar)</message>
+
+	<message key="rt.admin.settings.addComment">Izoh qo'shish (foydalanuvchilar izohlarni qoldira olishlari mumkin, uni jurnal boshqaruvchisi o'chirishi mumkin).</message>
+	<message key="rt.admin.settings.addComment.authenticated">Foydalanuvchilar izohlarini qoldirish uchun ro'yxatdan o'tishi va tizimga kirishi kerak, anonim izohlar taqiqlanadi.</message>
+	<message key="rt.admin.settings.addComment.anonymous">Foydalanuvchilar izohlarini qoldirish uchun ro'yxatdan o'tishi va tizimga kirishi kerak, anonim izohlar ruxsat etilgan.</message>
+	<message key="rt.admin.settings.addComment.unauthenticated">Foydalanuvchilar izohlarini qoldirish uchun ro'yxatdan o'tishi shart emas, anonim izohlar ruxsat etilgan.</message>
+
+	<!-- Версии инструментов читателя -->
+
+	<!-- Контексты инструментов читателя -->
+
+	<!-- Поисковые системы в инструментах читателя -->
+
+	<message key="rt.admin.validateUrls.description"><![CDATA[Quyida ko'rsatilgan sayt manzillari (URL) potentsial noto'g'ri hisoblanadi.<br />
+Barcha noto'g'ri hisoblangan manzillarni qo'llik vaqtida tekshirishingiz kerak, chunki bu test 100% to'g'ri emas.<br />
+Tekshirish, qidiruv formasini to'ldirishni talab qiladigan qidiruv saytlaridagi manzillarda muddatli bo'lishi mumkin.]]></message>
+
+	<!-- Сущности в инструментах читателя -->
+
+
+
+
+	<message key="rt.metadata.dublinCore.primaryAuthor">Yaratuvchi</message>
+
+	<message key="rt.metadata.pkp.primaryAuthor">Muallif, tashkilot, mamlakat</message>
+	<message key="rt.metadata.pkp.peerReviewed">Reja reyting</message>
+
+	<message key="rt.beNotifiedWhen">Bildirishnomani qabul qilish</message>
+
+	<message key="rt.thisJournal">Jurnalda qidirish</message>
+
+	<message key="rt.context.authorTermsDescription">Bir nechta muallifli materiallar uchun barcha mualliflarni belgilang, ularning birgalikda mualliflik qilgan ishlarni o'rganish uchun yoki faqat bir muallifga qidirish uchun faqat bir necha ismni belgilang. Qidiruvni amalga oshirayotgan manbani o'rganish uchun "MANBA HAQIDA" tugmasini bosing. Ushbu manbalar mavzuga mos kelish va o'z ichiga barcha kontentini ochiq (ozod) qilishadi uchun tanlangan, shuning uchun ular tanlandi.</message>
+
+
+	<!-- Типы уведомлений -->
+
+	<message key="notification.type.editing">Tahrirlash hodisalari</message>
+	<message key="notification.type.submissionSubmitted">Yangi maqola «{$title}» yuborildi.</message>
+	<message key="notification.type.editorDecisionComment">«{$title}» uchun redaksiya qarori to'g'risida izoh qo'shildi.</message>
+	<message key="notification.type.galleyModified">«{$title}» uchun galereya o'zgartirildi.</message>
+	<message key="notification.type.issuePublished">Yangi chiqarilgan soni e'lon qilindi.</message>
+	<message key="notification.type.newAnnouncement">Yangi e'lon yaratildi.</message>
+	<message key="notification.type.reviewerFormComment">«{$title}» uchun rivojlanishi shaklga kiritildi.</message>
+	<message key="notification.type.reviewing">Rivojlanish hodisalari</message>
+	<message key="notification.type.site">Sayt hodisalari</message>
+	<message key="notification.type.submissionComment">Tahrirchilar «{$title}» uchun izoh qoldirdi.</message>
+	<message key="notification.type.submissions">Yuborish jarayoni hodisalari</message>
+	<message key="notification.type.userComment">Foydalanuvchi «{$title}» uchun izoh qoldirdi</message>
+	<message key="notification.type.public">Ommaviy e'lonlar</message>
+	<message key="notification.savedIssueMetadata">Chiqarilgan sonning ma'lumotlari saqlandi.</message>
+	<message key="notification.type.editorAssignmentTask">Yangi maqola yuborildi, uni muharrirga biriktirish kerak.</message>
+	<message key="notification.type.assignProductionUser">«Ishtirokchilar» ro'yxatida «Belgilash» havolasini foydalanuvchi nomlang.</message>
+	<message key="notification.type.awaitingRepresentations">Galereyalar kutilmoqda.</message>
+	<message key="notification.type.publicationScheduled">Ushbu material chop etilishga rejalangan.</message>
+
+	<!--
+	 *
+	 * РАЗНОЕ - Строки, которые не попали в остальные разделы.
+	 *
+	-->
+	<!-- Авторизация -->
+	<message key="user.authorization.copyeditorAssignmentMissing">Kirish taqiqlangan! Siz ushbu maqolaning adabiy muharririga tayinlanmadingiz.</message>
+	<message key="user.authorization.noContext">Kontekstda jurnal yo'q!</message>
+	<message key="user.authorization.sectionAssignment">Siz o'z bo'limiga tegmagan maqolaga kirishga harakat qilmoqdasiz.</message>
+	<message key="user.authorization.invalidIssue">So'ralgan chiqarilgan son noto'g'ri!</message>
+	<message key="user.authorization.invalidCopyditorSubmission">Adabiy muharrir tomonidan yuborilgan versiya noto'g'ri yoki adabiy muharrirlik uchun so'rov yuborilmagan!</message>
+
+	<!-- Значки: Текст "alt" по умолчанию -->
+
+	<!-- Сообщения отладки -->
+	<message key="debug.notes.currencyListLoad">XML-dan "{$filename}" valyuta ro'yxati Yuklandi</message>
+
+	<!-- Действия сетки -->
+	<message key="grid.action.createContext">Yangi jurnal yarating</message>
+
+	<!-- Добавлен здесь, так как может быть использован в панели навигации -->
+	<message key="editor.navigation.issues">Nashrlar</message>
+
+	<message key="notification.type.approveSubmission">Ushbu material endi tasdiqlashni kutmoqda, shundan so'ng u nashrda paydo bo'ladi.</message>
+	<message key="notification.type.approveSubmissionTitle">Tasdiqlashni kutmoqda.</message>
+
+	<message key="user.profile.form.showOtherContexts">Boshqa jurnallarda ro'yxatdan o'ting</message>
+	<message key="user.profile.form.hideOtherContexts">Boshqa jurnallarni yashirish</message>
+
+	<message key="article.view.interstitial">Iltimos, yuklab olish uchun maqola faylini tanlang.</message>
+	<message key="grid.catalogEntry.availableRepresentation.approved">Tasdiqlangan</message>
+	<message key="grid.catalogEntry.availableRepresentation.notApproved">Tasdiqlanishi kutilmoqda</message>
+	<message key="grid.catalogEntry.approvedRepresentation.title">Galereya tasdiqlash</message>
+	<message key="grid.catalogEntry.approvedRepresentation.message"><![CDATA[<p>Ushbu galereyani chop etish uchun tasdiqlang.</p>]]></message>
+	<message key="grid.catalogEntry.approvedRepresentation.removeMessage"><![CDATA[<p>Ushbu galereyaning tasdiqini bekor qilish.</p>]]></message>
+	<message key="search.cli.rebuildIndex.indexing">Indekslash " {$journalName} "</message>
+	<message key="search.cli.rebuildIndex.indexingByJournalNotSupported">Bu qidiruv implementatsiyasi jurnal bo'yicha qayta-indeksatsiyani ruxsat etmaydi.</message>
+	<message key="search.cli.rebuildIndex.unknownJournal">Bu jurnal yo'lida jurnal topilmadi "{$journalPath}"</message>
+
+	<message key="editor.issues.backIssues">Oldingi chiqarilganlar</message>
+	<message key="editor.issues.futureIssues">Kelgusi chiqarilganlar</message>
+	<message key="navigation.subscriptions">Obunalar</message>
+
+
+	<!-- устаревшие строки из OJS 2 для систем, которые были обновлены с OJS 2 -->
+	<message key="log.editor.submissionExpedited">muharriri {$editorName} maqola bo'yicha tahrirlash jarayonini o'z zimmasiga oldi {$submissionId}.</message>
+</locale>

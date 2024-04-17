@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../dtd/locale.dtd">
+
+<!--
+  * locale/ru_RU/installer.xml
+  *
+  * Copyright (c) 2009 Konstantin L. Metlov
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  *
+  * Localization strings for the ru_RU (Русский) locale.
+  * Localization information: https://pkp.sfu.ca/wiki/index.php?title=OJS:_Russian_(ru_RU)
+  -->
+
+<locale name="uz_UZ" full_name="O'zbek">
+	<message key="installer.additionalLocales">Qo'shimcha tillar</message>
+	<message key="installer.administratorAccount">Administrator hisobi</message>
+	<message key="installer.administratorAccountInstructions">Ushbu foydalanuvchi sayt administratori bo'ladi va tizimga to'liq kirish huquqiga ega bo'ladi. Oʻrnatish tugallangandan soʻng qoʻshimcha foydalanuvchi hisoblari yaratilishi mumkin.</message>
+	<message key="installer.checkNo"><![CDATA[<span class="pkp_form_error formError">YO'Q</span>]]></message>
+	<message key="installer.checkYes">Ha</message>
+	<message key="installer.clientCharset">Mijozni kodlash</message>
+	<message key="installer.clientCharsetInstructions">Brauzerlar bilan muloqot qilish uchun ishlatiladigan kodlash.</message>
+	<message key="installer.configFileError"><![CDATA[<tt>config.inc.php</tt> konfiguratsiya fayli mavjud emas yoki o‘qib bo‘lmaydi.]]></message>
+	<message key="installer.connectionCharset">Ma'lumotlar bazasiga ulanish uchun kodlash</message>
+	<message key="installer.contentsOfConfigFile">Konfiguratsiya fayli tarkibi</message>
+	<message key="installer.createDatabase">Yangi ma'lumotlar bazasini yarating</message>
+	<message key="installer.createDatabaseInstructions">Ushbu parametrdan foydalanish uchun ma'lumotlar bazasi ma'lumotlar bazasi masofadan turib ma'lumotlar bazasini yaratish imkoniyatini qo'llab-quvvatlashi kerak va ma'lumotlar bazasi foydalanuvchisi hisob qaydnomangiz yangi ma'lumotlar bazalarini yaratish uchun tegishli huquqlarga ega bo'lishi kerak. Agar ushbu parametrdan foydalanganda oʻrnatish muvaffaqiyatsiz tugasa, serverda maʼlumotlar bazasini qoʻlda yarating va ushbu parametr oʻchirilgan holda oʻrnatishni qayta ishga tushiring.</message>
+	<message key="installer.databaseCharset">Ma'lumotlar bazasini kodlash</message>
+	<message key="installer.databaseDriver">Ma'lumotlar bazasi drayveri</message>
+	<message key="installer.databaseDriverInstructions"><![CDATA[<strong>Kvadrat qavs ichida keltirilgan drayverlarda kerakli PHP kengaytmalari yuklanmagan ko‘rinadi va ulardan birini tanlasangiz, o‘rnatish muvaffaqiyatsiz bo‘lishi mumkin. </strong><br />Yuqorida sanab o‘tilgan qo‘llab-quvvatlanmaydigan ma’lumotlar bazasi drayverlari faqat ma’lumot olish uchun mavjud va ular ishlamaydi.]]></message>
+	<message key="installer.databaseHost">Xost</message>
+	<message key="installer.databaseHostInstructions">TCP/IP o'rniga UNIX domen soketlari yordamida ulanish uchun xost nomini bo'sh qoldiring. Bu sozlama MySQL uchun ixtiyoriydir, agar “localhost” kiritilsa, avtomatik rozetkalardan foydalanadi, lekin PostgreSQL kabi boshqa DBMSlar uchun talab qilinishi mumkin.</message>
+	<message key="installer.databaseName">Ma'lumotlar bazasi nomi</message>
+	<message key="installer.databasePassword">Parol</message>
+	<message key="installer.databaseSettings">Ma'lumotlar bazasi sozlamalari</message>
+	<message key="installer.databaseUsername">Foydalanuvchi nomi</message>
+	<message key="installer.filesDir">Serverga yuklangan fayllar uchun katalog</message>
+	<message key="installer.fileSettings">Fayl sozlamalari</message>
+	<message key="installer.form.clientCharsetRequired">Mijoz kodlashini tanlash kerak.</message>
+	<message key="installer.form.databaseDriverRequired">DBMS drayveri tanlangan bo'lishi kerak.</message>
+	<message key="installer.form.databaseNameRequired">Ma'lumotlar bazasi nomi kerak.</message>
+	<message key="installer.form.emailRequired">Administrator hisobi uchun yaroqli elektron pochta manzili talab qilinadi.</message>
+	<message key="installer.form.filesDirRequired">Serverga yuklangan fayllarni saqlash uchun katalog kerak.</message>
+	<message key="installer.form.localeRequired">Til tanlanishi kerak.</message>
+	<message key="installer.form.passwordRequired">Administrator hisobi uchun parol talab qilinadi.</message>
+	<message key="installer.form.passwordsDoNotMatch">Administrator parollari mos emas.</message>
+	<message key="installer.form.separateMultiple">Bir nechta kirish qiymatlarini vergul bilan ajrating</message>
+	<message key="installer.form.usernameAlphaNumeric">Administrator hisobi uchun foydalanuvchi nomi faqat harflar, raqamlar, pastki chiziq va defislardan iborat bo'lishi mumkin; u harf yoki raqam bilan boshlanishi va tugashi kerak.</message>
+	<message key="installer.form.usernameRequired">Administrator hisobi uchun foydalanuvchi nomi talab qilinadi.</message>
+	<message key="installer.installationWrongPhp"><![CDATA[<br/><strong>DIQQAT: PHP-ning joriy versiyasi minimal o'rnatish talablariga javob bermaydi. PHPni yangiroq versiyaga yangilash tavsiya etiladi.</strong>]]></message>
+	<message key="installer.installErrorsOccurred">O‘rnatish vaqtida xatoliklar yuz berdi</message>
+	<message key="installer.installerSQLStatements">O'rnatish uchun SQL so'rovlari</message>
+	<message key="installer.installFileError"><![CDATA[<tt>dbscripts/xml/install.xml</tt> oʻrnatish fayli mavjud emas yoki oʻqib boʻlmaydi.]]></message>
+	<message key="installer.installFilesDirError">Serverga yuklangan fayllarni saqlash uchun katalog sifatida belgilangan katalog,mavjud emas yoki yozish mumkin emas.</message>
+	<message key="installer.installParseDBFileError"><![CDATA[Ma'lumotlar bazasini o'rnatish faylini tahlil qilishda xatolik <tt>{$file}</tt>.]]></message>
+	<message key="installer.installParseEmailTemplatesFileError"><![CDATA[E-pochta shablon faylini tahlil qilishda xatolik yuz berdi <tt>{$file}</tt>.]]></message>
+	<message key="installer.installParseFilterConfigFileError"><![CDATA[Filtr konfiguratsiya faylini tahlil qilishda xatolik yuz berdi <tt>{$file}</tt>.]]></message>
+	<message key="installer.unsupportedUpgradeError">Yangilash qo'llab-quvvatlanmaydi. Batafsil ma’lumot olish uchun docs/YANGILASH-QO‘LLAB-QUVVATLASHMAS sahifasiga qarang.</message>
+	<message key="installer.locale">Til</message>
+	<message key="installer.locale.maybeIncomplete">Belgilangan tillarni qo‘llab-quvvatlash to‘liq bo‘lmasligi mumkin.</message>
+	<message key="installer.localeSettings">Til sozlamalari</message>
+	<message key="installer.oaiSettings">OAI sozlamalari</message>
+	<message key="installer.oaiRepositoryIdInstructions"><![CDATA[Metama'lumotlar yig'ish protokoli <a href="https://www.openarchives.org/" maqsadli foydalanilganda ushbu saytdan indekslangan metadata yozuvlarini aniqlash uchun foydalaniladigan noyob identifikator ="_blank">Arxivlarni ochish tashabbusi</a>.]]></message>
+	<message key="installer.oaiRepositoryId">Repository ID</message>
+	<message key="installer.publicFilesDirError">Fayllar uchun umumiy katalog mavjud emas yoki yozish mumkin emas.</message>
+	<message key="installer.releaseNotes">Nashr eslatmalari</message>
+	<message key="installer.preInstallationInstructionsTitle">O'rnatishdan oldingi bosqichlar</message>
+	<message key="installer.preInstallationInstructions"><![CDATA[
+	<p>1. Quyidagi fayllar va kataloglar (va ularning mazmuni) yozilishi mumkin bo'lishi kerak:</p>
+	<ul>
+	<li><tt>config.inc.php</tt> yoziladigan (ixtiyoriy): {$writable_config}</li>
+	<li><tt>ommaviy/</tt> yozilishi mumkin: {$writable_public}</li>
+	<li><tt>kesh/</tt> yozilishi mumkin: {$writable_cache}</li>
+	<li><tt>cache/t_cache/</tt> yozish mumkin: {$writable_templates_cache}</li>
+	<li><tt>cache/t_compile/</tt> yozilishi mumkin: {$writable_templates_compile}</li>
+	<li><tt>cache/_db</tt> yozilishi mumkin: {$writable_db_cache}</li>
+	</ul>
+
+	<p>2. Serverga yuklangan fayllarni saqlash uchun katalog yaratilishi va yozilishi kerak (quyidagi “Fayl sozlamalari”ga qarang).</p>]]>
+	</xabar>
+	<message key="installer.configureXSLMessage"><![CDATA[<p>PHP o'rnatishingizda XSL moduli yoqilmagan. Uni yoqing yoki config.inc.php faylida xslt_command sozlamasini sozlang.</p>]]></message>
+	<message key="installer.beacon">Mayoq</message>
+	<message key="installer.beacon.enable">PKP uchun yagona sayt identifikatori va asosiy OAI URL manzilini o‘rnating, bu faqat statistika va xavfsizlik ogohlantirishlarini to‘plash uchun ishlatiladi.</message>
+	<message key="installer.unsupportedPhpError">Serveringizda o'rnatilgan PHP versiyasi ushbu dastur tomonidan qo'llab-quvvatlanmaydi. Iltimos, doc/README.</message> da oʻrnatish talablarini ikki marta tekshiring
+</locale>

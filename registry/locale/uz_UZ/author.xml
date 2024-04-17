@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../lib/pkp/dtd/locale.dtd">
+
+<!--
+  * locale/ru_RU/author.xml
+  *
+  * Copyright (c) 2013-2019 Simon Fraser University
+  * Copyright (c) 2003-2019 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  * Localization information: https://pkp.sfu.ca/wiki/index.php?title=OJS:_Russian_(ru_RU)
+  * Localization strings.
+  -->
+
+<locale name="uz_UZ" full_name="O'zbek">
+	<message key="author.submit">Yangi material</message>
+	<message key="author.track">Faol materiallar</message>
+	<message key="author.competingInterests"><![CDATA[Конфликт&nbsp;интересов <a target="_new" class="action" href="{$competingInterestGuidelinesUrl}">Правила о конфликте интересов</a>]]></message>
+	<message key="author.submit.submitArticle">Maqolani yuboring</message>
+	<message key="author.submit.stepsToSubmit">Yuborish uchun beshta qadam</message>
+	<message key="author.submit.startHereTitle">Yangi material yuborishni boshlang</message>
+	<message key="author.submit.startHereLink"><![CDATA[<a href="{$submitUrl}" class="action">Нажмите здесь</a>, чтобы перейти к первому из пяти шагов процесса отправки.]]></message>
+	<message key="author.submit.step1">Qadam 1. Yuborishni boshlash</message>
+	<message key="author.submit.step2">Qadam 2. Materialni yuklash</message>
+	<message key="author.submit.step3">Qadam 3. Material metama'lumotlarini kiritish</message>
+	<message key="author.submit.step4">Qadam 4. Qo'shimcha fayllarni yuklab olish</message>
+	<message key="author.submit.step4a">Qadam 4a. qo'shimcha fayl qo'shing</message>
+	<message key="author.submit.step5">Qadam 5. Material yuborilganligini tasdiqlash</message>
+	<message key="author.submit.start">Boshlanish</message>
+	<message key="author.submit.upload">Materialni yuklash</message>
+	<message key="author.submit.metadata">Metadata kiritish</message>
+	<message key="author.submit.supplementaryFiles">Qo'shimcha fayllarni yuklab olish</message>
+	<message key="author.submit.confirmation">Tasdiqlash</message>
+	<message key="author.submit.nextSteps">Keyingi qadamlar</message>
+	<message key="submission.submit.cancelSubmission">Ushbu jo'natishni keyinroq muallifning bosh sahifasidan "faol materiallar" ni tanlash orqali tugatishingiz mumkin.</message>
+	<message key="author.submit.notAccepting">Ushbu jurnal hozirda materiallarni qabul qilmaydi.</message>
+	<message key="author.submit.requestWaiver">To'lovni bekor qilish so'rovi</message>
+	<message key="author.submit.qualifyForWaiver">Iltimos, ushbu maqolani yuborish uchun to'lovni bekor qilishni o'ylab ko'ring</message>
+	<message key="author.submit.addReasonsForWaiver">Iltimos, to'lovni bekor qilish sabablarini ko'rsatish uchun quyidagi sharhlar maydonidan foydalaning.</message>
+	<message key="author.submit.mustEnterWaiverReason">Agar siz jo'natish to'lovini bekor qilishni so'rasangiz, sababni tegishli maydonga kiritishingiz kerak.</message>
+	<message key="author.submissions.queuedReviewSubsequent">Sharhda: (raund {$round})</message>
+	<message key="author.submissions.queuedReviewRevisions">Sharhlarda: o'zgarishlar talab qilinadi</message>
+	<message key="author.submissions.queuedEditingCopyedit">Tahririyatda: adabiy tahrir talab qilinadi</message>
+	<message key="author.submissions.queuedEditingProofread">Tahrirda: korrektura talab qilinadi</message>
+	<message key="author.submissions.uploadCopyeditedVersion">Adabiy tahrirdan o'tgan versiyani yuklab olish</message>
+	<message key="author.submissions.proofreadingCorrections">Tuzatish paytida tuzatishlar</message>
+	<message key="author.submissions.confirmDelete">Yuborish tugallanmagan ushbu materialni olib tashlamoqchi ekanligingizga ishonchingiz komilmi?</message>
+	<message key="author.submissions.viewStatus">Holatni ko'rsatish</message>
+	<message key="author.submissions.noSubmissions">Yuborilgan materiallar yo'q.</message>
+	<message key="author.submit.journalSection">Jurnal bo'limi</message>
+	<message key="author.submit.journalSectionDescription"><![CDATA[Ushbu material uchun mos bo'limni tanlang (<A href=" {$aboutUrl}"target=" _new">"jurnal haqida"sahifasidagi"bo'limlar va qoidalar" ga qarang</a>).]]></message>
+	<message key="author.submit.verifyChecklist">Davom etish uchun siz jo'natish nazorat ro'yxatidagi barcha narsalar bajarilganligiga ishonch hosil qilishingiz kerak.</message>
+	<message key="author.submit.copyrightNoticeAgree">Mualliflar mualliflik huquqini topshirish shartlariga rozi bo'lishadi, agar u ushbu jurnal tomonidan nashr etilgan bo'lsa, ushbu materialga nisbatan qo'llaniladi (quyida muharrirga sharhlar qo'shilishi mumkin).</message>
+	<message key="author.submit.copyrightNoticeAgreeRequired">Davom etish uchun siz mualliflik huquqini topshirish shartlarini qabul qilishingiz kerak.</message>
+	<message key="submission.submit.coverNote">Muharrir uchun sharhlar</message>
+	<message key="author.submit.comments">Matnni kiriting (shart emas)</message>
+	<message key="author.submit.form.sectionRequired">Iltimos, ushbu material uchun tegishli jurnal bo'limini tanlang.</message>
+	<message key="author.submit.form.localeRequired">Iltimos, yuborilgan material tilini tanlang.</message>
+	<message key="submission.submit.privacyStatement">Maxfiylik jurnali bayonoti</message>
+	<message key="author.submit.reorderInstructions">Mualliflarning ismlarini nashrda ko'rsatilishi kerak bo'lgan tartibda o'zgartiring.</message>
+	<message key="author.submit.reorder">Muallifning ismini ko'chiring</message>
+	<message key="author.submit.selectPrincipalContact">Tahririyat bilan yozishmalar uchun asosiy muallif.</message>
+	<message key="author.submit.addAuthor">Muallifni qo'shing</message>
+	<message key="author.submit.deleteAuthor">Muallifni olib tashlang</message>
+	<message key="author.submit.submissionIndexingDescription">Ushbu materialni indekslash uchun kalit so'zlarni ko'rsating; kalit so'zlarni nuqta-vergul bilan ajrating (so'z1; so'z2; so'z3).</message>
+	<message key="author.submit.coverageInstructions">Tadqiqotingizning geografik, xronologik yoki tarixiy qamrovini va/yoki o'rganilayotgan ob'ektning xususiyatlarini tasvirlab bering.</message>
+	<message key="author.submit.languageInstructions"><![CDATA[English=en; French=fr; Spanish=es; O'zbek=uz. <a href="http://www.loc.gov/standards/iso639-2/php/code_list.php" target="_blank">Qo'shimcha kodlar</a>.]]></message>
+	<message key="author.submit.form.authorRequired">Kamida bitta muallif talab qilinadi.</message>
+	<message key="author.submit.form.authorRequiredFields">Har bir muallif uchun ism, familiya va elektron pochta manzilini kiritganingizga ishonch hosil qiling.</message>
+	<message key="author.submit.form.titleRequired">Iltimos, maqolangizning sarlavhasini kiriting.</message>
+	<message key="author.submit.form.abstractRequired">Iltimos, maqolangizning izohini kiriting.</message>
+	<message key="author.submit.form.wordCountAlert">Siz ushbu bo'limda izohlash uchun maksimal so'zlardan oshib ketdingiz.</message>
+	<message key="author.submit.submissionFile">Yuborilgan fayl</message>
+	<message key="author.submit.uploadSubmissionFile">Yuborish uchun faylni yuklab oling</message>
+	<message key="author.submit.replaceSubmissionFile">Yuborish uchun faylni almashtiring</message>
+	<message key="author.submit.noSubmissionFile">Yuborilgan fayl yuklanmagan.</message>
+	<message key="author.submit.noSubmissionConfirm">Siz yuborgan material bilan faylni yuklab olmasdan davom etishni xohlayotganingizga aminmisiz?</message>
+	<message key="author.submit.supplementaryFilesInstructions">Ushbu qadam ixtiyoriy, bu sizning materialingizga qo'shimcha fayllarni qo'shish imkonini beradi. Ushbu fayllar har qanday formatda bo'lishi mumkin va (a) tadqiqot o'tkazish uchun ishlatiladigan dasturlar, (b) qabul qilingan tadqiqot etikasi qoidalariga muvofiq tuzilgan ma'lumotlar to'plamlari, (c) o'quvchilar uchun boshqa yo'l bilan mavjud bo'lmagan manbalar, (d) rasmlar va jadvallar. o'zi matn yoki asarga qiymat qo'shadigan boshqa materiallar.</message>
+	<message key="author.submit.supplementaryFiles.saveToUpload">Faylni yuklab olish uchun "Saqlash" tugmasini bosing (keyin boshqa fayllarni yuklab olish mumkin bo'ladi).</message>
+	<message key="author.submit.forgottenSubmitSuppFile">Siz tanlagan qo'shimcha faylni yuklab olmasdan davom etishni xohlayotganingizga aminmisiz?</message>
+	<message key="author.submit.noSupplementaryFiles">Ushbu materialga qo'shimcha fayllar qo'shilmagan.</message>
+	<message key="author.submit.backToSupplementaryFiles">Qo'shimcha fayllarga qaytish</message>
+	<message key="author.submit.confirmDeleteSuppFile">Ushbu qo'shimcha faylni o'chirishni xohlayotganingizga aminmisiz?</message>
+	<message key="author.submit.uploadSuppFile">Qo'shimcha faylni yuklab olinsh</message>
+	<message key="author.submit.addSupplementaryFile">Qo'shimcha fayl qo'shing</message>
+	<message key="author.submit.editSupplementaryFile">Qo'shimcha faylni tahrirlash</message>
+	<message key="author.submit.supplementaryFileData">Qo'shimcha fayl metama'lumotlari</message>
+	<message key="author.submit.supplementaryFileDataDescription">Qo'shimcha materialni indeksatsiya qilish uchun yuklab olingan qo'shimcha fayl uchun quyidagi Metama'lumotlarni kiriting.</message>
+	<message key="author.submit.supplementaryFileUpload">Qo'shimcha fayl</message>
+	<message key="author.submit.suppFile.createrOrOwner">Fayl yaratuvchisi (yoki egasi)</message>
+	<message key="author.submit.suppFile.researchInstrument">Tadqiqot vositasi</message>
+	<message key="author.submit.suppFile.researchMaterials">Tadqiqot materiallari</message>
+	<message key="author.submit.suppFile.researchResults">Tadqiqot natijalari</message>
+	<message key="author.submit.suppFile.transcripts">Transkriptlar</message>
+	<message key="author.submit.suppFile.dataAnalysis">Ma'lumotlarni tahlil qilish</message>
+	<message key="author.submit.suppFile.dataSet">Ma'lumotlar to'plami</message>
+	<message key="author.submit.suppFile.sourceText">Manba matni</message>
+	<message key="author.submit.suppFile.briefDescription">Qisqacha tavsif</message>
+	<message key="author.submit.suppFile.availableToPeers">Faylni sharhlovchilarga taqdim eting (metama'lumotlarsiz), chunki u ko'r-ko'rona ko'rib chiqish talablarini buzmaydi.</message>
+	<message key="author.submit.suppFile.publisherDescription">Faqat rasmiy nashr etilgan materiallar uchun foydalaning.</message>
+	<message key="author.submit.suppFile.dateDescription">Ma'lumotlarni yig'ish yoki vositani yaratish sanasi.</message>
+	<message key="author.submit.suppFile.sourceDescription">Tadqiqot nomi yoki boshqa material manbalari.</message>
+	<message key="author.submit.suppFile.specifyOtherType">Boshqasini ko'rsatish</message>
+	<message key="author.submit.suppFile.noFile">Yuklab olingan fayllar yo'q.</message>
+	<message key="author.submit.suppFile.form.titleRequired">Iltimos, ushbu qo'shimcha fayl nomini kiriting.</message>
+	<message key="author.submit.suppFile.form.subjectRequired">Iltimos, mavzuni kiriting.</message>
+	<message key="author.submit.suppFile.form.descriptionRequired">Iltimos, tavsifni kiriting.</message>
+	<message key="author.suppFile.suppFilePublicIdentificationExists">Qo'shimcha faylning ochiq identifikatsiyasi allaqachon mavjud.</message>
+	<message key="author.suppFile.publicSuppFileIdentifier">Qo'shimcha fayl uchun ochiq identifikator</message>
+	<message key="author.submit.confirmationDescription">Materialingizni "{$journalTitle}" jurnaliga yuborish uchun "yuborishni tugatish"tugmasini bosing. Tahririyat bilan yozishmalar uchun ko'rsatilgan asosiy muallif elektron pochta orqali tasdiqni oladi va jurnal veb-saytiga kirib, tahririyat jarayoni orqali materialning o'tishini kuzatish imkoniyatiga ega bo'ladi. "{$JournalTitle} " jurnalida nashr etishga qiziqishingiz uchun tashakkur.</message>
+	<message key="author.submit.noFiles">Ushbu yuborilgan materialga hech qanday fayl biriktirilmagan.</message>
+	<message key="author.submit.filesSummary">Fayl tafsilotlari</message>
+	<message key="author.submit.finishSubmission">Yuborishni tugating</message>
+	<message key="author.submit.submissionComplete">Materiallar yuborildi. "{$JournalTitle} " jurnalida nashr etishga qiziqishingiz uchun tashakkur.</message>
+	<message key="author.article.uploadAuthorVersion">Muallifning versiyasini yuklab oling</message>
+	<message key="author.article.copyeditedFile">Adabiy tahrirdan keyingi fayl</message>
+	<message key="author.article.authorRevisedFile">Muallif fayli</message>
+	<message key="author.submit.authorSubmitLoginMessage">Ushbu jurnalga yuborish uchun hisob qaydnomasi talab qilinadi. Bu bizning muharrirlarimizga siz yuborgan materiallarni kuzatib borish va materialning holati o'zgarganda yoki sizdan ko'proq ma'lumot talab qilinganda siz bilan bog'lanish imkonini beradi.</message>
+</locale>

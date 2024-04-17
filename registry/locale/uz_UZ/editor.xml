@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../lib/pkp/dtd/locale.dtd">
+
+<!--
+  * locale/ru_RU/editor.xml
+  *
+  * Copyright (c) 2013-2019 Simon Fraser University
+  * Copyright (c) 2003-2019 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  * Localization information: https://pkp.sfu.ca/wiki/index.php?title=OJS:_Russian_(ru_RU)
+  * Localization strings.
+  -->
+
+<locale name="uz_UZ" full_name="O'zbek">
+	<message key="editor.home">Muhrirning bosh sahifasi</message>
+	<message key="editor.reassign">Qayta taqsimlash</message>
+	<message key="editor.submissionsAndPublishing">Materiallar va nashr</message>
+	<message key="editor.submissionQueue">Materiallar navbatida</message>
+	<message key="editor.submissionArchive">Materiallar arxiv</message>
+	<message key="editor.publishing">Nashr</message>
+	<message key="editor.publishedIssues">Nashr etilgan chiqimlar</message>
+	<message key="editor.allSections">Barcha bo'limlar</message>
+	<message key="editor.allEditors">Barcha muhrirlar</message>
+	<message key="editor.me">Men</message>
+	<message key="editor.publicIdentificationExists">Ochiq identifikator «{$publicIdentifier}» boshqa ob'ekt (chiqim, maqola, grant yoki qo'shimcha fayl) uchun allaqachon ishlatilmoqda. Iltimos, jurnalingizning chegaralarida yagona identifikatorlarni tanlang.</message>
+	<message key="editor.submissionArchive.noSubmissions">Arxivda materiallar yo'q.</message>
+	<message key="editor.submissionArchive.saveChanges">Materiallar arxividagi o'zgartirishlarni saqlaysizmi? O'chirish uchun belgilangan materiallar doimiy ravishda tizimdan o'chiriladi.</message>
+	<message key="editor.submissionArchive.confirmDelete">Siz haqiqatan ham ushbu materialni doimiy ravishda o'chirib tashlashni istaysizmi?</message>
+	<message key="editor.submissionReview.confirmDecision">Siz haqiqatan ham bu qarorni yozmoqchimisiz?</message>
+	<message key="editor.submissionReview.emailWillArchive">Ushbu material «Muallifga xabar qilish» xat yuborilgan yoki «Xabar yuborilmaydi» tugmasi bosilgandan so'ng arxivga o'tkaziladi.</message>
+	<message key="editor.submissionReview.cannotSendToCopyediting">Materialni adabiy tahrirga yuborishdan oldin, muallifga tanlangan qarorni xabar qilish uchun «Muallifga xabar qilish» havolasidan foydalaning va yuborish kerak bo'lgan versiyani tanlang.</message>
+	<message key="editor.notifyUsers">Foydalanuvchilarga xabar qilish</message>
+	<message key="editor.notifyUsers.allReaders">Barcha o'qituvchilar ({$count} foydalanuvchi)</message>
+	<message key="editor.notifyUsers.allAuthors">Barcha chop etilgan mualliflar ({$count} foydalanuvchi)</message>
+	<message key="editor.notifyUsers.allIndividualSubscribers">Barcha individual obunachilar ({$count} foydalanuvchi)</message>
+	<message key="editor.notifyUsers.allInstitutionalSubscribers">Barcha tashkiliy obunachilar ({$count} foydalanuvchi)</message>
+	<message key="editor.notifyUsers.inProgress">Foydalanuvchilarga xabarlar yuborilmoqda...</message>
+	<message key="editor.usersNotified">Foydalanuvchilar xabardor qilingan</message>
+	<message key="editor.notifyUsers.allUsers">Bu xabarini ushbu jurnallarga bog'liq barcha foydalanuvchilarga yuboring ({$count} foydalanuvchi)</message>
+	<message key="editor.notifyUsers.interestedUsers">Bu xabarini ushbu jurnallarga bog'liq foydalanuvchilar uchun yuboring, ular bu xabarni qabul qilishni istaganlarini bildirgan ({$count} foydalanuvchi)</message>
+	<message key="editor.notifyUsers.includeToc">Bu sonning mazmunini qo'shish:</message>
+	<message key="editor.editorAdministration">Muhrir: Ma'muriyati</message>
+	<message key="editor.issues.createIssue">Chiqim yaratish</message>
+	<message key="editor.issues.editIssue">Chiqimni boshqarish: {$issueIdentification}</message>
+	<message key="editor.issues.currentIssue">Joriy chiqim</message>
+	<message key="editor.issues.numArticles">Materiallar soni</message>
+	<message key="editor.issues.noArticles">Hozircha ushbu chiqim uchun rejalashtirilgan materiallar yo'q.</message>
+	<message key="editor.issues.confirmDelete">Siz haqiqatan ham ushbu chiqimni doimiy ravishda o'chirib tashlashni istaysizmi?</message>
+	<message key="editor.issues.published">Nashr etilgan</message>
+	<message key="editor.issues.unpublished">Nashr etilmagan</message>
+	<message key="editor.issues.datePublished">Nashr etilgan sana</message>
+	<message key="editor.issues.volumeRequired">Tom raqami majburiy va musbat son bo'lishi kerak.</message>
+	<message key="editor.issues.numberRequired">Chiqim raqami majburiy va musbat son bo'lishi kerak.</message>
+	<message key="editor.issues.yearRequired">Yil raqami majburiy va musbat son bo'lishi kerak.</message>
+	<message key="editor.issues.titleRequired">Chiqim uchun nom majburiy.</message>
+	<message key="editor.issues.issueIdentificationRequired">Chiqimning identifikatsiyasi majburiy. Iltimos, chiqim identifikatsiyasidan kamida bitta variantni tanlang.</message>
+	<message key="editor.issues.issueIdentification">Chiqimning identifikatsiyasi</message>
+	<message key="editor.issues.publicIssueIdentifier">Ochiq chiqim identifikatori</message>
+	<message key="editor.issues.description">Ta'rif</message>
+	<message key="editor.issues.accessStatus">Kirish holati</message>
+	<message key="editor.issues.accessDate">Ochiq kirish sanasi</message>
+	<message key="editor.issues.enableOpenAccessDate">Cheklangan ochiq kirishni yoqish</message>
+	<message key="editor.issues.coverPage">Muqova tasviri</message>
+	<message key="editor.issues.coverPageInstructions">(Ruxsat etilgan formatlar: .gif, .jpg, yoki .png)</message>
+	<message key="editor.issues.uploaded">Yuklandi</message>
+	<message key="editor.issues.remove">Olib tashlash</message>
+	<message key="editor.issues.proofed">Tekshirildi</message>
+	<message key="editor.issues.removeCoverPage">Muqova tasvirini olib tashlash?</message>
+	<message key="editor.issues.removeCoverImageFileNameMismatch">Olib tashlashni istagan muqova tasviri, ushbu chiqimga mos kelmadi. Iltimos, sahifani qayta yuklang va qayta urinib ko'ring.</message>
+	<message key="editor.issues.removeCoverImageFileNotFound">Olib tashlashni istagan muqova tasviri topilmadi. Ehtimal, uni allaqachon o'chirganlar. Sahifani qayta yuklab ko'ring.</message>
+	<message key="editor.issues.invalidCoverImageFormat">Noto'g'ri muqova tasviri formati. Ruxsat etilgan formatlar: .gif, .jpg, yoki .png.</message>
+	<message key="editor.issues.styleFile">Stillar jadvali</message>
+	<message key="editor.issues.invalidStyleFormat">Noto'g'ri stil fayli formati. Sizni jo'natilgan faylning sintaksis ravishda to'g'ri CSS fayl ekanligini ta'minlang. (E'tibor bering, stil jadvalining boshida qo'yilgan izohlar tizim tomonidan qabul qilinmasligi uchun ushbu faylni qabul qilishga qaror qilishi mumkin.)</message>
+	<message key="editor.issues.removeStyleFile">Stil jadvalini olib tashlash?</message>
+	<message key="editor.issues.coverPageCaption">Muqova sarlavhasi</message>
+	<message key="editor.issues.showCoverPage">Ushbu chiqim uchun quyidagi elementlarga ega bo'lgan muqova yarating.</message>
+	<message key="editor.issues.coverPageDisplay">Ko'rsatish</message>
+	<message key="editor.issues.openAccess">Ochiq kirish</message>
+	<message key="editor.issues.subscription">Obuna</message>
+	<message key="editor.issues.identification">Identifikatsiya</message>
+	<message key="editor.issues.access">Kirish</message>
+	<message key="editor.issues.cover">Muqova</message>
+	<message key="editor.issues.confirmIssueDelete">Barcha maqolalar muharriri qatoriga qaytariladi va ular bilan bog'liq barcha fayllar doimiy ravishda o'chiriladi. Siz haqiqatan ham ushbu chiqimni o'chirib tashlashni istaysizmi?</message>
+	<message key="editor.issues.resetIssueOrder"><![CDATA[Bu jurnal maxsus chiqim tartiblash usuli foydalanadi. <a href="{$url}" class="action">Standart tartibga qaytish</a>]]></message>
+	<message key="editor.issues.resetSectionOrder"><![CDATA[Bu jurnal maxsus bo'limlar tartiblash usuli foydalanadi. <a href="{$url}" class="action">Standart tartibga qaytish</a>]]></message>
+	<message key="editor.issues.issueData">Chiqim ma'lumotlari</message>
+	<message key="editor.issues.saveChanges">Chiqim ma'lumotlaridagi o'zgartirishlarni saqlaysizmi?</message>
+	<message key="editor.issues.default">Standart</message>
+	<message key="editor.issues.order">Tartib</message>
+	<message key="editor.issues.publicId">Ochiq ID</message>
+	<message key="editor.issues.publishIssue">Chiqimni chop etish</message>
+	<message key="editor.issues.unpublishIssue">Chiqim chop etishni bekor qilish</message>
+	<message key="editor.issues.previewIssue">Chiqimning oldindan ko'rish</message>
+	<message key="editor.issues.preview">Oldindan ko'rish</message>
+	<message key="editor.issues.confirmPublish">Siz haqiqatan ham yangi chiqimni chop etishni istaysizmi?</message>
+	<message key="editor.issues.confirmUnpublish">Siz haqiqatan ham ushbu chop etilgan chiqim chop etishni istaysizmi?</message>
+	<message key="editor.issues.confirmSetCurrentIssue">Siz haqiqatan ham ushbu chiqimni joriy qilishni istaysizmi?</message>
+	<message key="editor.issues.publicArticleIdExists">Maqola uchun ochiq identifikatorni saqlab bo'lmadi:</message>
+	<message key="editor.issues.noLiveIssues">Chop etilmagan chiqimlar yo'q</message>
+	<message key="editor.issues.open">Ochish</message>
+	<message key="editor.issues.pages">Sahifalar</message>
+	<message key="editor.issues.galleys">Chiqimning granklari</message>
+	<message key="editor.issues.galley">Chiqimning grankasi</message>
+	<message key="editor.issues.viewingGalley">Chiqimning grankasini ko'rish</message>
+	<message key="editor.issues.issueGalleysDescription">Chiqimning to'liq mazmuni bilan grankalar chop etiladi.</message>
+	<message key="editor.issues.noneIssueGalleys">Chiqimning chop etilmagan grankalari yo'q.</message>
+	<message key="editor.issues.galleyLabelRequired">Chiqimning grankasining belgilanishi majburiy.</message>
+	<message key="editor.issues.galleyLocaleRequired">Chiqimning grankasining tilini ko'rsatish majburiy.</message>
+	<message key="editor.issues.galleyPublicIdentificationExists">Chiqimning grankasining ochiq identifikatsiyasi allaqachon mavjud.</message>
+	<message key="editor.issues.backToIssueGalleys">Chiqimning grankalariga qaytish</message>
+	<message key="editor.issues.confirmDeleteGalley">Ushbu chiqimning grankasini o'chirib tashlashga ishonchingiz komilmi?</message>
+	<message key="editor.issues.identifiers">Identifikatorlar</message>
+	<message key="editor.navigation.futureIssues">Kelgusi chiqimlar</message>
+	<message key="grid.action.addGalley">Granka qo'shish</message>
+	<message key="grid.action.publish">Chiqimni chop etish</message>
+	<message key="grid.action.addIssue">Chiqim yaratish</message>
+	<message key="grid.action.viewIssue">Ko'rsatish</message>
+	<message key="grid.action.previewIssue">Oldindan ko'rish</message>
+	<message key="grid.action.addIssueGalley">Chiqimning grankasini yaratish</message>
+	<message key="grid.action.setCurrentIssue">Joriy chiqimni sozlash</message>
+	<message key="editor.navigation.issueArchive">Eski chiqimlar</message>
+	<message key="editor.article.designateReviewVersion">Asl faylni taqdim etilgan versiyaga e'tibor berish</message>
+	<message key="editor.article.decision">Qaror</message>
+	<message key="editor.submissions.showBy">Ko'rsatish bo'yicha</message>
+	<message key="editor.submissions.submitMMDD">MM-DD jo'natish</message>
+	<message key="editor.submissions.activeAssignments">Faol tayinlar</message>
+	<message key="editor.submissions.invite">Taklif qilish</message>
+	<message key="editor.submissions.accept">Qabul qilish</message>
+	<message key="editor.submissions.noSubmissions">Jo'natilgan maqolalar yo'q</message>
+	<message key="editor.submissions.lastAssigned">Oxirgi</message>
+	<message key="editor.submissions.averageTime">Oylik</message>
+	<message key="editor.submissions.lastCompleted">So'nggi yakunlangan</message>
+	<message key="editor.submissions.assignedTo">Kimga tayinlangan</message>
+	<message key="editor.submissions.inSection">Bo'limda</message>
+	<message key="editor.article.schedulePublication">Nashr uchun jadval</message>
+	<message key="editor.article.scheduleForPublication">Nashr uchun jadvalga olish</message>
+	<message key="editor.article.scheduleForPublication.toBeAssigned">Keyinroq tayinlanadi</message>
+	<message key="editor.article.payment.publicationFeeNotPaid">Nashr uchun to'lov o'tmagan. Materialni nashr uchun jadvalga olish uchun muallifga to'lovni amalga oshirish zarur yoki to'lovni bekor qiling deyishni xabar qiling.</message>
+	<message key="editor.article.removeCoverImageFileNotFound">Siz o'chirib tashlashni xohlagan qopning rasm faylini topa olmayman. Mumkin u allaqachon o'chirib tashlandi. Sahifani qayta yuklang.</message>
+	<message key="grid.action.removeArticle">Maqolani chiqarib olib tashlash</message>
+	<message key="editor.article.remove">O'chirish</message>
+	<message key="editor.article.remove.confirm">Haqiqatan ham bu maqolani jurnaldan o'chirmoqchimisiz? Maqola boshqa nashr uchun jadvalga nashr qilish uchun moslashtiriladi.</message>
+	<message key="editor.issues.invalidAccessDate">Kirish sanasi noto'g'ri.</message>
+	<message key="editor.issues.editIssueGalley">Nashrning galereyasini tahrirlash</message>
+	<message key="editor.submission.production.productionReadyFilesDescription"><![CDATA[Dizayner bu fayllarni har bir galereya uchun tayyorlashadi va keyin muharrir tomonidan tekshirish uchun "Muharrirlik" bo'limining maqolasi tegishli joylarga yuklaydi.]]></message>
+	<message key="editor.submission.selectGalleyFiles">Galereya fayllarini tanlash</message>
+	<message key="editor.submission.editorial.finalDraftDescription"><![CDATA[Bu ro'yxatdagi oxirgi hujjatlarni muharrir final variantlariga aylantiradi, ular "Muharrirlik" bo'limida yuklangan muharrirlik versiyalariga aylandi.]]></message>
+	<message key="editor.submission.proof.manageProofFilesDescription">Muharrirlik jarayonida allaqachon yuklangan barcha fayllar "Muharrirlik" ro'yxatiga qo'shila oladi. Buning uchun quyidagi "Qo'shish" tugmasini bosing: mavjud barcha fayllar ro'yxatda ko'rsatiladi va qo'shish uchun tanlanishi mumkin.</message>
+	<message key="editor.publicIdentificationExistsForTheSameType">Ochiq identifikator "{$publicIdentifier}" shu turi boshqa bir obyektda mavjud. Iltimos, jurnalingizdagi bir turdagi obyektlar uchun o'zlariga xos identifikatorlarni tanlang.</message>
+	<message key="editor.article.coverImage">Muqova rasmi</message>
+</locale>

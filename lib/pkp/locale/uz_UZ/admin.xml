@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../dtd/locale.dtd">
+
+<!--
+  * locale/ru_RU/admin.xml
+  *
+  * Copyright (c) 2014-2019 Simon Fraser University
+  * Copyright (c) 2000-2019 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  * Localization information: https://pkp.sfu.ca/wiki/index.php?title=OJS:_Russian_(ru_RU)
+  * Localization strings.
+  -->
+
+<locale name="uz_UZ" full_name="O'zbek">
+	<message key="admin.systemInfo.settingName">Nomini kiriting</message>
+	<message key="admin.systemInfo.settingValue">Qiymatini kiriting</message>
+	<message key="admin.adminFunctions">Admin funktsiyalari</message>
+	<message key="admin.auth.confirmDelete">Siz ushbu autentifikatsiya manbani haliqarib tashlashga ishonchingiz komilmi?</message>
+	<message key="admin.auth.create">Autentifikatsiya manbani yaratish</message>
+	<message key="admin.auth.noneCreated">Autentifikatsiya manbalari aniqlanmagan.</message>
+	<message key="admin.authSources">Autentifikatsiya manbalari</message>
+	<message key="admin.clearDataCache">Ma'lumotlar kesishini tozalash</message>
+	<message key="admin.clearTemplateCache">Shablonlar kesishini tozalash</message>
+	<message key="admin.configFileUpdatedInstructions"><![CDATA[Sizning sozlamalar faylingiz muvaffaqiyatli yangilandi. Iltimos, e'tibor bering, agar veb-saytingiz to'g'ri ishlamasa, sozlamalaringizni qo'llab-quvvatlash uchun, config.inc.php-ni to'g'ri tahrirlash kerak bo'ladi.]]></message>
+	<message key="admin.confirmClearTemplateCache">Siz ishonchingiz komilmi, shablonlarning kompilyatsiya qilingan keshini tozalashni xohlaysiz?</message>
+	<message key="admin.confirmExpireSessions">Siz foydalanuvchilar sessiyalarini to'xtatishni xohlaysizmi? Hozirgi vaqtda tizimda ishlayotgan barcha foydalanuvchilar, qaytadan tizimga kirishlari (shu jumladan, siz ham) lozim.</message>
+	<message key="admin.contentsOfConfigFile">Sozlamalar faylining tarkibi</message>
+	<message key="admin.contexts.confirmDelete">Siz {$contextName}ni va uning barcha tarkibini doimiy ravishda o'chirishga ishonchingiz komilmi?</message>
+	<message key="admin.currentVersion">Hozirgi versiya</message>
+	<message key="admin.dateInstalled">O'rnatilgan sana</message>
+	<message key="admin.displayConfigFileInstructions"><![CDATA[Yangilangan sozlamalar tarkibi quyidagi ko'rinishda keltirilgan. O'zgartirishlarni sozlamalar fayliga qo'llash uchun, siz quyidagi matn maydonidagi matnni <tt>config.inc.php</tt>ni mos muharrir dasturda ochib, uning tarkibini oldi ma'lumotlari bilan almashtirishingiz kerak.]]></message>
+	<message key="admin.displayNewSystemConfig">Yangi sozlamalarni ko'rsatish</message>
+	<message key="admin.expireSessions">Foydalanuvchilar sessiyalarini to'xtatish</message>
+	<message key="admin.languages.download">Tilni yuklash</message>
+	<message key="admin.languages.downloadLocales">Tillarni yuklash</message>
+	<message key="admin.languages.download.cannotOpen">PKP veb-saytidan til haqida ma'lumotni ochib bo'lmadi.</message>
+	<message key="admin.languages.download.cannotModifyRegistry">Yangi tilni til ro'yxat fayli qo'shish mumkin emas, oddiy ravishda, bu «registry/locales.xml».</message>
+	<message key="admin.languages.cantDisable">Bu til veb-saytning asosiy tili hisoblanadi. Siz undan boshqa asosiy tilni tanlamasangiz, uni o'chira olmaysiz.</message>
+	<message key="admin.languages.confirmSitePrimaryLocaleChange">Siz veb-saytingizning asosiy tili o'zgartirishni istaysizmi? Agar bu tilda nom ko'rsatilishi shart bo'lgan foydalanuvchilar nomlari yangi asosiy tilda mavjud bo'lmasa, ular avvalgi asosiy tildan yangi asosiy tilda ko'chiriladi.</message>
+
+	<message key="admin.languages.confirmReload">Haqiqatan ham ushbu tilni qayta yuklashni istaysizmi? Bu, ushbu til bilan bog'langan barcha foydalanuvchi ma'lumotlarini, masalan, elektron pochta xabarlari shriftlaridagi o'zgartirishlarini o'chiradi.</message>
+	<message key="admin.languages.installedLocales">O'rnatilgan tillar</message>
+	<message key="admin.languages.installLanguages">Tillar boshqaruvini boshlash</message>
+	<message key="admin.languages.availableLocales">Mavjud tillar</message>
+	<message key="admin.languages.installLocale">Tilni o'rnatish</message>
+	<message key="admin.languages.installLocales">O'rnatish</message>
+	<message key="admin.languages.installNewLocales">Yangi tillarni o'rnatish</message>
+	<message key="admin.languages.languageSettings">Til sozlamalari</message>
+	<message key="admin.languages.noLocalesAvailable">O'rnatish uchun qo'shimcha tillar mavjud emas.</message>
+	<message key="admin.languages.reload">Tilni qayta yuklash</message>
+	<message key="admin.languages.uninstall">Tilni o'chirish</message>
+	<message key="admin.phpInfo">PHP kengaytmasi haqida ma'lumot</message>
+	<message key="admin.scheduledTask">Jadvalga soliq</message>
+	<message key="admin.scheduledTask.startTime">Vazifani boshlash vaqti.</message>
+	<message key="admin.scheduledTask.stopTime">Vazifani tugatish vaqti.</message>
+	<message key="admin.scheduledTask.noLog">Vazifa hodisalar jurnaliga yozuvlar yaratmadi.</message>
+	<message key="admin.scheduledTask.downloadLog">Sizning {$softwareName} o'rnatmasi avtomatik ravishda ushbu vazifani bajarib va tugatgan, siz ushbu havola orqali hodisalar jurnali faylini yuklab olishingiz mumkin: {$url}</message>
+	<message key="admin.scheduledTask.confirmClearLogs">Siz aniqlik bilan barcha jadval belgilangan vazifalarni bajarish haqida ma'lumotlar ta'mirlangan hodisalar jurnallarini o'chirishni istaysizmi?</message>
+	<message key="admin.scheduledTask.clearLogs">Belgilangan vazifalarni bajarish haqida ma'lumotlar ta'mirlangan hodisalar jurnallarini o'chirish</message>
+	<message key="admin.scheduledTask.reviewReminder">Tavsiflashga eslatma</message>
+	<message key="admin.scheduledTask.subscriptionExpiryReminder">Obunachilik muddati tugashiga eslatma</message>
+	<message key="admin.server.apacheVersion">Apache versiyasi</message>
+	<message key="admin.server.dbDriver">Ma'lumotlar bazasi haydovchi</message>
+	<message key="admin.server.dbVersion">Ma'lumotlar bazasi versiyasi</message>
+	<message key="admin.serverInformation">Server ma'lumoti</message>
+	<message key="admin.server.phpVersion">PHP versiyasi</message>
+	<message key="admin.server.platform">Platforma OS</message>
+	<message key="admin.settings">Sozlamalar</message>
+	<message key="admin.settings.aboutDescription">Сayт тўғрисида</message>
+	<message key="admin.settings.contactEmail">Контакт шахс почта манзили</message>
+	<message key="admin.settings.contactName">Контакт шахс исми</message>
+	<message key="admin.settings.form.contactEmailRequired">Kontakt shaxsning elektron pochta manzili majburiy.</message>
+	<message key="admin.settings.form.contactNameRequired">Kontakt shaxs ismi majburiy.</message>
+	<message key="admin.settings.form.minPasswordLengthRequired">4 ta belgidan kamroq uzunlikdagi parolni kiriting.</message>
+	<message key="admin.settings.form.titleRequired">Nomi majburiy.</message>
+	<message key="admin.settings.defaultMetricDescription">
+		Sizning o'rnatilgan o'qimlar sonini yozish uchun tuzilgan. O'qimlar statistikasi bir nechta kontekstda ko'rsatiladi.
+		Bajarilgan hollarda faqat bir o'qim statistikasi ishlatilishi lozim, masalan, eng ko'p ishlatiladigan materiallarning tartiblangan ro'yxatini ko'rsatish yoki qidiruv natijalarini tartiblash.
+		Iltimos, standart o'qim sifatida tuzilgan o'qimlardan birini tanlang.
+	</message>
+
+	<message key="admin.settings.homeHeaderImage.altText">Сайт логотипи</message>
+	<message key="admin.settings.homeHeaderImageInvalid">Noto'g'ri formatdagi sayt logotipi tasviri. Ruxsat etilgan formatlar: .gif, .jpg yoki .png.</message>
+	<message key="admin.settings.introduction">Ta'rif</message>
+	<message key="admin.settings.minPasswordLength">Minimal parol uzunligi (belgilar bilan)</message>
+	<message key="admin.settings.siteLanguage">Sayt tili</message>
+	<message key="admin.settings.siteStyleSheetInvalid">Saytning uslub qatlami noto'g'ri formatda. Ruxsat etilgan format — .css.</message>
+	<message key="admin.settings.siteStyleSheet">Sayt uslub qatlami</message>
+	<message key="admin.settings.siteLogo">Sayt logotipi</message>
+	<message key="admin.settings.siteTitle">Sayt nomi</message>
+	<message key="admin.settings.siteTheme">Sayt mavzusi</message>
+	<message key="admin.siteAdmin">Saytni boshqarish</message>
+	<message key="admin.siteManagement">Saytni boshqarish</message>
+	<message key="admin.siteSettings">Sayt sozlamalari</message>
+	<message key="admin.siteSetup">Saytni sozlash</message>
+	<message key="admin.systemConfigFileReadError"><![CDATA[Konfiguratsiya fayli <tt>config.inc.php</tt> mavjud emas, o'qish uchun mavjud emas yoki noto'g'ri.]]></message>
+	<message key="admin.systemInformation">Tizim ma'lumoti</message>
+	<message key="admin.versionBuild">Qurilma</message>
+	<message key="admin.version.checkForUpdates">Yangilanishlarni tekshirish</message>
+	<message key="admin.version.downloadPackage">Yuklab olish</message>
+	<message key="admin.version.downloadPatch">Ta'mirlashni yuklab olish</message>
+	<message key="admin.versionHistory">Versiyalar tarixi</message>
+	<message key="admin.version.latest">So'nggi versiya</message>
+	<message key="admin.versionMajor">Bosh</message>
+	<message key="admin.versionMinor">Yosh</message>
+	<message key="admin.version.moreInfo">Qo'shimcha ma'lumot</message>
+	<message key="admin.versionRevision">Reviziya</message>
+	<message key="admin.version.updateAvailable">Yangilangan versiya mavjud</message>
+	<message key="admin.version.upToDate">Sizning tizimingiz yangi</message>
+	<message key="admin.version">Versiya</message>
+
+	<message key="admin.fileLoader.wrongBasePathLocation">Asosiy katalog {$path} har qanday fayllarga ruxsat berilgan katalogda bo'lishi kerak.</message>
+	<message key="admin.fileLoader.pathNotAccessible">Katalog {$path} katalog emas yoki o'qish uchun mavjud emas.</message>
+	<message key="admin.fileLoader.moveFileFailed">Fayl {$filename} {$currentFilePath} dan {$destinationPath} ga ko'chirib bo'lmadi.</message>
+	<message key="admin.fileLoader.fileProcessed">Fayl {$filename} ushbu arxivga ko'chirildi va qayta ishlandi.</message>
+	<message key="admin.fileLoader.emailSubject">Fayllarni yuklashchi</message>
+
+	<message key="admin.copyAccessLogFileTool.usage">Apache kirish fayllarining o'tgan fayllarini ko'chirib, shu o'rnatmaning bog'liq qatorlarini ajratib, joriy fayllar katalogidagi katalogga nusxalaydi, "Foydalanish statistikasi" moduli "Stage" katalogida joylashgan. Faylga foydalanishga yetarli huquqlarga ega foydalanuvchi osti bilan ishga tushirilishi kerak.
+
+	Bu vosita faqatgina "Foydalanish statistikasi" modulining fayllar yuklash kataloglariga (stage, processing, archive, reject) hali nusxalanmagan fayllarni nusxalaydi.
+
+	Chaqrish: {$scriptName} path/to/apache/log/file.log
+	Barcha fayllarni katalogda qayta ishlash (barcha fayllar uchun): {$scriptName} path/to/apache/directory 
+	</message>
+	<message key="admin.copyAccessLogFileTool.error.creatingFolder">Xato: vaqtinchalik katalog yaratib bo'lmadi {$tmpDir}</message>
+	<message key="admin.copyAccessLogFileTool.error.acessingFile">Xato: Fayl {$filePath} mavjud emas yoki unga kirish ruxsati yo'q.</message>
+	<message key="admin.copyAccessLogFileTool.error.copyingFile">Xato: Faylni {$filePath} dan {$tmpFilePath} ga nusxalab bo'lmadi.</message>
+	<message key="admin.copyAccessLogFileTool.error.deletingFile">Xato: Faylni o'chirib bo'lmadi {$tmpFilePath}</message>
+	<message key="admin.copyAccessLogFileTool.warning.fileAlreadyExists"> Ogohlantirish: Fayl {$filePath} foydalanish statistikasi katalogida allaqachon mavjud. </message>
+	<message key="admin.copyAccessLogFileTool.success">Muvaffaqiyat: {$filePath} {$destinationPath} ga </message>
+	<message key="admin.error.utilExecutionProblem">{$utilPath} dasturni ishga tushirish quyidagi xato bilan tugadi: {$output}</message>
+	<message key="admin.error.executingUtil">Xato: «{$utilPath}» dasturni ishga tushirib bo'lmadi. config.inc.php faylida {$utilVar} sozlamangizni tekshiring.</message>
+	<message key="admin.languages.noLocalesToDownload">Yuklab olish uchun foydalanishga keladigan til mavjud emas.</message>
+	</locale>

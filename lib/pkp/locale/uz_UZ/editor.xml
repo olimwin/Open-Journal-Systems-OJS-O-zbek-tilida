@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../dtd/locale.dtd">
+
+<!--
+  * locale/ru_RU/editor.xml
+  *
+  * Copyright (c) 2014-2019 Simon Fraser University
+  * Copyright (c) 2003-2019 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  * Localization information: https://pkp.sfu.ca/wiki/index.php?title=OJS:_Russian_(ru_RU)
+  * Localization strings.
+  -->
+
+<locale name="uz_UZ" full_name="O'zbek">
+	<message key="editor.submissionLibrary">Yuborgan materiallar: kutubxona</message>
+	<message key="editor.review.notInitiated">Ko‘rib chiqish jarayoni hali boshlanmagan.</message>
+	<message key="editor.submission.copyediting.personalMessageToUser">Foydalanuvchiga xabar</message>
+	<message key="editor.submission.externalReviewDescription">Ko‘rib chiqish bosqichiga yuborish uchun quyidagi fayllarni tanlang.</message>
+	<!--Muharrir/audit tarmoqlari uchun fayl yoki auditor qoʻshish -->
+	<message key="editor.submission.fileAuditor.form.fileRequired">Foydalanuvchiga tayinlash uchun kamida bitta faylni tanlashingiz kerak.</message>
+	<message key="editor.submission.fileAuditor.form.messageRequired">Shaxsiy xabar qo‘shishingiz kerak.</message>
+	<message key="editor.submission.fileAuditor.skipEmail">Auditorga xat yubormang</message>
+	<message key="editor.submission.fileAuditor.form.userRequired">Siz tayinlash uchun foydalanuvchini tanlashingiz kerak.</message>
+	<message key="editor.submission.uploadSelectFiles">Fayllarni yuklash/tanlash</message>
+	<message key="editor.submission.selectFiles">Fayllarni tanlang</message>
+	<message key="editor.submission.revisions">Versiyalar</message>
+	<message key="editor.submission.review.reviewersDescription"><![CDATA[O'quvchilarni moddiy fayllarni ko'rib chiqishga taklif qilish uchun <em>+Ko'rib chiquvchi qo'shish</em> dan foydalaning. Bloknot belgisi ko'rib chiqish yuborilganligini bildiradi va u ko'rib chiqilgandan so'ng <em>Qabul qilingan</em> deb belgilanadi. Tekshiruvni topshirishning oxirgi muddati tugaganda, sharhlovchilarga eslatish uchun qizil konvert belgisi paydo bo'ladi.]]></message>
+	<message key="editor.submission.addReviewer">Ko'rib chiquvchi qo'shish</message>
+	<message key="editor.submission.findAndSelectReviewer">Tarz qiluvchini tanlang</message>
+	<message key="editor.submission.findAndSelectUser">Foydalanuvchini tanlang</message>
+	<message key="editor.submission.fileList.includeAllStages">Barcha mavjud ish jarayoni bosqichlaridagi fayllarni ko‘rsatish.</message>
+	<message key="editor.submission.review.currentFiles">{$round}-raund uchun joriy ko‘rib chiqish fayllari</message>
+	<message key="editor.submission.backToSearch">Qidiruvga qaytish</message>
+	<message key="editor.review.createReviewer">Yangi sharhlovchi yaratish</message>
+	<message key="editor.review.enrollReviewer.short">Mavjud foydalanuvchini ro‘yxatdan o‘tkazish</message>
+	<message key="editor.review.unassignReviewer">Ko'rib chiquvchini tayinlashni bekor qilish</message>
+	<message key="editor.submissionReview.reviewType">Ko'rib chiqish turi</message>
+	<message key="editor.submissionReview.sendEmail">Muallif(lar)ga elektron pochta xabarnomasini yuborish: {$authorName}</message>
+	<message key="editor.submissionReview.sendEmail.editors">Muharrir(lar)ga elektron pochta xabarnomasini yuborish: {$editorNames}</message>
+	<message key="editor.submissionReview.skipEmail">E-pochta orqali bildirishnoma yubormang</message>
+	<message key="editor.submissionReview.open">Ochish</message>
+	<message key="editor.submissionReview.blind">Ko‘r</message>
+	<message key="editor.submissionReview.doubleBlind">Ikki ko‘r</message>
+	<message key="editor.submissionReview.restrictFiles">Ko‘rib chiqish uchun fayllar</message>
+	<message key="editor.submissionReview.restrictFiles.hide">Fayl tanlashni yopish</message>
+	<message key="editor.submissionReview.editReview">Ko'rib chiqishni tahrirlash</message>
+	<message key="editor.review.anonymousReviewer">Anonim sharhlovchi</message>
+	<message key="editor.review.personalMessageToReviewer">Ko'rib chiquvchiga yuborish uchun elektron pochta</message>
+	<message key="editor.review.importantDates">Muhim sanalar</message>
+	<message key="editor.review.uploadRevision">Yangi versiyani yuklash</message>
+	<message key="editor.review.newReviewRound">Ko'rib chiqishning yangi bosqichi talab qilinadi</message>
+	<message key="editor.review.NotifyAuthorRevisions">Ko'rib chiqishning yangi bosqichida fayllarning yangi versiyalari ko'rib chiqilmaydi.</message>
+	<message key="editor.review.NotifyAuthorResubmit">Fayllarning yangi versiyalari ko‘rib chiqishning yangi bosqichida ko‘rib chiqiladi.</message>
+	<message key="editor.review.dateAccepted">Materialni ko‘rib chiqish uchun qabul qilingan sana</message>
+	<message key="editor.review.reviewsAdded">Sharhlar xabarning asosiy qismiga qo‘shildi.</message>
+	<message key="editor.review.noReviews">Import qilinadigan sharhlar yo'q</message>
+	<message key="editor.review.reminder">Ko‘rib chiqish eslatmasi</message>
+	<message key="editor.review.thankReviewer">Ko'rib chiquvchiga rahmat</message>
+	<message key="editor.review.reminderError">Ko‘rib chiqish eslatmasini yuborishda xatolik yuz berdi</message>
+	<message key="editor.review.thankReviewerError">Ko'rib chiquvchiga rahmat yuborishda xatolik yuz berdi</message>
+	<message key="editor.review.skipEmail">Ko'rib chiquvchiga xat yubormang.</message>
+	<message key="editor.review.sendReminder">Eslatma yuborish</message>
+	<message key="editor.review.readReview">Sharhni o‘qish</message>
+	<message key="editor.review.readNewReview">Yangi sharhni o‘qish</message>
+	<message key="editor.review.responseDue">Javob muddati: {$date}</message>
+	<message key="editor.review.requestSent">So‘rov yuborildi</message>
+	<message key="editor.review.requestAccepted">So‘rov qabul qilindi</message>
+	<message key="editor.review.requestDeclined">So‘rov rad etildi</message>
+	<message key="editor.review.requestDeclined.tooltip">Ko‘rib chiquvchi ushbu tekshirish so‘rovini rad etdi.</message>
+	<message key="editor.review.revertDecision">Qarorni bekor qilish</message>
+	<message key="editor.review.reviewDue">Ko‘rib chiqish muddati: {$date}</message>
+	<message key="editor.review.reviewDueDate">Ko‘rib chiqish sanasi</message>
+	<message key="editor.review.reviewCompleted">Ko‘rib chiqish tugallandi</message>
+	<message key="editor.review.reviewConfirmed">Ko‘rib chiqish tasdiqlandi</message>
+	<message key="editor.review.reviewSubmitted">Ko‘rib chiqish yuborildi</message>
+	<message key="editor.review.reviewerThanked">Tarz qiluvchiga minnatdorchilik bildirildi</message>
+	<message key="editor.review.reviewerComments">Ko'rib chiquvchining fikrlari</message>
+	<message key="editor.review.rateReviewer">Ko'ruvchining reytingi</message>
+	<message key="editor.review.rateReviewer.description">Yuborgan sharh sifatini baholang. Ushbu reyting sharhlovchiga ko'rsatilmaydi.</message>
+	<message key="editor.review.reviewerRating.none">Baho yo'q</message>
+	<message key="editor.review.mustSelect">Siz sharhlovchini tanlashingiz kerak</message>
+	<message key="editor.review.errorAddingReviewer">Ko'rib chiquvchini qo'shishda xatolik yuz berdi. Qayta urinib ko‘ring.</message>
+	<message key="editor.review.errorDeletingReviewer">Ko'rib chiquvchini o'chirishda xatolik yuz berdi. Qayta urinib ko‘ring.</message>
+	<message key="editor.review.userGroupSelect">Ushbu sharhlovchilar guruhiga foydalanuvchi qo‘shing</message>
+	<message key="editor.review.unconsiderReviewText">Ushbu sharhni tekshirilmagan deb belgilashni xohlaysizmi? Ko‘rib chiqish tarixi saqlanadi.</message>
+	<message key="editor.review.unconsiderReview">Ko'rib chiqilmagan deb belgilash</message>
+	<message key="editor.review.readConfirmation">Ko'rib chiqishni o'qib bo'lgach, ko'rib chiqish jarayoni davom etishi mumkinligini ko'rsatish uchun "Tasdiqlash" tugmasini bosing. Agar sharhlovchi sharhni boshqa yoʻl bilan yuborgan boʻlsa, quyidagi faylni yuklashingiz va davom etish uchun “Tasdiqlash” tugmasini bosing.</message>
+	<message key="editor.submission.selectCopyedingFiles">Adabiy tahrir uchun fayllar</message>
+	<message key="editor.submission.selectReviewer">Tarz qiluvchini tanlang</message>
+	<message key="editor.submission.taskDueDate">Vazifaning tugash sanasi</message>
+	<message key="editor.submission.taskSchedule">Vazifalar jadvali</message>
+	<message key="editor.review.enrollReviewer">Mavjud foydalanuvchini sharhlovchi sifatida ro‘yxatdan o‘tkazish</message>
+	<message key="editor.submission.noAuditRequested">Ushbu fayl uchun hech qanday audit talab qilinmadi</message>
+	<message key="editor.submission.personalMessageToUser">Foydalanuvchiga yuborish uchun elektron pochta</message>
+	<message key="editor.submission.proof.reminder">Tekshiruv eslatmasi</message>
+	<message key="editor.submission.editorial.approveCopyeditDescription">Nashr qilish bosqichiga yuborishdan oldin nusxa tahrirlangan fayl tasdiqlanishi kerak. Ushbu faylni tasdiqlamoqchimisiz?</message>
+	<message key="editor.submission.editorial.disapproveCopyeditDescription">Ushbu nusxa ko‘chirilgan tahrirlangan faylni ma’qullashdan voz kechish uni Nashr qilish bosqichiga topshirishdan saqlaydi. Ushbu faylni tasdiqlashni bekor qilmoqchimisiz?</message>
+	<message key="editor.submission.addAuditor">Auditorni tayinlash</message>
+	<message key="editor.submission.copyedit.manageCopyeditFilesDescription">Yuborishning istalgan bosqichida allaqachon yuklangan har qanday fayllar "Adabiy tahrir uchun fayllar" ro'yxatiga qo'shilishi mumkin. Buni amalga oshirish uchun quyidagi "Qo'shish" katagiga belgi qo'ying va "Qidirish" tugmasini bosing: barcha mavjud fayllar ko'rsatiladi va siz ularni ro'yxatga kiritish uchun tanlashingiz mumkin. Ushbu bosqichda hali yuklab olinmagan qo‘shimcha fayllarni “Faylni yuklash” havolasini bosish orqali ro‘yxatga qo‘shish mumkin.</message>
+	<message key="editor.review">Ko‘rib chiqish</message>
+	<message key="editor.review.reviewDetails">Ko'rib chiqish tafsilotlari</message>
+	<message key="editor.review.noReviewFilesUploaded">Fayllar yuklanmagan</message>
+	<message key="editor.review.noReviewFilesUploaded.details">Ko‘rib chiqish uchun hech qanday fayl yuklamagansiz.</message>
+	<message key="editor.review.emailReviewer">Ko'rib chiquvchiga xat yuborish</message>
+	<message key="editor.submission.production.productionReadyFiles">Nashr qilish uchun fayllar</message>
+	<message key="editor.submission.newRound">Yangi ko‘rib chiqish</message>
+	<message key="editor.submissionReview.recordDecision">Tahririyat qarorini yozib oling</message>
+	<message key="editor.submissionReview.recordRecommendation">Yozuv muharriri tavsiyasi</message>
+	<message key="editor.submissionReview.recordRecommendation.notifyEditors">Muharrirlarni xabardor qilish</message>
+	<message key="editor.submissionReview.recordRecommendation.skipEmail">Muharrirlarga xat yubormang.</message>
+	<message key="editor.submissionReview.recordRecommendation.createDiscussion">Ushbu tavsiya haqida munozara yarating.</message>
+	<message key="editor.submissionReview.recordRecommendation.skipDiscussion">Muhokama yaratmang.</message>
+	<message key="editor.submission.newRoundDescription">Siz ushbu hikoya uchun yangi ko‘rib chiqish davri yaratmoqchisiz. Quyida koʻrib chiqishning boshqa bosqichlarida foydalanilmagan fayllar keltirilgan.</message>
+	<message key="editor.submission.createNewRound">Yangi ko‘rib chiqish davri yaratish</message>
+	<message key="editor.article.reviewForms">Ko‘rib chiqish shakllari</message>
+	<message key="editor.article.selectReviewForm">Ko‘rib chiqish shaklini tanlang</message>
+	<message key="editor.article.confirmChangeReviewForm">Ogohlantirish: Ko‘rib chiqish shaklini o‘zgartirish, sharhlovchilar ushbu shakl yordamida allaqachon qilgan barcha sharhlarga ta’sir qiladi. Davom etishni xohlaysizmi?</message>
+	<message key="editor.submission.noReviewerFilesSelected">Hech qanday fayl tanlanmagan</message>
+	<message key="editor.submission.noReviewerFilesSelected.details">Siz ko‘rib chiquvchi tomonidan ko‘rib chiqilishi uchun hech qanday fayl tanlamadingiz.</message>
+	<message key="submission.queries.subjectRequired">Muhokama mavzusi kerak.</message>
+	<message key="submission.queries.messageRequired">Muhokamadagi xabar matni kerak.</message>
+	<message key="submission.queries.attachedFiles">Biriktirilgan fayllar</message>
+	<message key="grid.action.editQuery">Muhokamalarni tahrirlash</message>
+	<message key="editor.submission.query.manageQueryNoteFilesDescription">Quyidagi ro‘yxat yordamida ushbu muhokamaga fayllarni biriktirishingiz mumkin.</message>
+	<message key="editor.submission.selectedReviewer">Tanlangan sharhlovchi</message>
+	<message key="editor.submission.proofreading.approveProof">dalilni tasdiqlash</message>
+	<message key="editor.submission.proofreading.revokeProofApproval">Isbot tasdiqini bekor qilish</message>
+	<message key="editor.submission.proofreading.confirmCompletion">O‘qish tugallanganini va fayl nashrga tayyorligini ko‘rsatish uchun ushbu tuzatishni tasdiqlang.</message>
+	<message key="editor.submission.proofreading.confirmRemoveCompletion">Isbot hali tugallanmaganligini va fayl nashrga tayyor emasligini ko‘rsatish uchun ushbu dalilni tasdiqlamaslik.</message>
+	<message key="editor.publicIdentificationNumericNotAllowed">“{$publicIdentifier}” umumiy identifikatori raqam bo‘lishi mumkin emas.</message>
+	<message key="editor.publicIdentificationPatternNotAllowed">Ochiq identifikator uchun "{$pattern}" naqshiga ruxsat berilmagan.</message>
+
+	<!-- Ko'rib chiquvchilarni tanlash ro'yxatlari -->
+	<message key="reviewer.list.count">Tarz qiluvchilar: {$count}</message>
+	<message key="reviewer.list.itemsOfTotal">Tarz qiluvchilar: {$total}dan {$count}</message>
+	<message key="reviewer.list.filterRating">Baho kam emas</message>
+	<message key="reviewer.list.activeReviews">Ko'rib chiqilmoqda: {$count}</message>
+	<message key="reviewer.list.activeReviewsDescription">Davom etayotgan sharhlar soni</message>
+	<message key="reviewer.list.completedReviews">Tugallangan sharhlar</message>
+	<message key="reviewer.list.declinedReviews">Ko‘rib chiqish so‘rovlari rad etildi</message>
+	<message key="reviewer.list.reviewerRating">Ko'ruvchining reytingi: {$rating}</message>
+	<message key="reviewer.list.daysSinceLastAssignment">{$days} kun oldin</message>
+	<message key="reviewer.list.daySinceLastAssignment">Kecha</message>
+	<message key="reviewer.list.daysSinceLastAssignmentDescription">Oxirgi ko'rib chiqishdan beri kunlar</message>
+	<message key="reviewer.list.averageCompletion">Har bir ko‘rib chiqish uchun o‘rtacha kunlar soni</message>
+	<message key="reviewer.list.neverAssigned">Hech qachon sharhlovchi sifatida tayinlanmagan</message>
+	<message key="reviewer.list.currentlyAssigned">Bu sharhlovchi allaqachon ushbu hikoya uchun sharhlovchi sifatida tayinlangan.</message>
+	<message key="reviewer.list.warnOnAssign">Ushbu sharhlovchi bloklangan, chunki ularga muallif haqidagi maʼlumotlarni koʻrish imkonini beruvchi rol tayinlangan. Bunday holda, "ko'r" ko'rib chiqishni kafolatlash mumkin emas. Haqiqatan ham bu sharhlovchini blokdan chiqarmoqchimisiz?</message>
+	<message key="reviewer.list.warnOnAssignUnlock">Qulfni ochish</message>
+	<message key="reviewer.list.reviewInterests">Ko'rib chiquvchi sifatidagi qiziqishlar</message>
+	<message key="reviewer.list.biography">Biografiya</message>
+</locale>

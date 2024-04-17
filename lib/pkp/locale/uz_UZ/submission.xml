@@ -1,0 +1,635 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../dtd/locale.dtd">
+
+<!--
+  * locale/ru_RU/submission.xml
+  *
+  * Copyright (c) 2014-2019 Simon Fraser University
+  * Copyright (c) 2000-2019 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  * Localization information: https://pkp.sfu.ca/wiki/index.php?title=OJS:_Russian_(ru_RU)
+  * Localization strings.
+  -->
+
+<locale name="uz_UZ" full_name="O'zbek">
+	<!-- Отправка материала автором -->
+	<message key="author.submit.submissionCitations">Ushbu materialni tayyorlashda foydalanilgan asarlardan iqtiboslarning formatlangan ro'yxatini kiriting. Iltimos, havolalarni boʻsh satr yordamida bir-biridan ajrating.</message>
+	<message key="author.submission.roundStatus.reviewsReady">Yangi sharhlar sharhlovchilar tomonidan yuborilgan va muharrir tomonidan ko‘rib chiqilgan.</message>
+	<message key="submission.confirm.message">Materialingiz serverga yuklandi va yuborishga tayyor. Davom etishdan oldin kiritilgan maʼlumotlarni koʻrib chiqish va tuzatish uchun orqaga qaytishingiz mumkin. Tayyor bo‘lgach, “Yuborishni tugatish” tugmasini bosing.</message>
+	<message key="submission.submit.availableUserGroups">Shu sifatida yuborish</message>
+	<message key="submission.submit.availableUserGroupsDescription">Ushbu hikoyaga qo‘shgan hissangizni eng yaxshi tavsiflovchi rolni tanlang.</message>
+	<message key="submission.submit.contactConsent">Xat yozish aloqasi</message>
+	<message key="submission.submit.contactConsentDescription">Ha, ushbu material boʻyicha men bilan bogʻlanishingizga roziman.</message>
+	<message key="submission.submit.userGroupDescriptionManagers">Agar siz ushbu materialni o‘zingiz tahrirlash va nashr etish imkoniyatiga ega bo‘lishni istasangiz, quyidagi rollardan biriga topshiring: {$managerGroups}</message>
+	<message key="submission.submit.submissionChecklist">Yuborgan materialga qo‘yiladigan talablar</message>
+	<message key="submission.submit.submissionChecklistDescription">Davom etishdan oldin quyida keltirilgan barcha talablarga javob berganingizni o‘qib chiqishingiz va tasdiqlashingiz kerak.</message>
+	<message key="submission.submit.submissionComplete">Yuborish tugallandi</message>
+	<message key="submission.submit.submissionCompleteThanks">“{$contextName}”da nashr etishga qiziqish bildirganingiz uchun tashakkur.</message>
+	<message key="submission.submit.copyrightNoticeAgreementLabel">Mualliflik huquqini topshirish shartlarini qabul qilish</message>
+	<message key="submission.submit.copyrightNoticeAgree">Ha, men mualliflik huquqini uzatish shartlariga rioya qilishga roziman.</message>
+	<message key="submission.submit.whatNext">Keyingi nima qilish kerak?</message>
+	<message key="submission.submit.whatNext.forNow">Hozirda siz:</message>
+	<message key="submission.submit.whatNext.review">Ushbu materialni ko‘rish</message>
+	<message key="submission.submit.whatNext.create">Yangi taqdimot yaratish</message>
+	<message key="submission.submit.whatNext.return">Shaxsiy hisobingizga qayting</message>
+	<message key="submission.submit.extendedMetadata">Kengaytirilgan metadata</message>
+
+	<!-- TUZLASH: Metamaʼlumotlar modullariga oʻtish -->
+	<!-- metadata filtrlari tomonidan ishlatiladigan xabarlar -->
+	<message key="metadata.filters.crossref.settings.email.displayName">Crossref ro'yxatdan o'tgan elektron pochta manzili</message>
+	<message key="metadata.filters.crossref.settings.email.validationMessage">Iltimos, CrossRef bilan ro'yxatdan o'tgan to'g'ri elektron pochta manzilini kiriting. Siz elektron pochta manzilingizni CrossRef veb-saytida bepul ro'yxatdan o'tkazishingiz mumkin.</message>
+	<message key="metadata.filters.isbndb.settings.apiKey.displayName">ISBNdb API kaliti</message>
+	<message key="metadata.filters.isbndb.settings.apiKey.validationMessage">Iltimos, ISBNdb API kalitini kiriting. Agar sizda hali bunday kalit boʻlmasa, uni ISBNdb loyihasi veb-saytida bepul soʻrashingiz mumkin.</message>
+	<message key="metadata.filters.pubmed.settings.email.displayName">Pubmed email manzili</message>
+	<message key="metadata.filters.pubmed.settings.email.validationMessage">Agar sizda mavjud bo‘lsa, PubMed elektron pochta manzilini to‘g‘ri kiriting.</message>
+	<message key="metadata.filters.worldcat.settings.apiKey.displayName">WorldCat API kaliti</message>
+	<message key="metadata.filters.worldcat.settings.apiKey.validationMessage">Agar sizda mavjud bo‘lsa, to‘g‘ri WorldCat API kalitini kiriting.</message>
+	<message key="metadata.filters.paracite.settings.citationModule.displayName">Bibliografik iqtibos moduli</message>
+	<message key="metadata.filters.paracite.settings.citationModule.validationMessage">Iltimos, belgilangan bibliografik iqtibos modullaridan birini tanlang.</message>
+	<message key="metadata.filters.settings.isOptional.displayName">Sukut bo‘yicha foydalanmang (muharrirda mavjud bo‘ladi)</message>
+	<message key="metadata.filters.settings.isOptional.validationMessage">Ichki xato. Yaroqsiz qiymat “ixtiyoriy filtr” sozlamasiga o‘tkazildi. Iltimos, ushbu xato haqida ishlab chiquvchilarga xabar bering.</message>
+
+	<!-- turli MD sxemalarida mos keladigan xabarlar -->
+	<message key="metadata.property.displayName.author">Mualliflar</message>
+	<message key="metadata.property.validationMessage.author">Eng yaxshi natijalarga erishish uchun mualliflar quyidagi formatda kiritilishi kerak: Borodin, A. A.</message>
+	<message key="metadata.property.displayName.editor">Muharrirlar</message>
+	<message key="metadata.property.validationMessage.editor">Eng yaxshi natijalarga erishish uchun tahrirlovchilar quyidagi formatda kiritilishi kerak: Borodin, A. A.</message>
+
+	<!-- NLM-ga xos xabarlar -->
+	<message key="metadata.property.displayName.article-title">Maqolaning/materialning nomi</message>
+	<message key="metadata.property.validationMessage.article-title">Maqolaning/materialning to'g'ri nomini kiriting.</message>
+	<message key="metadata.property.displayName.source">Nashr nomi</message>
+	<message key="metadata.property.validationMessage.source">Iltimos, to‘g‘ri nashr nomini kiriting.</message>
+	<message key="metadata.property.displayName.date">Nashr etilgan sana</message>
+	<message key="metadata.property.validationMessage.date">Iltimos, to'g'ri nashr sanasini kiriting (format: YYYY-AA-DD).</message>
+	<message key="metadata.property.displayName.access-date">Kirish sanasi</message>
+	<message key="metadata.property.validationMessage.access-date">To'g'ri kirish sanasini kiriting (format: YYYY-AA-KK).</message>
+	<message key="metadata.property.displayName.issue">Muammo</message>
+	<message key="metadata.property.validationMessage.issue">Iltimos, muammoni to‘g‘ri kiriting.</message>
+	<message key="metadata.property.displayName.volume">Ovoz balandligi</message>
+	<message key="metadata.property.validationMessage.volume">Iltimos, yaroqli hajmni kiriting.</message>
+	<message key="metadata.property.displayName.season">Mavsum</message>
+	<message key="metadata.property.validationMessage.season">Iltimos, yaroqli mavsum identifikatorini kiriting.</message>
+	<message key="metadata.property.displayName.chapter-title">Bo'lim sarlavhasi</message>
+	<message key="metadata.property.validationMessage.chapter-title">Iltimos, to‘g‘ri bo‘lim sarlavhasini kiriting.</message>
+	<message key="metadata.property.displayName.edition">Nashr</message>
+	<message key="metadata.property.validationMessage.edition">Iltimos, to‘g‘ri nashrni kiriting.</message>
+	<message key="metadata.property.displayName.series">Series</message>
+	<message key="metadata.property.validationMessage.series">Iltimos, yaroqli qatorni kiriting.</message>
+	<message key="metadata.property.displayName.supplement">Qo'shimcha</message>
+	<message key="metadata.property.validationMessage.supplement">Iltimos, to‘g‘ri qo‘shimcha kiriting.</message>
+	<message key="metadata.property.displayName.conf-date">Konferentsiya sanasi</message>
+	<message key="metadata.property.validationMessage.conf-date">Iltimos, to'g'ri konferentsiya sanasini kiriting (format: YYYY-AA-DD).</message>
+	<message key="metadata.property.displayName.conf-loc">Konferentsiya joyi</message>
+	<message key="metadata.property.validationMessage.conf-loc">Iltimos, to‘g‘ri yig‘ilish joyini kiriting.</message>
+	<message key="metadata.property.displayName.conf-name">Konferentsiya nomi</message>
+	<message key="metadata.property.validationMessage.conf-name">Iltimos, to‘g‘ri konferensiya nomini kiriting.</message>
+	<message key="metadata.property.displayName.conf-sponsor">Konferentsiya homiysi</message>
+	<message key="metadata.property.validationMessage.conf-sponsor">Iltimos, konferentsiya homiysini to'g'ri kiriting.</message>
+	<message key="metadata.property.displayName.institution">Tashkilot</message>
+	<message key="metadata.property.validationMessage.institution">To‘g‘ri tashkilotni kiriting.</message>
+	<message key="metadata.property.displayName.fpage">Birinchi sahifa</message>
+	<message key="metadata.property.validationMessage.fpage">Iltimos, birinchi sahifani to‘g‘ri kiriting (raqam bo‘lishi kerak).</message>
+	<message key="metadata.property.displayName.lpage">Oxirgi sahifa</message>
+	<message key="metadata.property.validationMessage.lpage">Iltimos, oxirgi sahifani to‘g‘ri kiriting (raqam bo‘lishi kerak).</message>
+	<message key="metadata.property.displayName.size">Sahifalar soni</message>
+	<message key="metadata.property.validationMessage.size">Iltimos, sahifalarning umumiy sonini to‘g‘ri kiriting (raqam bo‘lishi kerak).</message>
+	<message key="metadata.property.displayName.publisher-loc">Nashriyot joylashuvi</message>
+	<message key="metadata.property.validationMessage.publisher-loc">Iltimos, nashrning to‘g‘ri manzilini kiriting.</message>
+	<message key="metadata.property.displayName.publisher-name">Nashriyot nomi</message>
+	<message key="metadata.property.validationMessage.publisher-name">Iltimos, to‘g‘ri noshir nomini kiriting.</message>
+	<message key="metadata.property.displayName.isbn">ISBN</message>
+	<message key="metadata.property.validationMessage.isbn">Iltimos, to'g'ri ISBN-ni kiriting (9 yoki 13 raqam).</message>
+	<message key="metadata.property.displayName.issn">ISSNni chop etish</message>
+	<message key="metadata.property.validationMessage.issn">Nashrning to‘g‘ri ISSN-ni kiriting.</message>
+	<message key="metadata.property.displayName.eissn">Elektron ISSN</message>
+	<message key="metadata.property.validationMessage.eissn">Iltimos, elektron nashrning to'g'ri ISSN-ni kiriting.</message>
+	<message key="metadata.property.displayName.doi">DOI</message>
+	<message key="metadata.property.validationMessage.doi">Iltimos, to‘g‘ri DOI kiriting.</message>
+	<message key="metadata.property.displayName.publisher-id">Maxsus nashr identifikatori</message>
+	<message key="metadata.property.validationMessage.publisher-id">Iltimos, yaroqli maxsus nashr identifikatorini kiriting.</message>
+	<message key="metadata.property.displayName.coden">KOD</message>
+	<message key="metadata.property.validationMessage.coden">Iltimos, to'g'ri KODENni kiriting.</message>
+	<message key="metadata.property.displayName.sici">SICI</message>
+	<message key="metadata.property.validationMessage.sici">Iltimos, to‘g‘ri SICI kodini kiriting.</message>
+	<message key="metadata.property.displayName.pmid">PMID</message>
+	<message key="metadata.property.validationMessage.pmid">Iltimos, to‘g‘ri PMID kiriting.</message>
+	<message key="metadata.property.displayName.uri">Nashr qilish havolasi</message>
+	<message key="metadata.property.validationMessage.uri">Iltimos, yaroqli muqobil nashr havolasini kiriting.</message>
+	<message key="metadata.property.displayName.comment">Izoh</message>
+	<message key="metadata.property.validationMessage.comment">Iltimos, to‘g‘ri fikr kiriting.</message>
+	<message key="metadata.property.displayName.annotation">Izoh</message>
+	<message key="metadata.property.validationMessage.annotation">Iltimos, to‘g‘ri izoh kiriting.</message>
+	<message key="metadata.property.displayName.publication-type">Nashr turi</message>
+	<message key="metadata.property.validationMessage.publication-type">Iltimos, har doim nashr turini ko'rsatganingizga ishonch hosil qiling. Hozirda qo'llab-quvvatlanadigan qiymatlar kitob (kitoblar yoki kitob bo'limlari uchun) va jurnal (jurnal maqolalari uchun). Agar tur ko'rsatilmagan yoki noto'g'ri ko'rsatilgan bo'lsa, bibliografik manba iqtibosni formatlash to'g'ri ishlamaydi.</message>
+
+	<!-- MODS-ga xos xabarlar -->
+	<message key="metadata.property.displayName.title-type">Sarlavha turi</message>
+	<message key="metadata.property.validationMessage.title-type">Iltimos, sarlavha turini toʻgʻri oʻrnatganingizga ishonch hosil qiling. Qo'llab-quvvatlanadigan qiymatlar: qisqartirilgan, tarjima qilingan, muqobil va bir xil.</message>
+	<message key="metadata.property.displayName.nonSort">Saralashda sarlavhaning bir qismi e'tiborga olinmaydi</message>
+	<message key="metadata.property.validationMessage.nonSort">Iltimos, sarlavhaning faqat birinchi harflarini kiriting, sarlavhalarni saralashda ularga e'tibor bermaslik kerak.</message>
+	<message key="metadata.property.displayName.title">Sarlavha</message>
+	<message key="metadata.property.validationMessage.title">Iltimos, to‘g‘ri nom kiriting.</message>
+	<message key="metadata.property.displayName.subTitle">Subtitr</message>
+	<message key="metadata.property.validationMessage.subTitle">Iltimos, to‘g‘ri taglavha kiriting.</message>
+	<message key="metadata.property.displayName.partNumber">Qism raqami</message>
+	<message key="metadata.property.validationMessage.partNumber">Iltimos, yaroqli qism raqamini kiriting.</message>
+	<message key="metadata.property.displayName.partName">Qism nomi</message>
+	<message key="metadata.property.validationMessage.partName">Iltimos, yaroqli qism nomini kiriting.</message>
+	<message key="metadata.property.displayName.name-type">Ism turi</message>
+	<message key="metadata.property.validationMessage.name-type">Iltimos, to'g'ri nom turini o'rnatganingizga ishonch hosil qiling. Qo'llab-quvvatlanadigan qadriyatlar: shaxsiy, korporativ va konferentsiya.</message>
+	<!-- FIX: end -->
+
+	<message key="common.queue.long.submissionsUnassigned">Tayinlanmagan</message>
+	<message key="common.queue.long.myAssigned">Menga tayinlangan</message>
+	<message key="common.queue.long.submissionsArchived">Arxiv materiallari</message>
+	<message key="submission.authors">Mualliflar</message>
+	<message key="submission.authorBiography">Muallif tarjimai holi</message>
+	<message key="submission.authorBiographies">Muallif tarjimai holi</message>
+	<message key="submission.authorWithAffiliation">{$name}, {$affiliation}</message>
+	<message key="submission.shortAuthor">{$author} va boshqalar</message>
+	<message key="submission.mySubmissions">Muallifligim bilan</message>
+	<message key="submission.addFile">Faylni yuklash</message>
+	<message key="submission.agencies">Tashkilotlar</message>
+	<message key="submission.abstractViews">Mavhum korinishlar</message>
+	<message key="submission.accepted">Qabul qilindi</message>
+	<message key="submission.acknowledge">Tasdiqlash</message>
+	<message key="submission.addSuppFile">Qo‘shimcha fayl qoshish</message>
+	<message key="submission.ask">So‘rov</message>
+	<message key="submission.attachedFile">Biriktirilgan fayl</message>
+	<message key="submission.backToSubmissionEditing">Tahrirlash ma ga qaytishterial</message>
+	<message key="submission.changeComments"></message> bilan almashtiring
+	<message key="submission.changeFile">Faylni o‘zgartirish</message>
+	<message key="submission.citations">Adabiyot</message>
+	<message key="submission.citations.description">Har bir iqtibosni keyinroq olishingiz uchun yangi qatorga kiriting.</message>
+	<message key="submission.parsedCitations">Olingan iqtiboslar</message>
+	<message key="submission.parsedCitations.description">Quyidagi havolalar chiqarib olindi va ular materialning metamaʼlumotlari bilan bogʻlanadi.</message>
+	<message key="submission.parsedAndSaveCitations">Iqtiboslarni ajratib oling va saqlang</message>
+	<message key="submission.comments.addComment">Izoh qo'shish</message>
+	<message key="submission.comments.comments">Izohlar</message>
+	<message key="submission.comments.confirmDelete">Ushbu fikrni o‘chirib tashlamoqchimisiz?</message>
+	<message key="submission.comments.corrections">Tuzatmalar</message>
+	<message key="submission.comments.editComment">Izohni tahrirlash</message>
+	<message key="submission.comments.importPeerReviews">Sharhlarni import qilish</message>
+	<message key="submission.comments.addReviews">E-pochtaga sharhlar qo'shing</message>
+	<message key="submission.comments.importPeerReviews.reviewerLetter">Tarz qiluvchi {$reviewerLetter}:</message>
+	<message key="submission.comments.noComments">Izohlar yo‘q</message>
+	<message key="submission.comments.noReviews">Sharhlar yo‘q</message>
+	<message key="submission.comments.review">Ko‘rib chiqish</message>
+	<message key="submission.comments.sendDecisionToReviewers">Tahririyat qarorini sharhlovchilarga yuborish</message>
+	<message key="submission.comments.subject">Mavzu</message>
+	<message key="submission.complete">Tugallandi</message>
+	<message key="submission.contributors">Mualliflar roʻyxati</message>
+	<message key="submission.copyedited">So‘zma-so‘z tahrirlangan</message>
+	<message key="submission.copyediting">Adabiy tahrir jarayonida</message>
+	<message key="submission.queryNoteFiles">Muhokama fayllari</message>
+	<message key="submission.coverage">Qammlash haqida ma'lumot</message>
+	<message key="submission.done">Bajarildi</message>
+	<message key="submission.dueDate">To'lov sanasi</message>
+	<message key="submission.due">Muddati</message>
+	<message key="submission.editing">Tahrirlash</message>
+	<message key="submission.editMetadata">Meta-ma'lumotlarni tahrirlash</message>
+	<message key="submission.editorial">Adabiy tahrir</message>
+	<message key="submission.email.backToEmailLog">E-pochta jurnaliga qaytish</message>
+	<message key="submission.email.confirmClearLog">Ushbu element uchun elektron pochta jurnalini tozalamoqchimisiz?</message>
+	<message key="submission.email.confirmDeleteLogEntry">Ushbu yozuvni elektron pochta jurnalingizdan o‘chirib tashlamoqchimisiz?</message>
+	<message key="submission.email.deleteLogEntry">Jurnaldagi yozuvni o'chirish</message>
+	<message key="submission.emailLog">Elektron pochta jurnali</message>
+	<message key="submission.event.participantAdded">{$name} ({$username}) bu hikoyaga {$userGroupName} sifatida tayinlangan.</message>
+	<message key="submission.event.participantRemoved">"{$name}" ({$username}) {$userGroupName} sifatida olib tashlandi.</message>
+	<message key="submission.event.backToEventLog">Voqealar jurnaliga qaytish</message>
+	<message key="submission.event.confirmClearLog">Ushbu kontent uchun voqealar jurnalini tozalamoqchimisiz?</message>
+	<message key="submission.event.confirmDeleteLogEntry">Ushbu yozuvni voqealar jurnalidan o‘chirib tashlamoqchimisiz?</message>
+	<message key="submission.event.deleteLogEntry">Jurnaldagi yozuvni o‘chirish</message>
+	<message key="submission.event.submissionSubmitted">Birinchi topshirish tugallandi.</message>
+	<message key="submission.event.fileRevised">"{$name}" versiyasi (fayl ID {$fileId}-{$fileRevision}) yuklab olindi.</message>
+	<message key="submission.event.general.metadataUpdated">Material metadata yangilandi</message>
+	<message key="submission.event.general.suppFileUpdated">Yuborish fayli yangilandi</message>
+	<message key="submission.event.reviewer.reviewAcceptedByProxy">Vositachi orqali olingan ko'rib chiqishga rozilik</message>
+	<message key="submission.event.reviewer.reviewAccepted">Qabul qilingan ko‘rib chiqishga rozilik</message>
+	<message key="submission.event.reviewer.reviewDeclined">Ko'rib chiquvchi ko'rib chiqishni rad etdi</message>
+	<message key="submission.event.reviewer.reviewDueDate">Ko‘rib chiqish muddati o‘zgartirildi</message>
+	<message key="submission.event.reviewer.reviewerAssigned">Materialga sharhlovchi tayinlandi</message>
+	<message key="submission.event.reviewer.reviewerRated">Taqrizchining ishi baholandi</message>
+	<message key="submission.event.reviewer.reviewerUnassigned">Material uchun tayinlanmagan tekshiruvchi</message>
+	<message key="submission.event.reviewer.reviewFile">Ko‘rib chiqish fayli yangilandi</message>
+	<message key="submission.event.reviewer.reviewInitiated">Ko'rib chiqish boshlandi </message>
+	<message key="submission.event.reviewer.reviewRecommendation">Ko'rib chiquvchi tavsiya fayli</message>
+	<message key="submission.event.reviewer.reviewReinitiated">Ko‘rib chiqish qaytadan boshlandi</message>
+	<message key="submission.event.reviewer.reviewResubmitted">Ko‘rib chiqish qayta yuborildi</message>
+	<message key="submission.event.reviewer.reviewRevision">Ko'rib chiquvchi tahrirlari bilan fayl yangilandi</message>
+	<message key="submission.event.subjectPrefix">Xat quyidagi manzilga yuborildi:</message>
+	<message key="submission.event.viewEmail">E-pochtani ko‘rsatish</message>
+	<message key="submission.files">Fayllar</message>
+	<message key="submission.files.downloadAll">Barcha fayllarni yuklab olish</message>
+	<message key="submission.galley">Groof</message>
+	<message key="submission.history.clearLog">Jurnalni tozalash</message>
+	<message key="submission.history">Tarix</message>
+	<message key="submission.history.noLogEntries">Yozuvlar yo‘q.</message>
+	<message key="submission.history.recentLogEntries">Oxirgi yozuvlar</message>
+	<message key="submission.history.submissionEmailLog">E-pochta jurnali</message>
+	<message key="submission.history.submissionEventLog">Voqealar jurnali</message>
+	<message key="submission.history.submissionNotes">Material uchun eslatmalar</message>
+	<message key="submission.history.viewLog">Jurnalni ko‘rish</message>
+	<message key="submission.howToCite">Qanday qilib keltirish kerak</message>
+	<message key="submission.howToCite.citationFormats">Boshqa bibliografik iqtibos formatlari</message>
+	<message key="submission.howToCite.downloadCitation">Yuklab olish havolasi</message>
+	<message key="submission.indexing">Indekslash</message>
+	<message key="submission.initiated">Boshlandi</message>
+
+	<!-- Identifikatorlar -->
+	<message key="submission.identifiers">Identifikatorlar</message>
+	<message key="submission.publisherId">PublisherId URL</message>
+
+	<!-- Axborot markazi -->
+	<message key="submission.informationCenter.submissionInfo">Material ma'lumotlar</message>
+	<message key="submission.informationCenter.metadata">Metama'lumotlar</message>
+	<message key="submission.informationCenter.notes">Eslatmalar</message>
+	<message key="submission.informationCenter.history">Tarix</message>
+	<message key="submission.informationCenter.history.allEvents">Oldingi versiyalardagi voqealarni ko‘rsatish</message>
+
+	<!-- Bosqich ishtirokchilari -->
+	<message key="submission.stageParticipants.notify">Ogohlantirish</message>
+
+	<message key="submission.lastModified">Oxirgi tahrirlangan</message>
+	<message key="submission.layout.addGalley">Oshxona tartibini qo‘shish</message>
+	<message key="submission.layout.confirmDeleteGalley">Ushbu galleyni butunlay o‘chirib tashlamoqchimisiz?</message>
+	<message key="submission.layout.confirmDeleteGalleyImage">Ushbu rasmni oshxonadan o‘chirib tashlamoqchimisiz?</message>
+	<message key="submission.layout.confirmDeleteSupplementaryFile">Ushbu qo‘shimcha faylni butunlay o‘chirib tashlamoqchimisiz?</message>
+	<message key="submission.layout.deleteGalleyStylesheet">Ushbu uslublar jadvalini oʻchirib tashlang.</message>
+	<message key="submission.layout.editGalley">Oyxona tartibini tahrirlash</message>
+	<message key="submission.layout.galleyFormat">Gauley formati</message>
+	<message key="submission.layout.galleyHTMLData">HTML Galley fayllari</message>
+	<message key="submission.layout.galleyImages">Rasmlar</message>
+	<message key="submission.layout.galleyLabel">Galley yorlig'i</message>
+	<message key="submission.layout.galleyLabelInstructions">Odatda fayl formatini aniqlash uchun ishlatiladi (masalan, HTML, PDF va boshqalar).</message>
+	<message key="submission.layout.galleyLabelRequired">Oyxona yorlig‘i kerak.</message>
+	<message key="submission.layout.galleyLanguageRequired">Galley tili talab qilinadi.</message>
+	<message key="submission.layout.galleyLocaleRequired">Galley tili talab qilinadi.</message>
+	<message key="submission.layout.galleyRemoteURL">Masofadagi server URL manzili</message>
+	<message key="submission.layout.galleyRemoteURLValid">Iltimos, yaroqli masofaviy server URL manzilini kiriting (jumladan, http://).</message>
+	<message key="submission.layout.galleyNoImages">Rasm yo'q</message>
+	<message key="submission.layout.galleys">Groofs</message>
+	<message key="submission.layout.galleyStylesheet">Uslublar varaqlari fayli</message>
+	<message key="submission.layout.galleyStyle">Uslub</message>
+	<message key="submission.layout.initialGalleyCreation">Dastlabki oshxona yaratish</message>
+	<message key="submission.layout.layoutFile">Tarzim fayli</message>
+	<message key="submission.layout">Tuzilish</message>
+	<message key="submission.layout.layoutVersion">Tuzilish versiyasi</message>
+	<message key="submission.layout.newGalley">Yangi oshxona yaratish</message>
+	<message key="submission.layout.newSupplementaryFile">Yangi qo‘shimcha faylni yuklash</message>
+	<message key="submission.layout.noStyleFile">Uslublar jadvali fayli bu galleyga qo‘shilmagan.</message><message key="submission.layout.suplementaryFiles">Qo‘shimcha faylni ko‘rib chiqish</message>
+	<message key="submission.layout.viewingGalley">Otxona materialini ko‘rish</message>
+	<message key="submission.layout.viewProof">Isbotni ko'rsatish</message>
+	<message key="submission.metadata">Yuborish metadata</message>
+	<message key="submission.noReviewAssignments">Hech qanday sharhlovchi tayinlanmagan</message>
+	<message key="submission.notes.addNewNote">Yangi eslatma qo'shish</message>
+	<message key="submission.notes.attachedFile">Biriktirilgan fayl</message>
+	<message key="submission.notes.backToSubmissionNotes">Qaydlarga qaytish</message>
+	<message key="submission.notes.breadcrumb">Eslatmalar</message>
+	<message key="submission.notes.clearAllNotes">Barcha qaydlarni tozalash</message>
+	<message key="submission.notes.collapseNotes">Qaydlarni yig‘ish</message>
+	<message key="submission.notes.confirmDeleteAll">Material uchun barcha qaydlar o‘chirilsinmi?</message>
+	<message key="submission.notes.confirmDelete">Material uchun ushbu eslatmani o‘chirib tashlamoqchimisiz?</message>
+	<message key="submission.notes.createNewNote">Yangi qayd yaratish</message>
+	<message key="submission.notes.deleteNote">Qaydni o‘chirish</message>
+	<message key="submission.notes.editNote">Eslatmani tahrirlash</message>
+	<message key="submission.notes.expandNotes">Qaydlarni yoyish</message>
+	<message key="submission.notes.noSubmissionNotes">Material uchun qaydlar yo'q</message>
+	<message key="submission.notes.removeUploadedFile">Yuklangan faylni olib tashlash</message>
+	<message key="submission.notes">Material uchun eslatmalar</message>
+	<message key="submission.notes.updateNote">Qaydni yangilash</message>
+	<message key="submission.notes.viewNotes">Qaydlarni ko‘rish</message>
+	<message key="submission.originalFile">Asl fayl</message>
+	<message key="submission.page.editing">#{$id} tahrirlash</message>
+	<message key="submission.page.history">#{$id} Tarix</message>
+	<message key="submission.page.review">#{$id} ko'rib chiqish</message>
+	<message key="submission.page.summary">#{$id} Xulosa</message>
+	<message key="submission.page.citations">#{$id} Bibliografik manbalar</message>
+	<message key="submission.peerReview">Ko‘rib chiqish</message>
+	<message key="submission.production">Nashr</message>
+	<message key="submission.recommendation">Tavsiya: {$recommendation}</message>
+	<message key="submission.rejected">Rad qilindi</message>
+	<message key="submission.request">So‘rov</message>
+	<message key="submission.response">Javob</message>
+	<message key="submission.restrictions">Cheklovlar</message>
+	<message key="submission.reviewMetadata">Meta-ma'lumotlarni tekshirish</message>
+	<message key="submission.review">Ko‘rib chiqish</message>
+	<message key="submission.reviewed">Ko‘rib chiqildi</message>
+	<message key="submission.reviewVersion">versiyani ko‘rib chiqish</message>
+	<message key="submission.rights">Huquqlar</message>
+	<message key="submission.rights.tip">Agar xohlasangiz, ushbu materialga qolgan yoki o‘tkazilayotgan kirish huquqlari haqida qisqacha bildirishnoma kiritishingiz mumkin.</message>
+	<message key="submissions.active">Davom etmoqda</message>
+	<message key="submissions.archived">Arxivlangan</message>
+	<message key="submission.saveMetadata">Meta-ma'lumotlarni saqlash</message>
+	<message key="submissions.completed">Bajarildi</message>
+	<message key="submissions.declined">Rad etildi</message>
+	<message key="submissions.incomplete">Tugallanmagan</message>
+	<message key="submissions.noSubmissions">Yuborish yo‘q</message>
+	<message key="submissions.queuedEditing">Tahrirlash</message>
+	<message key="submissions.queued">Navbatga qo‘yilgan</message>
+	<message key="submissions.queuedUnassigned">Bu hikoyaga muharrir tayinlanmagan.</message>
+	<message key="submissions.ruling">Yechim</message>
+	<message key="submission.source">Manba</message>
+	<message key="submission.source.tip">Ushbu material boshqa manbadan olinganmi? Ha boʻlsa, ushbu manba uchun URL yoki tavsifni kiritishingiz mumkin.</message>
+	<message key="submissions.submit">Yuborish</message>
+	<message key="submissions.submitted">Yuborish</message>
+	<message key="submission.submission">Material</message>
+	<message key="submission.submissionTitle">Material nomi:</message>
+	<message key="submission.start">Boshlash</message>
+	<message key="submission.submissionHistory">Materiallar tarixi</message>
+	<message key="submission.submissionManuscript">Qo‘lyozma materiali</message>
+	<message key="submission.submissionReview">Materialni ko‘rib chiqish</message>
+	<message key="submission.submitter">Yuborish</message>
+	<message key="submission.submit.finishSubmission">Yuborishni tugatish</message>
+	<message key="submission.submit.selectFile">Faylni tanlang</message>
+	<message key="submission.submit.fileInformation">Fayl haqida ma'lumot</message>
+	<message key="submission.submit.fileAdded">Fayl qo'shildi</message>
+	<message key="submission.submit.includeInBrowse">Ushbu muallif qidiruv ro‘yxatiga kiritilsinmi?</message>
+	<message key="submission.submit.newFile">Boshqa fayl qo‘shing</message>
+	<message key="submission.submit.metadataForm">Qo'shimcha tushuntirishlar</message>
+	<message key="submission.submit.metadataForm.tip">Yuborish uchun qoʻshimcha maʼlumot qoʻshing. Har bir muddatdan keyin “Enter” tugmasini bosing.</message>
+	<message key="submission.submit.submissionLocale">Material til</message>
+	<message key="submission.submit.submissionLocaleDescription">Bir nechta tillar qabul qilinadi. Yuqoridagi ochiladigan menyudan taqdim etishning asosiy tilini tanlang.</message>
+	<message key="submission.submit.submissionFiles">Yuborish fayllari</message>
+	<message key="submission.submit.dependentFiles">Bog'liq fayllar</message>
+	<message key="submission.manageDependentFiles">Bog‘liq fayllarni boshqarish</message>
+	<message key="submission.upload.dependent">Bog‘liq faylni yuklash</message>
+	<message key="submission.upload.query">Muhokama faylini yuklash</message>
+	<message key="submission.summary">Xulosa</message>
+	<message key="submission.suplementaryFiles">Qo‘shimcha fayllar</message>
+	<message key="submission.supportingAgencies">Yordamchi agentliklar</message>
+	<message key="submission.currentAgencies">Joriy agentliklar</message>
+	<message key="submission.indexingInformation">Indekslash uchun ma'lumot</message>
+	<message key="submission.titleAndAbstract">Sarlavha va referat</message>
+	<message key="submission.type.tip"><![CDATA[Kontent turi odatda "tasvir", "matn" yoki boshqa media turlari, jumladan, "dasturiy ta'minot" yoki "interaktiv" bo'ladi. Iltimos, materialingiz uchun eng mos turni tanlang. Misollarni <a target="_blank" href="http://dublincore.org/documents/2001/04/12/usageguide/generic.shtml#type">http://dublincore.org/documents/ sahifasida topish mumkin. 2001/04/12/usageguide/generic.shtml#type</a>]]>
+	</message>
+	<message key="submission.underway">Davom etmoqda</message>
+	<message key="submission.uploadFileTo">Faylni</message>ga yuklang
+	<message key="submission.createRemote">pult yaratish</message>
+	<message key="submission.viewMetadata">Metamaʼlumotlarni koʻrish</message>
+	<message key="submission.views">Ko‘rishlar</message>
+	<message key="submission.uploadSuccessful">Faylingiz yuklandi.</message>
+	<message key="submission.loadMessage">Faylingiz serverga yuklanishini kuting.</message>
+	<message key="submission.artworkFileDetails">Grafik fayl haqida ma'lumot</message>
+	<message key="submission.fileDetails">Fayl haqida ma'lumot</message>
+	<message key="submission.nameRequired">Ushbu element uchun nom kerak.</message>
+	<message key="submission.date.mmdd">MM-DD</message>
+	<message key="submission.date.yyyymmdd">YYYY-AA-KK</message>
+	<message key="submission.submit.selectPrincipalContact">Muharrir bilan yozishmalar uchun bog‘lanish uchun shaxs.</message>
+	<message key="submission.submit.contributorRole">Muallif roli</message>
+	<message key="submission.submit.addAuthor">Muallif qo‘shish</message>
+	<message key="submission.submit.form.languagesRequired">Tilingizni belgilang.</message>
+	<message key="submission.submit.form.subjectsRequired">Mavzuni kiriting.</message>
+	<message key="submission.submit.form.disciplinesRequired">Mavzuni ko'rsating.</message>
+	<message key="submission.submit.form.keywordsRequired">Iltimos, kalit so‘z kiriting.</message>
+	<message key="submission.submit.form.agenciesRequired">Iltimos, homiylarni ko'rsating.</message>
+	<message key="submission.submit.form.coverageRequired">Iltimos, qamrov haqida ma'lumot bering.</message>
+	<message key="submission.submit.form.typeRequired">Turini belgilang.</message>
+	<message key="submission.submit.form.sourceRequired">Iltimos, manbani ko'rsating.</message>
+	<message key="submission.submit.form.rightsRequired">Iltimos, materialga bo'lgan huquqlarni ko'rsating.</message>
+	<message key="submission.submit.form.citationsRequired">Iltimos, bibliografik manbalarni taqdim eting.</message>
+
+	<!-- Material faylini yuklash formasining elementlari -->
+	<message key="submission.form.name">Faylga nom bering (masalan, Qo‘lyozma; 1-jadval)</message>
+	<message key="submission.form.replaceExisting">Mavjud fayl almashtirilsinmi?</message>
+
+	<!-- Ish jarayoni tugmalari -->
+	<message key="workflow.review.internalReview">Ichki ko'rib chiqish</message>
+	<message key="workflow.stage.any">Har qanday bosqich</message>
+	<message key="workflow.stage">Bosqich</message>
+
+
+	<!-- Moddiy holat -->
+	<message key="submission.status.editorial">Adabiy tahrirda</message>
+	<message key="submission.status.production">tekshirishda</message>
+	<message key="submission.status.review">Ko‘rib chiqilmoqda</message>
+	<message key="submission.status.submission">Tahririyat qarori kutilmoqda</message>
+	<message key="submission.status.unassigned">Tayinlanmagan</message>
+	<message key="submission.status.declined">Rad etildi</message>
+	<message key="submission.status.published">Nashr qilingan</message>
+
+	<message key="submission.submit.uploadStep">1. Faylni yuklash</message>
+	<message key="submission.submit.uploadSubmissionFile">Material faylni yuklash</message>
+	<message key="submission.submit.metadataStep">2. Tafsilotlarni tekshiring</message>
+	<message key="submission.submit.finishingUpStep">3. Tasdiqlash</message>
+	<message key="submission.submit.fileNameRequired">Ushbu fayl uchun fayl nomini kiritishingiz kerak</message>
+
+	<!-- Fayl yuklash ustasi -->
+	<message key="submission.upload.noGenre">Yo‘qolgan yoki noto‘g‘ri komponent!</message>
+	<message key="submission.upload.invalidUserGroup">Yo'qolgan yoki noto'g'ri foydalanuvchi guruhi!</message>
+	<message key="submission.upload.possibleRevision">Mumkin takrorlash yoki yangi versiya aniqlandi</message>
+	<message key="submission.upload.possibleRevisionDescription"><![CDATA[Yuklangan fayl nomi avval yuklangan "{$revisedFileName}" fayl nomi bilan bir xil. Ushbu fayl "{$revisedFileName}" o'rnini bosadimi? Ha boʻlsa, quyidagi faylni tanlang, aks holda davom etishdan oldin “Bu mavjud faylning yangi versiyasi emas” bandini tanlang.]]></message>
+	<message key="submission.upload.selectMandatoryFileToRevise">O‘zgartirmoqchi bo‘lgan faylni tanlang.</message>
+	<message key="submission.upload.selectOptionalFileToRevise">Agar siz mavjud faylning yangi versiyasini yuklayotgan bo‘lsangiz, qaysi faylni ko‘rsating.</message>
+	<message key="submission.upload.uploadNewFile">Bu mavjud faylning yangi versiyasi emas</message>
+	<message key="submission.upload.userGroup">Ushbu faylni mening rolim bilan yuklang...</message>
+	<message key="submission.upload.userGroupDescription">Agar siz tahrirlangan jildni yuborsangiz, jildning barcha boblarini jild muharriri roli ostida alohida yuklashingiz kerak.</message>
+	<message key="submission.upload.uploadLibraryFile">Kutubxona faylini yuklash</message>
+	<message key="submission.upload.libraryCategory">Yuborilayotgan hujjat toifasi</message>
+
+	<!-- Fayllarni yuklash -->
+	<message key="submission.upload.finalDraft">Faylni yuklash</message>
+	<message key="submission.upload.copyeditedVersion">Adabiy tahrirdan keyin faylni yuklash</message>
+	<message key="submission.upload.fairCopy">Yakuniy nusxasini yuklash</message>
+	<message key="submission.upload.uploadFiles">Fayllarni yuklash</message>
+	<message key="submission.upload.response.description">Tayinlangan faylni ko‘rib chiqqandan so‘ng, quyidagi fayl haqida fikringizni yozing va/yoki faylning (yoki boshqa faylning) belgilangan nusxasini yuklang.</message>
+	<message key="submission.upload.productionReady">Faylni nashr qilish uchun yuklash</message>
+	<message key="submission.upload.proof">Nashrga tayyor faylni yuklang</message>
+	<message key="submission.upload.noAvailableReviewFiles">Ko‘rib chiqish uchun hozircha hech qanday fayl yo‘q.</message>
+
+	<!-- Davra holati tugmachalarini ko'rib chiqish -->
+	<message key="editor.submission.roundStatus.revisionsRequested">Yangi versiyalar talab qilindi.</message>
+	<message key="editor.submission.roundStatus.revisionsSubmitted">Yangi versiyalar yuborildi.</message>
+	<message key="editor.submission.roundStatus.resubmitForReview">Material ko‘rib chiqish uchun qayta yuborilishi kerak.</message>
+	<message key="editor.submission.roundStatus.submissionResubmitted">Material ko‘rib chiqish uchun qayta yuborildi.</message>
+
+	<message key="editor.submission.roundStatus.sentToExternal">Tashqi tekshirish uchun yuborilgan.</message>
+	<message key="editor.submission.roundStatus.accepted">Material qabul qilindi.</message>
+	<message key="editor.submission.roundStatus.declined">Material rad etildi.</message>
+	<message key="editor.submission.roundStatus.pendingReviewers">Ko‘rib chiquvchilar tayinlanishi kutilmoqda.</message>
+	<message key="editor.submission.roundStatus.pendingReviews">Ko'rib chiquvchilardan javob kutilmoqda.</message>
+	<message key="editor.submission.roundStatus.reviewsReady">Yangi sharhlar yuborildi.</message>
+	<message key="editor.submission.roundStatus.reviewsCompleted">Barcha sharhlar keldi, siz qaror qabul qilishingiz kerak.</message>
+	<message key="editor.submission.roundStatus.reviewOverdue">Ko‘rib chiqish muddati o‘tdi.</message>
+	<message key="editor.submission.roundStatus.pendingRecommendations">Muharrirlardan kutilayotgan tavsiyalar.</message>
+	<message key="editor.submission.roundStatus.recommendationsReady">Yangi tahrirlovchi tavsiyalari yuborildi.</message>
+	<message key="editor.submission.roundStatus.recommendationsCompleted">Barcha tavsiyalar keldi, siz qaror qabul qilishingiz kerak.</message>
+
+	<!-- Ishtirokchilar -->
+	<message key="editor.submission.stageParticipants">Ishtirokchilar</message>
+
+	<!-- “Sahna ishtirokchilari” panjarasi -->
+	<message key="editor.submission.noneAssigned">Hech kim tayinlanmagan</message>
+	<message key="editor.submission.participant">Ishtirokchi</message>
+	<message key="editor.submission.addStageParticipant">Ishtirokchini tayinlash</message>
+	<message key="editor.submission.addStageParticipant.userGroup">Foydalanuvchilar guruhi tomonidan ish jarayoni bosqichlariga tayinlangan foydalanuvchilar. Ushbu bosqichga tayinlangan har qanday foydalanuvchi avtomatik ravishda ushbu foydalanuvchi guruhi ularga tayinlangan boshqa bosqichlarga tayinlanadi. HAQIDABu odatda muharrirlar, mualliflar va tarjimonlarga topshiriladi.</message>
+	<message key="editor.submission.removeStageParticipant">Ishtirokchini olib tashlash</message>
+	<message key="editor.submission.removeStageParticipant.description"><![CDATA[Ushbu ishtirokchini <strong>barcha</strong> bosqichlardan olib tashlamoqchisiz. Agar foydalanuvchida auditor vazifalari ham to'xtatilgan bo'lsa, ular ham o'chiriladi.]]></message>
+	<message key="editor.submission.addStageParticipant.form.userGroupRequired">Siz foydalanuvchi guruhini tanlashingiz kerak.</message>
+	<message key="editor.submission.addStageParticipant.form.userRequired">Ko‘rsatilgan foydalanuvchilar guruhi uchun foydalanuvchini tanlashingiz kerak.</message>
+	<message key="editor.submission.addStageParticipant.form.reviewerWarning">Siz tanlagan foydalanuvchi ko‘r-ko‘rona tekshiruv o‘tkazish uchun tayinlangan. Agar siz uni hissa qo'shuvchi sifatida belgilasangiz, u muallif haqidagi ma'lumotlarga kirish huquqiga ega bo'ladi. Koʻr-koʻrona koʻrib chiqish jarayonining mustaqilligi saqlanib qolishi mumkinligiga ishonchingiz komil boʻlmasa, ushbu ishtirokchini nomzod qilib koʻrsatmaslikni tavsiya qilamiz.</message>
+
+	<!-- tahririyat qarorlari -->
+	<message key="editor.submission.decision">Qaror</message>
+	<message key="editor.submission.decision.accept">Materialni qabul qilish</message>
+	<message key="editor.submission.decision.requestRevisions">Yangi versiyalarni so‘rash</message>
+	<message key="editor.submission.decision.resubmit">Ko‘rib chiqish uchun qayta yuborish</message>
+	<message key="editor.submission.decision.decline">Materialni rad etish</message>
+	<message key="editor.submission.decision.sendToProduction">Nashrga yuborish</message>
+	<message key="editor.submission.decision.skipReview">Materialni qabul qiling va ko‘rib chiqishni o‘tkazib yuboring</message>
+	<message key="editor.submission.decision.sendInternalReview">Ichki tekshirish uchun yuborish</message>
+	<message key="editor.submission.decision.approveProofsDescription">Sahifani tasdiqlovchi fayl chop etilishidan oldin tasdiqlangan deb belgilanishi kerak. Buni tasdiqlamoqchimisiz?</message>
+	<message key="editor.submission.decision.approveProofs">Dalillarni tasdiqlash</message>
+	<message key="editor.submission.decision.disapproveProofsDescription">Bu isbot fayli endi yuklab olish yoki sotib olish uchun mavjud bo‘lmaydi. Uning roziligini bekor qilmoqchimisiz?</message>
+	<message key="editor.submission.decision.noDecisionsAvailable">Ushbu qadam uchun tahririyat qarorlarini yoqish uchun muharrir tayinlang.</message>
+	<!-- muharrir tavsiyalari -->
+	<message key="editor.submission.makeRecommendation">Tavsiya bering</message>
+	<message key="editor.submission.changeRecommendation">Tavsiyani o‘zgartirish</message>
+	<message key="editor.submission.recommendation.display">Tavsiya: {$recommendation}</message>
+	<message key="editor.submission.allRecommendations.display">Tavsiyalar: {$recommendations}</message>
+	<message key="editor.submission.recommendation">Tavsiya</message>
+	<message key="editor.submission.recommendation.description">Ushbu material uchun tahririyat qarorini tavsiya eting.</message>
+	<message key="editor.submission.recordedRecommendations">Yozilgan tavsiyalar</message>
+	<message key="editor.submission.decision.nextButton">Keyingi: {$stageName} uchun fayllarni tanlang</message>
+	<message key="editor.submission.decision.selectFiles">Fayllarni tanlang: siz "{$stageName}" bosqichiga topshirmoqchisiz.</message>
+	<message key="editor.submission.decision.previousAuthorNotification">Orqaga: Muallif bildirishnomasi</message>
+
+	<!-- ish jarayoni navigatsiya tugmalari -->
+	<message key="submission.currentStage">Joriy bosqich</message>
+	<message key="submission.noActionRequired">Hech narsa qilish shart emas</message>
+	<message key="submission.actionNeeded">Harakat kerak</message>
+
+	<message key="reviewer.submission.reviewFiles">Ko'rib chiqish uchun fayllar</message>
+	<message key="submission.submit.currentFile">Joriy fayl</message>
+	<message key="submission.finalDraft">qoralama fayllar</message>
+
+	<!-- Auditor kalitlari -->
+	<message key="editor.submission.addAuditorError">Auditor tayinlashda xatolik yuz berdi. Qayta urinib ko‘ring.</message>
+
+	<!-- Hodisalar jurnali yuborilmoqda -->
+	<message key="submission.event.fileUploaded">“{$originalFileName}” fayli “{$username}” foydalanuvchisi tomonidan “{$submissionId}” materiali uchun yuklangan.</message>
+	<message key="submission.event.fileDeleted">“{$originalFileName}” fayli “{$username}” foydalanuvchisi tomonidan “{$submissionId}” kontentidan o‘chirildi.</message>
+	<message key="submission.event.revisionUploaded">"{$username}" foydalanuvchisi tomonidan "{$originalFileName}" faylining yangi versiyasi "{$submissionId}" materiali uchun yuklangan.</message>
+	<message key="submission.event.revisionDeleted">“{$originalFileName}” fayl versiyasi “{$username}” foydalanuvchisi tomonidan “{$submissionId}” kontentidan olib tashlandi.</message>
+	<message key="submission.event.lastRevisionDeleted">“{$title}” faylining so‘nggi versiyasi “{$username}” foydalanuvchisi tomonidan o‘chirib tashlangan.</message>
+	<message key="submission.event.fileAuditorAdded">"{$name}" ({$username}) edi“{$file}” fayli uchun auditor sifatida qo‘shildi.</message>
+	<message key="submission.event.fileAuditorCleared">"{$name}" ({$username}) "{$file}" fayli auditori sifatida olib tashlandi.</message>
+	<message key="submission.event.fileAuditUploaded">"{$name}" ({$username}) "{$file}" faylini tekshirdi va yukladi.</message>
+	<message key="submission.event.signoffSignoff">"{$name}" ({$username}) nihoyat "{$file}" uchun yangi nashrni tasdiqladi.</message>
+	<message key="submission.event.proofsApproved">"{$name}" ({$username}) "{$formatName}" uchun dalillarni tasdiqladi.</message>
+	<message key="submission.overview">Yuborgan materialning umumiy ko‘rinishi</message>
+	<message key="submission.description">Tavsif</message>
+	<message key="submission.stageNotInitiated">Bosqich boshlanmadi.</message>
+	<message key="submission.documents">Yuborgan material hujjatlari</message>
+	<message key="notification.type.editorAssign">Siz “{$title}” hikoyasi uchun muharrir etib tayinlangansiz.</message>
+	<message key="notification.type.copyeditorRequest">Sizdan “{$title}” faylini nusxalash so‘ralgan.</message>
+	<message key="notification.type.layouteditorRequest">Sizdan “{$title}” uchun tartibni bajarishingiz so‘ralgan.</message>
+	<message key="notification.type.indexRequest">Sizdan “{$title}”ni indekslashingiz so‘ralgan.</message>
+	<message key="notification.type.editorDecisionTitle">Oxirgi tahrir qarori.</message>
+	<message key="notification.type.editorDecisionAccept">Material qabul qilindi.</message>
+	<message key="notification.type.editorDecisionExternalReview">Tashqi tekshirish jarayoni boshlandi.</message>
+	<message key="notification.type.editorDecisionPendingRevisions">Materialning yangi versiyasi talab qilinadi.</message>
+	<message key="notification.type.editorDecisionResubmit">Ko‘rib chiqishni qayta yuborish.</message>
+	<message key="notification.type.editorDecisionDecline">Material rad etildi.</message>
+	<message key="notification.uploadedResponse">Javob yuklandi.</message>
+
+	<message key="notification.type.editorAssignment">Ko'rib chiqishni boshlashdan oldin muharrir tayinlanishi kerak. Iltimos, Contributors roʻyxatidan foydalanib muharrir qoʻshing.</message>
+	<message key="grid.reviewAttachments.title">Ko'rib chiquvchi tomonidan biriktirilgan fayllar</message>
+	<message key="grid.reviewAttachments.send.title">Muallif(lar)ga yuborish uchun ko‘rib chiqish fayllarini tanlang</message>
+	<message key="submission.productionReady">Kitob mavjud</message>
+	<message key="submission.review.uploadRevisionToRound">Faylning yangi versiyasini yuklash</message>
+	<message key="log.review.reviewerAssigned">Ko'rib chiquvchi {$reviewerName} "{$submissionId}" materialini ko'rib chiqish uchun tayinlangan (ko'rib chiqish bosqichi - {$round}).</message>
+	<message key="log.review.reviewUnconsidered">{$editorName} {$submissionId} uchun {$round} ko‘rib chiqish bosqichini ko‘rib chiqilmagan deb belgiladi.</message>
+	<message key="submission.review.status.awaitingResponse">Ko'rib chiquvchidan javob kutilmoqda.</message>
+	<message key="submission.review.status.declined">Ko'rib chiquvchi ushbu tekshirish so'rovini rad etdi.</message>
+	<message key="submission.review.status.responseOverdue">Ko'rib chiquvchi so'rovga javob berish muddatini o'tkazib yubordi.</message>
+	<message key="submission.review.status.reviewOverdue">Ko'rib chiquvchi ko'rib chiqish muddatini o'tkazib yubordi.</message>
+	<message key="submission.review.status.accepted">Ko'rib chiqish qabul qilindi.</message>
+	<message key="submission.review.status.received">Ko'rib chiquvchi o'z sharhini yubordi.</message>
+	<message key="submission.review.status.complete">Ko‘rib chiqish tugallandi.</message>
+	<message key="submission.review.status.thanked">Ko‘rib chiqish yakunlandi va sharhlovchiga minnatdorchilik bildirildi.</message>
+	<message key="submission.document">Hujjat</message>
+	<message key="submission.art">Rasm</message>
+	<message key="submission.supplementary">Qo‘shimcha kontent</message>
+	<message key="submission.suplementary.creator">Fayl yaratuvchisi (yoki egasi)</message>
+	<message key="submission.suplementary.subject">Mavzu</message>
+	<message key="submission.suplementary.publisher">Nashriyot</message>
+	<message key="submission.suplementary.sponsor">Homiy yoki muallif</message>
+	<message key="grid.action.itemWorkflow">Material ish oqimiga o‘tish</message>
+	<message key="notification.type.editorDecisionSendToProduction">Nashr qilish jarayoni boshlandi.</message>
+	<message key="notification.type.editorAssignmentProduction">Nashr qilish jarayoni boshlanishidan oldin ishlab chiqarish muharriri tayinlanishi kerak. Iltimos, Contributors roʻyxatidan foydalanib ishlab chiqarish muharriri qoʻshing.</message>
+	<message key="notification.type.editorAssignmentEditing">Tahrirlash jarayoni boshlanishidan oldin ishga tushirish muharriri tayinlanishi kerak. Iltimos, Contributors roʻyxatidan foydalanib ishlab chiqarish muharriri qoʻshing.</message>
+
+	<!-- ko'rib chiqish -->
+	<message key="submission.reviewForm">Ko‘rib chiqish shakli</message>
+	<message key="submission.reviewFormResponse">Ko'rib chiqish shakliga javob</message>
+	<message key="grid.action.createReviewFormElement">Element uchun yangisini yaratingbiz sharhlar</message>
+	<message key="grid.action.editMetadata">Meta-ma'lumotlarni tahrirlash</message>
+
+	<!-- Huquqlar -->
+	<message key="submission.permissions">Ruxsatlar</message>
+	<message key="submission.attachPermissions">Materialga quyidagi ruxsatlarni qo‘shing:</message>
+	<message key="submission.license">Litsenziya</message>
+	<message key="submission.copyright">Mualliflik huquqi</message>
+	<message key="submission.copyrightHolder">Mualliflik huquqi egasi</message>
+	<message key="submission.copyrightYear">Mualliflik huquqi yili</message>
+	<message key="submission.copyrightStatement">Mualliflik huquqi (c) {$copyrightYear} {$copyrightHolder}</message>
+	<message key="submission.licenseURLValid">Iltimos, yaroqli masofaviy server URL manzilini kiriting (jumladan, http://).</message>
+	<message key="submission.licenseURL">Litsenziya URL manzili</message>
+	<message key="submission.license.cc.by-nc-nd4">CC “Atribution-NonCommercial-NoDerivatives” 4.0</message>
+	<message key="submission.license.cc.by-nc4">CC “Atribution-NoCommercial” 4.0</message>
+	<message key="submission.license.cc.by-nc-sa4">CC “Attribution-NonCommercial-ShareAlike” 4.0</message>
+	<message key="submission.license.cc.by-nd4">CC “Atribution-NoDerivatives” 4.0</message>
+	<message key="submission.license.cc.by4">CC “Atribution” 4.0</message>
+	<message key="submission.license.cc.by-sa4">CC “Attribution-ShareAlike” 4.0</message>
+	<message key="submission.license.cc.by-nc-nd4.footer"><![CDATA[<a rel="license" href="https://creativecommons.org/licenses/by-nc-nd /4.0/"><img alt="Creative Commons License" src="//i.creativecommons.org/l/by-nc-nd/4.0/88x31.png" /></a><p>Ushbu ish Creative Commons Attribution-NonCommercial-NoDerivatives litsenziyasi ostida mavjud") 4.0 Butun dunyoda</a>.</p>]]></message>
+	<message key="submission.license.cc.by-nc4.footer"><![CDATA[<a rel="license" href="https://creativecommons.org/licenses/by-nc/4.0/" ><img alt="Creative Commons License" src="//i.creativecommons.org/l/by-nc/4.0/88x31.png" /></a><p>Ushbu ish <a rel ostida mavjud = "license" href="https://creativecommons.org/licenses/by-nc/4.0/">Creative Commons Attribution-NonCommercial 4.0 Butunjahon Litsenziyasi</a>.</p >]]></message>
+	<message key="submission.license.cc.by-nc-sa4.footer"><![CDATA[<a rel="license" href="https://creativecommons.org/licenses/by-nc-sa /4.0/"><img alt="Creative Commons License" src="//i.creativecommons.org/l/by-nc-sa/4.0/88x31.png" /></a><p>Ushbu ish Creative Commons Attribution-NonCommercial-ShareAlike litsenziyasi ostida mavjud") 4.0 Butun dunyoda</a>.</p>]]></message>
+	<message key="submission.license.cc.by-nd4.footer"><![CDATA[<a rel="license" href="https://creativecommons.org/licenses/by-nd/4.0/" ><img alt="Creative Commons License" src="//i.creativecommons.org/l/by-nd/4.0/88x31.png" /></a><p>Ushbu ish <a rel ostida mavjud = "license" href="https://creativecommons.org/licenses/by-nd/4.0/">Creative Commons Attribution-NoDerivatives 4.0 Butunjahon litsenziyasi</a>.</a> p>]]></message >
+	<message key="submission.license.cc.by4.footer"><![CDATA[<a rel="license" href="https://creativecommons.org/licenses/by/4.0/"><img alt ="Creative Commons License" src="//i.creativecommons.org/l/by/4.0/88x31.png" /></a><p>Ushbu ish <a rel="license" href= ostida mavjud " https://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 Butunjahon litsenziyasi</a>.</p>]]></message>
+	<message key="submission.license.cc.by-sa4.footer"><![CDATA[<a rel="license" href="https://creativecommons.org/licenses/by-sa/4.0/" ><img alt="Creative Commons License" src="//i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><p>Ushbu ish <a rel ostida mavjud = "license" href="https://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 Butunjahon litsenziyasi</a>.< /p>]]></message>
+
+	<!-- So'rov yuborish -->
+	<message key="submission.queries.submission">Ko‘rib chiqishdan oldin muhokamalar</message>
+	<message key="submission.queries.review">Munozaralarni ko‘rib chiqing</message>
+	<message key="submission.queries.editorial">Adabiy tahrir haqida munozaralar</message>
+	<message key="submission.queries.production">Nashr muhokamalari</message>
+	<message key="submission.query.subject">Mavzu</message>
+	<message key="submission.query.messages">Xabarlar</message>
+	<message key = "submission.query.replies">Javoblar</message>
+	<message key="submission.query.from">Kimdan</message>
+	<message key="submission.query.lastReply">Oxirgi javob</message>
+	<message key="submission.query.closed">Yopiq</message>
+	<message key="submission.query.addNote">Xabar qo‘shish</message>
+	<message key="grid.action.openNoteForm">Muhokama uchun yangi javob qo'shing</message>
+	<message key="submission.query.activity">“{$responderName}” foydalanuvchisi “{$noteTitle}”ga javob berdi: {$noteContents}</message>
+	<message key="submission.query.new">“{$creatorName}” foydalanuvchisi “{$noteTitle}” haqida munozara boshladi: {$noteContents}</message>
+	<message key="submission.query.activity.contents">“{$submissionTitle}” kontenti bilan bog‘liq “{$queryTitle}” nomli yangi muhokama faoliyati mavjud.</message>
+	<message key="submission.query.new.contents">Siz “{$submissionTitle}” kontenti bo‘yicha “{$queryTitle}” sarlavhali munozaraga qo‘shildingiz.</message>
+	<message key="submission.query.participantTitle">{$fullName}, {$userGroup}</message>
+	<message key="submission.query.noParticipantOptions">Muhokama boshlashdan oldin ushbu hikoyaga kamida bitta ishtirokchini belgilashingiz kerak.</message>
+
+	<!-- Materiallar ro'yxati -->
+	<message key="submission.list.infoCenter">Faoliyat va muhokamalar jurnali</message>
+	<message key="submission.list.count">{$count} ta material</message>
+	<message key="submission.list.itemsOfTotal">{$total} materialdan {$count}</message>
+	<message key="submission.list.responseDue">So‘rovga javob berish vaqti</message>
+	<message key="submission.list.reviewDue">To‘lov muddatini ko‘rib chiqing</message>
+	<message key="submission.list.reviewComplete">Ko‘rib chiqish yuborildi</message>
+	<message key="submission.list.confirmDelete">Material o‘chirilsinmi?</message>
+	<message key="submission.list.itemOrdererUp">“{$itemTitle}”ni yuqoriga siljiting</message>
+	<message key="submission.list.itemOrdererDown">“{$itemTitle}”ni yuborish</message>
+	<message key="submission.list.viewSubmission">Materialni ko‘rsatish</message>
+	<message key="submission.list.reviewsCompleted">Tugallangan tayinlangan sharhlar</message>
+	<message key="submission.list.revisionsSubmitted">Yangi versiyalar yuborildi</message>
+	<message key="submission.list.copyeditsSubmitted">Adabiy tahrirdan o‘tgan yuborilgan fayllar</message>
+	<message key="submission.list.galleysCreated">Yuzlar yaratildi</message>
+	<message key="submission.list.filesPrepared">Fayllar tayyorlandi</message>
+	<message key="submission.list.discussions">Munozaralarni ochish</message>
+	<message key="submission.list.dualWorkflowLinks"><![CDATA[Ushbu kontent uchun sizga bir nechta rollar tayinlangan. <a href="{$urlAuthorWorkflow}">Mualliflar ish jarayoni</a> yoki <a href="{$urlEditorialWorkflow}">Tahririy ish jarayoni</a>?]]></message> dan foydalanmoqchimisiz?
+	<message key="submission.list.reviewerWorkflowLink"><![CDATA[Sizga ushbu hikoya uchun tahririyat vazifasi tayinlangan. <a href="{$urlEditorialWorkflow}">Tahririy ish jarayoni</a>?]]></message> dan foydalanmoqchimisiz?
+	<message key="submission.list.incompleteSubmissionNotice">Muharrir uni ko‘rib chiqishidan oldin bu yuborish tugallanishi kerak.</message>
+	<message key="submission.list.currentStage">Hozirda "{$stage}" bosqichida.</message>
+	<message key="submission.list.assignEditor">Muharrirni tayinlash</message>
+</locale>

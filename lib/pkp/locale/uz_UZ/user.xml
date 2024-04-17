@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../dtd/locale.dtd">
+
+<!--
+  * locale/ru_RU/user.xml
+  *
+  * Copyright (c) 2014-2019 Simon Fraser University
+  * Copyright (c) 2000-2019 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  * Localization information: https://pkp.sfu.ca/wiki/index.php?title=OJS:_Russian_(ru_RU)
+  * Localization strings.
+  -->
+
+<locale name="uz_UZ" full_name="O'zbek">
+	<message key="user.accountInformation">Hisob ma'lumotlari</message>
+	<message key="user.affiliation">Tashkilot</message>
+	<message key="user.affiliation.description">(Sizning tashkilotingiz, masalan, “M.V. Lomonosov nomidagi Moskva davlat universiteti”)</message>
+	<message key="user.affiliations">Tashkilotlar</message>
+	<message key="user.authorization.accessDenied">Kirish rad etildi.</message>
+	<message key="user.authorization.processAuthenticationTokenRequired">Autentifikatsiya jarayoni tokeni yo‘q yoki noto‘g‘ri.</message>
+	<message key="user.authorization.contextRequired">Siz ushbu operatsiyani kontekstsiz chaqira olmaysiz (noshir, jurnal, konferentsiya va h.k.).</message>
+	<message key="user.authorization.loginRequired">Foydalanuvchi nomi kerak.</message>
+	<message key="user.authorization.privateOperation">Siz bajarmoqchi bo'lgan operatsiya siz uchun mavjud emas yoki yo'q.</message>
+	<message key="user.authorization.restrictedSiteAccess">Sizning ruxsatingiz rad etildi. Bu saytga kirish hozircha cheklangan.</message>
+	<message key="user.authorization.roleBasedAccessDenied">Ushbu rol ushbu operatsiyaga kirish huquqiga ega emas.</message>
+	<message key="user.authorization.assignedStageRoleBasedAccessDenied">Ushbu kontent uchun sizga ushbu amaliyotga kirish imkonini beruvchi rol tayinlanmagan.</message>
+	<message key="user.authorization.userGroupRequired">Ushbu operatsiyaga kirish uchun to‘g‘ri foydalanuvchi guruhini o‘rnatishingiz kerak.</message>
+	<message key="user.authorization.managerRequired">Davom etishdan oldin boshqaruvchi roliga ega foydalanuvchi (ya'ni, reliz muharriri) ushbu bosqichga tayinlanishi kerak.</message>
+	<message key="user.authorization.accessibleWorkflowStage">Sizda hozirda ushbu ish jarayoni bosqichiga ruxsat yo‘q.</message>
+	<message key="user.authorization.workflowStageRequired">Ish oqimi bosqichi belgilanmagan.</message>
+	<message key="user.authorization.pluginRequired">Modul talab qilinadi, lekin ko'rsatilmagan.</message>
+	<message key="user.authorization.invalidReviewAssignment">Sizda bu ko‘rib chiqish topshirig‘iga ruxsat yo‘q.</message>
+	<message key="user.authorization.submissionQuery">Sizda bu muhokamaga kirish uchun ruxsat yo‘q.</message>
+	<message key="user.biography">Biografiya (masalan, bo‘lim va lavozim)</message>
+	<message key="user.changeMyPassword">Parolimni o‘zgartirish</message>
+	<message key="user.changePassword">Parolni o‘zgartirish</message>
+	<message key="user.dateLastLogin">Oxirgi kirish</message>
+	<message key="user.dateRegistered">Ro‘yxatdan o‘tgan sana</message>
+	<message key="user.editMyProfile">Profilimni tahrirlash</message>
+	<message key="user.email">Manzil (E-mail)</message>
+	<message key="user.givenName">Ism</message>
+	<message key="user.interests">Ko'rib chiquvchi sifatidagi qiziqishlar</message>
+	<message key="user.interests.description">(Qiziqishlarni vergul bilan ajrating yoki Enter tugmasini bosing)</message>
+	<message key="user.gossip">Muharrirlar eslatmalari</message>
+	<message key="user.gossip.description">Boshqa ma'murlar, jurnal menejerlari va barcha muharrirlarga ko'rinadigan qilib qo'ymoqchi bo'lgan ushbu sharhlovchi haqida bu yerga eslatma yozing. Qaydlar kelgusi ko'rib chiqish topshiriqlarida ko'rinadi.</message>
+	<message key="user.group">Foydalanuvchilar guruhi</message>
+	<message key="user.familyName">Familiya</message>
+	<message key="user.profile.form.profileImageInvalid">Profil tasvir formati noto‘g‘ri yoki rasm juda katta. Ruxsat etilgan formatlar: .gif, .jpg yoki .png, tasvir hajmi 150x150 pikseldan oshmaydi.</message>
+	<message key="user.login.accountDisabledWithReason">Hisobingiz quyidagi sababga ko‘ra o‘chirib qo‘yilgan: {$reason}</message>
+	<message key="user.login.accountDisabled">Hisobingiz o'chirilgan. Batafsil ma’lumot uchun administrator bilan bog‘laning.</message>
+	<message key="user.login.accountNotValidated">Biz sizga tasdiqlovchi xatni {$email} manziliga yubordik. Yangi hisob qaydnomangizni faollashtirish uchun ushbu xatdagi ko‘rsatmalarga amal qiling. Agar siz xatni ko'rmasangiz, spam jildini tekshiring.</message>
+	<message key="user.login.activate">Hisob qaydnomasini faollashtirish</message>
+	<message key="user.login.activated">Hisobingizni faollashtirganingiz uchun tashakkur. Endi hisob qaydnomangizni yaratishda ko‘rsatgan foydalanuvchi nomi va parol yordamida tizimga kirishingiz mumkin.</message>
+	<message key="user.login.changePasswordInstructions"><![CDATA[Ushbu saytga kirishdan oldin yangi parolni tanlashingiz kerak.<br /><br />Iltimos, parollar ostiga foydalanuvchi nomingizni, joriy va yangi foydalanuvchi nomingizni kiriting. hisobingiz uchun parolni o'zgartiring.]]></message>
+	<message key="user.login.forgotPassword">Parolingizni unutdingizmi?</message>
+	<message key="user.login.loginError">Foydalanuvchi nomi yoki parol noto'g'ri. Qayta urinib ko‘ring.</message>
+	<message key="user.login">Kirish</message>
+	<message key="user.login.lostPassword.confirmationSent">TasdiqlashTasdiqlash elektron pochta manzilingizga yuborildi. Parolingizni qayta oʻrnatish uchun elektron pochtadagi koʻrsatmalarga amal qiling.</message>
+	<message key="user.login.lostPassword.invalidHash">Kechirasiz, siz bosgan havola muddati tugagan yoki noto‘g‘ri. Parolingizni qayta tiklashga urinib ko'ring.</message>
+	<message key="user.login.lostPassword.invalidUser">Ushbu elektron pochta manziliga ega foydalanuvchi yo‘q.</message>
+	<message key="user.login.lostPassword.passwordSent">Elektron pochta manzilingizga yangi parol yuborildi. Endi siz saytga yangi parolingiz bilan kirishingiz mumkin.</message>
+	<message key="user.login.registeredEmail">Ro‘yxatdan o‘tgan foydalanuvchi elektron pochta manzili</message>
+	<message key="user.login.registrationComplete">Ro‘yxatdan o‘tish tugallandi</message>
+	<message key="user.login.registrationComplete.instructions">Ro'yxatdan o'tganingiz uchun tashakkur! Keyinchalik nima qilmoqchisiz?</message>
+	<message key="user.login.registrationComplete.manageSubmissions">Materiallarni ko‘rish</message>
+	<message key="user.login.registrationComplete.newSubmission">Yangi material yuborish</message>
+	<message key="user.login.registrationComplete.continueBrowsing">Saytdagi ma'lumotlarni o'rganishni davom ettiring</message>
+	<message key="user.login.registrationPendingValidation">Ro‘yxatdan o‘tish tekshiruvni kutmoqda</message>
+	<message key="user.login.rememberUsernameAndPassword">Meni eslab qoling</message>
+	<message key="user.login.resetPassword">Parolni tiklash</message>
+	<message key="user.logOut">Chiqish</message>
+	<message key="user.logOutAs">Tizimdan chiqish</message>
+	<message key="user.hello">Xush kelibsiz </message>
+	<message key="user.mailingAddress">Pochta manzili</message>
+	<message key="user.myAccount">Mening profilim</message>
+	<message key="user.name">Familiya</message>
+	<message key="user.password">Parol</message>
+	<message key="user.repeatPassword">Parolni takrorlang</message>
+	<message key="user.phone">Telefon</message>
+	<message key="user.preferredPublicName">Afzal davolash</message>
+	<message key="user.preferredPublicName.description">Sizga qanday murojaat qilishlarini xohlaysiz? Agar xohlasangiz, bu yerga salomlashish, otasining ismi/oʻrta ism va qoʻshimchalarni qoʻshishingiz mumkin.</message>
+	<message key="user.profile.changePasswordInstructions">Hisobingiz parolini o‘zgartirish uchun quyida joriy va yangi parollaringizni kiriting.</message>
+	<message key="user.profile.editProfile">Profilni tahrirlash</message>
+	<message key="user.profile.form.countryRequired">Mamlakat kerak.</message>
+	<message key="user.profile.form.emailRequired">Yaroqli elektron pochta manzili kerak.</message>
+	<message key="user.profile.form.affiliationRequired">Tashkilot talab qilinadi.</message>
+	<message key="user.profile.form.givenNameRequired">Ism kerak.</message>
+	<message key="user.profile.form.givenNameRequired.locale">Siz ismingiz bo'lmagan til uchun familiya qo'shdingiz. Iltimos, ushbu til uchun nom qo'shing.</message>
+	<message key="user.profile.form.mailingAddressRequired">Pochta manzili kerak.</message>
+	<message key="user.profile.form.newPasswordRequired">Yangi parolingizni kiritishingiz kerak.</message>
+	<message key="user.profile.form.oldPasswordInvalid">Siz kiritgan joriy parol noto‘g‘ri.</message>
+	<message key="user.profile.form.openAccessNotifications">Muammo hammaga ochiq bo‘lganda elektron pochta orqali xabar bering</message>
+	<message key="user.profile.form.passwordRequired">Parol kerak.</message>
+	<message key="user.profile.form.passwordSameAsOld">Yangi parolingiz eski parolingiz bilan bir xil.</message>
+	<message key="user.profile.form.profileImage">Profil tasviri</message>
+	<message key="user.profile.form.publishedNotifications">Yangi versiya chiqqanda elektron pochta orqali xabar bering</message>
+	<message key="user.profile.form.urlInvalid">Ko'rsatilgan URL noto'g'ri. Iltimos, URL manzilni diqqat bilan tekshiring va qayta urinib ko'ring. (Maslahat: URL boshiga http:// qo‘shib ko‘ring.)</message>
+	<message key="user.profile.form.usergroupRequired">Foydalanuvchilar guruhi kerak.</message>
+	<message key="user.profile.form.usernameRequired">Foydalanuvchi nomi kerak.</message>
+	<message key="user.profile.form.privacyConsentRequired">Maxfiylik bayonnomasida tasvirlangan shartlarga rozilik bildirishingiz kerak.</message>
+	<message key="user.profile.leavePasswordBlank">Joriy parolingizni saqlamoqchi bo'lsangiz, parol maydonlarini bo'sh qoldiring.</message>
+	<message key="user.profile.newPassword">Yangi parol</message>
+	<message key="user.profile.oldPassword">Joriy parol</message>
+	<message key="user.profile">Profil</message>
+	<message key="user.profile.publicProfile">Foydalanuvchi profili</message>
+	<message key="user.profile.repeatNewPassword">Yangi parolni takrorlang</message>
+	<!-- Kirish -->
+	<message key="user.login.registerNewAccount">Ro‘yxatdan o‘tish</message>
+	<message key="user.login.resetPasswordInstructions">Hisob qaydnomangiz elektron pochta manzilini kiritingquyidagi yozuvlarni kiriting va sizga parolni qayta oʻrnatish boʻyicha koʻrsatmalar yozilgan elektron xat yuboriladi.</message>
+
+	<message key="user.register.form.privacyConsent"><![CDATA[Ha, men ma'lumotlarimni <a href="{$privacyUrl}" target="_blank">ga muvofiq to‘plash va saqlashga roziman. Maxfiylik haqida eslatma</a>.]]></message>
+	<message key="user.register.form.emailConsent">Ha, men yangi postlar va e'lonlar haqida bildirishnoma olishni xohlayman.</message>
+	<message key="user.register.form.emailExists">Tanlangan elektron pochta manzili allaqachon boshqa sayt foydalanuvchisi tomonidan foydalanilmoqda.</message>
+	<message key="user.register.form.passwordsDoNotMatch">Parollar mos emas.</message>
+	<message key="user.register.form.emailsDoNotMatch">E-pochta manzili maydonlari mos kelmaydi.</message>
+	<message key="user.register.form.usernameAlphaNumeric">Foydalanuvchi nomi faqat kichik harflar, raqamlar, pastki chiziq va defislardan iborat bo'lishi mumkin va harf yoki raqam bilan boshlanib, tugashi kerak.</message>
+	<message key="user.register.form.userGroupRequired">Kamida bitta rol tanlanishi kerak.</message>
+	<message key="user.register.form.usernameExists">Tanlangan foydalanuvchi nomi allaqachon saytda boshqa foydalanuvchi tomonidan ishlatilmoqda.</message>
+	<message key="user.register.form.passwordLengthRestriction">Parol kamida {$length} belgidan iborat bo‘lishi kerak.</message>
+	<message key="user.register.registerAs">“{$contextName}” bilan ro‘yxatdan o‘ting...</message>
+	<message key="user.register">Ro‘yxatdan o‘tish</message>
+	<message key="user.register.usernameRestriction">Foydalanuvchi nomi faqat kichik lotin harflari, raqamlari va defis/pastki chiziqdan iborat bo‘lishi kerak.</message>
+	<message key="user.register.registrationCompleted"><![CDATA[Muvaffaqiyatli ro'yxatdan o'tdingiz. Foydalanuvchi profilingizni yakunlash uchun <a href="{$profileUrl}">Bu yerga bosing</a>.]]></message>
+	<message key="user.role.assistant">Assistent</message>
+	<message key="user.role.author">Muallif</message>
+	<message key="user.role.author_s">Muallif(lar)</message>
+	<message key="user.role.authors">Mualliflar</message>
+	<message key="user.role.editor">Muharrir</message>
+	<message key="user.role.editors">Muharrirlar</message>
+	<message key="user.role.reader">O'quvchi</message>
+	<message key="user.role.readers">O'quvchilar</message>
+	<message key="user.role.reviewer">Ko'rib chiquvchi</message>
+	<message key="user.role.reviewers">Ko'rib chiquvchilar</message>
+	<message key="user.role.siteAdmin">Sayt administratori</message>
+	<message key="user.role.siteAdmins">Sayt ma'murlari</message>
+	<message key="user.role.copyeditor">Adabiy muharrir</message>
+	<message key="user.role.copyeditors">Adabiy muharrirlar</message>
+	<message key="user.role.proofreader">Tuzatuvchi</message>
+	<message key="user.role.proofreaders">Tashiruvchilar</message>
+	<message key="user.role.layoutEditor">Tuzilish muharriri</message>
+	<message key="user.role.layoutEditors">Tuzilish muharrirlari</message>
+	<message key="user.roles">Rollar</message>
+	<message key="user.sendPassword">Tasdiqlash</message>
+	<message key="user.sendPassword.description">Menga foydalanuvchi nomim va parolimni o‘z ichiga olgan tasdiqlash xatini yuboring</message>
+	<message key="user.signature">Imzo</message>
+	<message key="user.title">Apellyatsiya</message>
+	<message key="user.url">URL</message>
+	<message key="user.userHome">Foydalanuvchi sahifasi</message>
+	<message key="user.username">Foydalanuvchi nomi</message>
+	<message key="user.workingLanguages">Ishchi tillar</message>
+	<message key="user.orcid">ORCID iD</message>
+	<message key="user.orcid.orcidInvalid">Siz ko‘rsatgan ORCID iD to‘g‘ri emas. Toʻliq URI qoʻshing (masalan, “https://orcid.org/0000-0002-1825-0097”).</message>
+	<message key="user.profile.identity">Identifikatsiya</message>
+	<message key="user.profile.contact">Kontaktlar</message>
+	<message key="user.profile.public">Ommaviy</message>
+	<message key="user.apiKey">API kaliti</message>
+	<message key="user.apiKeyEnabled">API kalitli tashqi ilovalarga ushbu hisob qaydnomasiga kirishiga ruxsat berish</message>
+	<message key="user.apiKey.generate">Yangi API kalitini yaratish</message>
+	<message key="user.apiKey.generateWarning">Yangi API kalitini yaratish ushbu foydalanuvchi uchun mavjud kalitlarni bekor qiladi.</message>
+	<message key="user.apiKey.secretRequired">API kalitini yaratishdan oldin sayt administratori konfiguratsiya faylida maxfiy kod o‘rnatishi kerak (“api_key_secret”).</message>
+	<message key="user.privacyLink"><![CDATA[Ma'lumotlaringiz bizning <a href="{$privacyUrl}" target="_blank">Maxfiylik bayonnomamiz</a>ga muvofiq saqlanadi.]]>< /xabar>
+</locale>

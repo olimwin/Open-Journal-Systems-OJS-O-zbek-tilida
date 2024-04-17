@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../dtd/locale.dtd">
+
+<!--
+  * locale/ru_RU/grid.xml
+  *
+  * Copyright (c) 2014-2019 Simon Fraser University
+  * Copyright (c) 2000-2019 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  * Localization information: https://pkp.sfu.ca/wiki/index.php?title=OJS:_Russian_(ru_RU)
+  * Localization strings.
+  -->
+
+<locale name="uz_UZ" full_name="O'zbek">
+	<!-- Общие -->
+	<message key="grid.noItems">Elementlar yo‘q</message>
+	<message key="grid.settings">Sozlamalar</message>
+	<message key="grid.noAuditors">Auditorlar yo'q</message>
+	<message key="grid.remotelyHostedItem">Ushbu element uzoq serverda joylashgan.</message>
+
+	<message key="grid.action.uninstall">O‘chirish</message>
+	<message key="grid.action.manageAccess">Kirishni boshqarish</message>
+	<message key="grid.action.sort">Tartiblash</message>
+	<message key="grid.action.addItem">Element qo‘shish</message>
+	<message key="grid.action.addNote">Eslatma qo‘shish</message>
+	<message key="grid.action.addQuery">Muhokama qo‘shish</message>
+	<message key="grid.action.readQuery">Munozarani o‘qish</message>
+	<message key="grid.action.deleteQuery">Munozarani o‘chirish</message>
+	<message key="grid.action.updateQuery">Munozarani yangilash</message>
+	<message key="grid.action.addUser">Foydalanuvchi qo‘shish</message>
+	<message key="grid.action.unassignReviewer">Ushbu sharhlovchini tayinlashni bekor qilish</message>
+	<message key="grid.action.approveCopyedit">Ushbu nusxa ko'chirilgan faylni keyingi bosqichga yuborish uchun ma'qullang</message>
+	<message key="grid.action.reload">Qayta yuklash</message>
+	<message key="grid.action.delete">O‘chirish</message>
+	<message key="grid.action.deleteFile">Faylni oʻchirish</message>
+	<message key="grid.action.deleteMedia">Mediyani o‘chirish</message>
+	<message key="grid.action.editMedia">Mediyani tahrirlash</message>
+	<message key="grid.action.editSection">Bo'limni tahrirlash</message>
+	<message key="grid.action.export">Eksport</message>
+	<message key="grid.action.deleteSection">Bo'limni o'chirish</message>
+	<message key="grid.action.editorialHistorial">Tahririyat tarixi</message>
+	<message key="grid.action.remove">O‘chirish</message>
+	<message key="grid.action.edit">Tahrirlash</message>
+	<message key="grid.action.approve">Tasdiqlash</message>
+	<message key="grid.action.disapprove">Rad etish</message>
+	<message key="grid.action.setApproval">Tasdiqlashni o'rnatish</message>
+	<message key="grid.action.moreInformation">Qo'shimcha ma'lumot</message>
+	<message key="grid.action.restoreDefaults">Standart sozlamalarni tiklash</message>
+	<message key="grid.action.restoreDefaults.confirm">Standart sozlamalarni tiklamoqchimisiz?</message>
+	<message key="grid.action.addAuthor">Muallif qo‘shish</message>
+	<message key="grid.action.editAuthor">Muallifni tahrirlash</message>
+	<message key="grid.action.deleteAuthor">Muallifni o‘chirish</message>
+	<message key="grid.action.addAuditor">Auditor qo‘shish</message>
+	<message key="grid.action.upgrade">Yangilash</message>
+	<message key="grid.action.order">Buyurtma</message>
+	<message key="grid.action.cancelOrdering">Buyurtmani bekor qilish</message>
+	<message key="grid.action.extendAll">Hammasini ko‘rsatish</message>
+	<message key="grid.action.collapse">Yig'ish</message>
+	<message key="grid.action.collapseAll">Hammasini yig‘ish</message>
+	<message key="grid.action.wizard">Konfiguratsiya ustasi</message>
+	<message key="grid.action.moveItem">Elementni ko‘chirish</message>
+	<message key="grid.action.downloadAll">Barcha fayllarni bitta arxivda yuklab olish</message>
+	<message key="grid.action.readReview">Ushbu sharhni o‘qing</message>
+	<message key="grid.action.email">E-pochta xabarini yuborish</message>
+	<message key="grid.action.addReviewer">Ko'rib chiquvchi qo'shish</message>
+	<message key="grid.action.addFile">Fayl qo‘shish</message>
+	<message key="grid.action.editFile">Faylni tahrirlash</message>
+	<message key="grid.action.selectFiles">Ishlash uchun fayllarni tanlang</message>
+	<message key="grid.action.requestRevisions">Ushbu material uchun yangi tahrirlarni talab qilish</message>
+	<message key="grid.action.accept">Ushbu materialni qabul qiling</message>
+	<message key="grid.action.decline">Ushbu materialni rad etish</message>
+	<message key="grid.action.internalReview">Ushbu materialni ichki tekshirishga yuboring</message>
+	<message key="grid.action.externalReview">Ushbu materialni tashqi ko‘rib chiqish uchun yuboring</message>
+	<message key="grid.action.sendToProduction">Ushbu materialni nashrga yuborish</message>
+	<message key="grid.action.settings">Sozlamalar</message>
+	<message key="grid.action.importexport">Sayt mazmuni yoki maʼlumotlarini import/eksport qilish</message>
+	<message key="grid.action.orderItems">Buyurtma rejimini yoqish</message>
+	<message key="grid.action.editSubmissionChecklist">Ushbu nazorat ro‘yxati elementini tahrirlash</message>
+	<message key="grid.action.deleteSubmissionChecklist">Ushbu nazorat ro‘yxati elementini o‘chirish</message>
+	<message key="grid.action.resetAll">Barcha elementlarni standart qiymatlarga o‘rnatish</message>
+	<message key="grid.action.addPreparedEmail">Yangi elektron pochta shablonini qo'shing</message>
+	<message key="grid.action.editPreparedEmail">Ushbu elektron pochta shablonini tahrirlash</message>
+	<message key="grid.action.disableEmail">Ushbu elektron pochta shablonini o‘chirib qo‘ying</message>
+	<message key="grid.action.resetEmail">Inushbu e-pochta shabloni uchun standart qiymatni belgilang</message>
+	<message key="grid.action.expandAll">Hammasini yoyish</message>
+	<message key="grid.action.requestAccount">A'zo qo'shish</message>
+	<message key="grid.action.expand">Kengaytirish</message>
+	<message key="grid.action.notify">Ushbu foydalanuvchini xabardor qilish</message>
+	<message key="grid.action.addUserGroup">Yangi foydalanuvchilar guruhi qo‘shish</message>
+	<message key="grid.action.editUserGroup">Ushbu foydalanuvchilar guruhini tahrirlash</message>
+	<message key="grid.action.disable">O‘chirish</message>
+	<message key="grid.action.details">Ushbu elementni ko‘rsatish</message>
+	<message key="grid.action.enrolExisting">Mavjud foydalanuvchini sharhlovchi sifatida imzolash</message>
+	<message key="grid.action.selectCreate">Yangi sharhlovchi yaratish</message>
+	<message key="grid.action.search">Qidiruv</message>
+	<message key="grid.action.advancedSearch">Kengaytirilgan qidiruv</message>
+	<message key="grid.action.viewLibrary">Hujjatlar kutubxonasini ko‘rsatish</message>
+	<message key="grid.action.viewMetadata">Ushbu hikoya uchun meta-ma'lumotlarni ko'rsatish</message>
+	<message key="grid.action.sendReminder">Ushbu foydalanuvchiga vazifa eslatmasini yuborish</message>
+	<message key="grid.action.newRound">Yangi davra yaratish</message>
+	<message key="grid.action.viewReviewGuidelines">Ko'rib chiquvchi qo'llanmasini ko'rsatish</message>
+	<message key="grid.action.viewCompetingInterestGuidelines">Manfaatlar to'qnashuvini e'lon qilish qoidalarini ko'rsatish</message>
+	<message key="grid.action.thankReviewer">Ushbu sharhlovchiga rahmat xabarini yuboring</message>
+	<message key="grid.action.uploadFile">Faylni serverga yuklash</message>
+	<message key="grid.action.addAnnouncementType">E'lon turini qo'shish</message>
+	<message key="grid.action.addAnnouncement">E'lon qo'shish</message>
+	<message key="grid.action.mergeUser">Foydalanuvchini birlashtirish</message>
+	<message key="grid.action.unassignUser">Foydalanuvchini tayinlashni bekor qilish</message>
+	<message key="grid.action.history">Tarixni ko‘rsatish</message>
+	<message key="grid.action.unconsiderReview">Bu koʻrib chiqish tugallandi, lekin siz uni hali koʻrib chiqmagansiz</message>
+	<message key="grid.action.enable">Yoqish</message>
+	<message key="grid.action.bookInfo">Material ma'lumotlar</message>
+	<message key="grid.action.logInAs">Tizimga kirish</message>
+	<message key="grid.action.exportAllUsers">Barcha foydalanuvchilarni eksport qilish</message>
+	<message key="grid.users.confirmExportAllUsers">Haqiqatan ham barcha foydalanuvchilarni eksport qilmoqchimisiz?</message>
+	<message key="grid.action.activate">Faollashtirish</message>
+	<message key="grid.action.deactivate">O‘chirish</message>
+	<message key="grid.action.copy">Nusxalash</message>
+	<message key="grid.action.preview">Ko‘rib chiqish</message>
+	<message key="grid.action.install">O‘rnatish</message>
+	<message key="grid.action.moreItems">Batafsil yuklash</message>
+	<message key="grid.action.users">Foydalanuvchilarni ko‘rish/tanlash</message>
+
+	<!-- tarmoqdagi vazifalar holati -->
+	<message key="grid.task.status.completed">Bu vazifa bajarildi</message>
+	<message key="grid.task.status.new">Ko'rib chiqilgandan keyin qayd etildi</message>
+	<message key="grid.task.status.uploaded">Ustun sarlavhasi ushbu faylni kim yuklaganligini ko'rsatadi</message>
+	<message key="grid.task.status.unfinished">Vazifa bajarilmadi</message>
+	<message key="grid.task.status.reviewReady">Bu sharh tayyor. Ko'rib chiqishni o'qish uchun chapdagi eslatma belgisini bosing.</message>
+
+	<!-- Umumiy tarmoq ustunlari sarlavhalari -->
+	<message key="grid.columns.actions">Harakatlar</message>
+	<message key="grid.columns.institution">Tashkilot</message>
+	<message key="grid.columns.url">URL</message>
+	<message key="grid.columns.auditor">Auditor</message>
+	<message key="grid.columns.locale">Til</message>
+
+	<!-- “Homiylar” tarmogʻi -->
+	<message key="grid.sponsor.title">Homiylar</message>
+	<message key="grid.action.addSponsor">Homiy qo‘shish</message>
+	<message key="grid.action.deleteSponsor">Homiyni o‘chirish</message>
+	<message key="grid.action.editSponsor">Homiyni tahrirlash</message>
+
+	<!-- “Seriya” panjarasi -->
+	<message key="grid.action.addSeries">Serial qo‘shish</message>
+	<message key="grid.action.editSeries">Serialni tahrirlash</message>
+	<message key="grid.action.deleteSeries">Serialni o‘chirish</message>
+
+	<!-- “Kategoriyalar” to‘ri -->
+	<message key="grid.action.addCategory">Turkum qo'shish</message>
+	<message key="grid.action.editCategory">Kategoriyani tahrirlash</message>
+	<message key="grid.action.deleteCategory">Kurumni o‘chirish</message>
+
+	<!-- "Qo'llab-quvvatlovchilar" to'plami -->
+	<message key="grid.contributor.title">Qo‘llab-quvvatlovchilar</message>
+	<message key="grid.action.addContributor">Hissyor qo'shish</message>
+	<message key="grid.action.editContributor">Hissyorni tahrirlash</message>
+	<message key="grid.action.deleteContributor">Hissyorni oʻchirish</message>
+
+	<!-- “Shakllarni ko‘rib chiqish” to‘ri -->
+	<message key="grid.reviewForm.title">Rek shakllarienzi</message>
+
+	<!-- “Shakllarni ko‘rib chiqish” panjarasi, “Javob variantlari” elementi -->
+	<message key="grid.reviewFormElement.responseItems">Javob variantlari</message>
+
+	<!-- Fayllar -->
+	<message key="grid.noFiles">Fayllar yo'q</message>
+
+	<!-- Kutubxona fayllari -->
+	<message key="grid.libraryFiles.column.files">Fayllar</message>
+	<message key="grid.libraryFiles.submission.title">Yuborgan materiallar: kutubxona</message>
+	<message key="grid.libraryFiles.editorial.title">Tahrirlash: kutubxona</message>
+	<message key="grid.libraryFiles.review.title">Ko‘rib chiqish: Kutubxona</message>
+	<message key="grid.libraryFiles.production.title">Nashr: kutubxona</message>
+	<message key="grid.libraryFiles.productionTemplate.title">Nashr qilish shablonlari: kutubxona</message>
+
+	<!-- Yuk tashishdan oldingi nazorat ro'yxati -->
+	<message key="grid.submissionChecklist.title">Yuborish uchun material tayyorlash bo‘yicha nazorat ro‘yxati</message>
+	<message key="grid.submissionChecklist.column.checklistItem">Nazorat roʻyxati elementi</message>
+
+	<!-- Yuboruvchilar -->
+	<message key="author.users.contributor.name">Ism</message>
+	<message key="author.users.contributor.email">Elektron pochta manzili</message>
+	<message key="author.users.contributor.role">Rol</message>
+	<message key="author.users.contributor.principalContact">Aloqa uchun shaxs</message>
+	<message key="author.users.contributor.includeInBrowse">Ro‘yxatlarni ko‘rish uchun</message>
+
+	<!-- Rollar -->
+	<message key="grid.roles.currentRoles">Joriy rollar</message>
+	<message key="grid.roles.add">Yangi rol yaratish</message>
+	<message key="grid.roles.stageAssignment">Bosqichni belgilash</message>
+
+	<!-- Foydalanuvchilar -->
+	<message key="grid.user.currentUsers">Joriy foydalanuvchilar</message>
+	<message key="grid.user.currentEnrollment">Joriy yozuvlar</message>
+	<message key="grid.user.allRoles">Barcha rollar</message>
+	<message key="grid.user.allPermissionLevels">Barcha ruxsat darajalari</message>
+	<message key="grid.user.add">Foydalanuvchi qo‘shish</message>
+	<message key="grid.user.enroll">Foydalanuvchini ro‘yxatdan o‘tkazish</message>
+	<message key="grid.user.edit">Foydalanuvchini tahrirlash</message>
+	<message key="grid.user.email">Elektron pochta manzili</message>
+	<message key="grid.user.enable">Yoqish</message>
+	<message key="grid.user.disable">O‘chirish</message>
+	<message key="grid.user.disableReason">Foydalanuvchini o‘chirib qo‘yish sababi</message>
+	<message key="grid.user.enableReason">Foydalanuvchini yoqish sababi</message>
+	<message key="grid.user.error">Ushbu foydalanuvchini boshqarishda xatolik yuz berdi. Qayta urinib ko‘ring.</message>
+	<message key="grid.user.errorEmail">Ushbu xatni yuborishda xatolik yuz berdi. Iltimos, elektron pochta serveringiz ishlayotganiga ishonch hosil qiling va/yoki tizim administratoringizga murojaat qiling.</message>
+	<message key="grid.user.cannotAdminister">Ushbu foydalanuvchini boshqarish uchun yetarli huquqlarga ega emassiz. Foydalanuvchini boshqarish uchun siz sayt administratori boʻlishingiz yoki ushbu foydalanuvchi roʻyxatdan oʻtgan barcha kontekstlarni boshqarishingiz kerak.</message>
+	<message key="grid.user.authSource">Autentifikatsiya manbai</message>
+	<message key="grid.user.mustProvideName">Iltimos, avvalo kamida foydalanuvchining familiyasini kiriting.</message>
+	<message key="grid.user.generatePassword">Parol yaratish</message>
+	<message key="grid.user.generatePasswordDescription">Ushbu foydalanuvchi uchun tasodifiy parol yarating.</message>
+	<message key="grid.user.notifyUser">Foydalanuvchini xabardor qilish</message>
+	<message key="grid.user.notifyUserDescription">Foydalanuvchiga xush kelibsiz xat yuboring.</message>
+	<message key="grid.user.mustChangePassword">Parolni o'zgartirish</message>
+	<message key="grid.user.mustChangePasswordDescription">Foydalanuvchi keyingi safar tizimga kirishda parolni o‘zgartirishi kerak.</message>
+	<message key="grid.user.mustChangePasswordDescriptionOld">Keyingi kirganida foydalanuvchi parolini oʻzgartirishni talab qilish.</message>
+	<message key="grid.user.moreDetails">Foydalanuvchi ma'lumotlari (batafsil ma'lumot)</message>
+	<message key="grid.user.lessDetails">Foydalanuvchi ma'lumotlari (qisqacha)</message>
+	<message key="grid.user.userDetails">Foydalanuvchi tafsilotlari</message>
+	<message key="grid.user.userRoles">Foydalanuvchi rollari</message>
+	<message key="grid.user.userNoRoles">Bu foydalanuvchiga hech qanday rol tayinlanmagan.</message>
+	<message key="grid.user.step1">1-qadam: Foydalanuvchi ma'lumotlarini to'ldiring</message>
+	<message key="grid.user.step2">2-qadam: {$userFullName} foydalanuvchisiga rollar qo‘shing</message>
+	<message key="grid.user.addRoles">Rol qo‘shish</message>
+	<message key="grid.user.addRole">Rol qo‘shish</message>
+	<message key="grid.user.selectUser">Foydalanuvchini tanlang</message>
+	<message key="grid.user.pleaseSelectUser">Iltimos, foydalanuvchi tanlang</message>
+	<message key="grid.user.confirmLogInAs">Ushbu foydalanuvchi sifatida tizimga kirasizmi? Siz bajaradigan barcha harakatlar ushbu foydalanuvchi nomidan amalga oshiriladi.</message>
+	<message key="grid.user.mergeUsers">Foydalanuvchilarni birlashtirish</message>
+	<message key="grid.user.mergeUsers.mergeUser">Foydalanuvchini birlashtirish</message>
+	<message key="grid.user.mergeUsers.mergeIntoUser">Ushbu foydalanuvchiga birlash</message>
+	<message key="grid.user.mergeUsers.allUsers">Barcha qayd etilgan foydalanuvchilar</message>
+	<message key="grid.user.mergeUsers.confirm">"{$oldUsername}" foydalanuvchi nomi bilan hisobni "{$newUsername}" foydalanuvchi nomi bilan birlashtirmoqchimisiz? “{$oldUsername}” foydalanuvchi nomi bilan hisob endi mavjud bo‘lmaydi. Bu amalni ortga qaytarib bo‘lmaydi.</message>
+
+	<!-- Tayyorlangan xatlar -->
+	<message key="grid.preparedEmails.title">Tayyorlangan elektron pochta shablonlari</message>
+	<message key="grid.preparedEmails.currentList">Joriy ro'yxat</message>
+
+	<!-- Modullar -->
+	<message key="grid.plugin.allCategories">Barcha toifalar</message>
+	<message key="grid.plugin.disable">Ushbu plaginni o‘chirib qo‘ymoqchimisiz?</message>
+
+	<message key="grid.action.fileUnconsider">Tekshiruv tugallandi. Siz ushbu vazifani ko'rib chiqishdan olib tashlashingiz mumkin</message>
+
+	<!-- "Tasvir fayllari" panjarasi -->
+	<message key="grid.artworkFile.caption">Sarlavha</message>
+	<message key="grid.artworkFile.credit">Muallif</message>
+	<message key="grid.artworkFile.copyrightOwner">Mualliflik huquqi egasi</message>
+	<message key="grid.artworkFile.copyrightContact">Aloqa ma'lumotlari (agar muallif/noshir bo'lmasa)</message>
+	<message key="grid.artworkFile.permissionTerms">Foydalanish shartlari</message>
+	<message key="grid.artworkFile.placement">Materialda joylashtirish</message>
+
+	<!-- “Foydalanuvchilar guruhi” panjarasi -->
+	<message key="grid.userGroup.assignStage">Bosqichni tayinlash</message>
+	<message key="grid.userGroup.unassignStage">Bosqichni belgilashni bekor qilish</message>
+	<message key="grid.userGroup.allStages">Ish jarayonining barcha bosqichlari</message>
+	<message key="grid.userGroup.filter.listRoles">Tayinlangan rollarni ko'rsatish</message>
+	<message key="grid.userGroup.filter.permissionLevel">Ruxsat darajasi bilan</message>
+	<message key="grid.userGroup.cantRemoveDefaultUserGroup">“{$userGroupName}” roli birlamchi rol bo‘lib, uni olib tashlab bo‘lmaydi.</message>
+	<message key="grid.userGroup.cantRemoveUserGroup">“{$userGroupName}” rolini olib tashlab bo‘lmadi. Hozirda u {$usersCount} foydalanuvchiga tayinlangan.</message>
+	<message key="grid.userGroup.removed">"{$userGroupName}" roli olib tashlandi.</message>
+	<message key="grid.userGroup.assignedStage">"{$userGroupName}" roli "{$stageName}" bosqichiga tayinlandi.</message>
+	<message key="grid.userGroup.unassignedStage">"{$stageName}" bosqichidan "{$userGroupName}" roli tayinlanmagan.</message>
+
+	<!-- "Qabul qilingan materiallar ro'yxati" --> katakchalari
+	<message key="grid.submission.itemTitle">Muallif; Sarlavha</message>
+	<message key="grid.submission.active.selectOrphaned">Muallif tomonidan yuborilmagan to‘liq bo‘lmagan taqdimotlarni qo‘shing.</message>
+
+	<!-- Navigatsiya menyusi -->
+	<message key="grid.action.addNavigationMenu">Menyu qo'shish</message>
+	<message key="grid.action.addNavigationMenuItem">Element qo'shish</message>
+	<message key="grid.navigationMenus.navigationMenuItems.noneExist">navigatsiya menyusi bandlari mavjud emas</message>
+	<message key="grid.navigationMenus.navigationMenu.noneExist">navigatsiya menyusi yo'q</message>
+	<message key="grid.navigationMenus.navigationMenu.selectType">Turni tanlang...</message>
+</locale>

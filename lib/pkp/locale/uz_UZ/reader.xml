@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE locale SYSTEM "../../dtd/locale.dtd">
+
+<!--
+  * locale/ru_RU/reader.xml
+  *
+  * Copyright (c) 2014-2019 Simon Fraser University
+  * Copyright (c) 2000-2019 John Willinsky
+  * Distributed under the GNU GPL v2. For full terms see the file docs/COPYING.
+  * Localization information: https://pkp.sfu.ca/wiki/index.php?title=OJS:_Russian_(ru_RU)
+  * Localization strings.
+  -->
+
+<locale name="uz_UZ" full_name="O'zbek">
+	<message key="comments.anonymous">Anonim foydalanuvchi</message>
+	<message key="comments.anonymousNamed">"{$userName}"</message>
+	<message key="comments.body">Izoh matni</message>
+	<message key="comments.titleRequired">Izoh sarlavhasi kerak.</message>
+	<message key="comments.confirmDeleteChildren">Ushbu fikrni oʻchirish unga berilgan barcha javoblarni oʻchirib tashlaydi. Haqiqatan ham buni qilmoqchimisiz?</message>
+	<message key="comments.delete">Ushbu fikrni o‘chirish</message>
+	<message key="comments.email">Sharhlovchining elektron pochta manzili</message>
+	<message key="comments.emailReply">E-pochta orqali javob berish</message>
+	<message key="comments.enterComment">Izohni kiriting</message>
+	<message key="comments.inResponseTo"><![CDATA[ <a href="{$url}">{$title}</a>]]></message>ga javoban
+	<message key="comments.name">Sharhlovchining ismi</message>
+	<message key="comments.noComments">Hech qanday o‘quvchi izohlari joylanmagan.</message>
+	<message key="comments.nReplies">(Javoblar - {$num})</message>
+	<message key="comments.oneReply">(1 ta javob)</message>
+	<message key="comments.postAnonymously">Ushbu fikrni anonim tarzda joylash</message>
+	<message key="comments.postReply">Javob yuborish</message>
+	<message key="comments.readerComments">O‘quvchi sharhlari</message>
+	<message key="comments.readMore">Batafsil</message>
+	<message key="comments.replies">Javoblar</message>
+	<message key="comments.title">Sarlavha</message>
+	<message key="comments.viewAllComments">Barcha izohlarni ko‘rish</message>
+	<message key="reader.fullText">To‘liq matn:</message>
+	<message key="rt.addComment">Izoh qo'shish</message>
+	<message key="rt.admin.configuration">Konfiguratsiya</message>
+	<message key="rt.admin.contexts.confirmDelete">Ushbu kontekstni va barcha tegishli qidiruvlarni oʻchirib tashlamoqchimisiz?</message>
+	<message key="rt.admin.contexts.createContext">Kontekst yaratish</message>
+	<message key="rt.admin.contexts.edit.editContext">Kontekstni tahrirlash</message>
+	<message key="rt.admin.contexts.metadata">Metama'lumotlar</message>
+	<message key="rt.admin.contexts.options.authorTerms">Foydalanuvchilarga ushbu material mualliflarining boshqa asarlarini (masalan, “Boshqa asarlar” konteksti uchun) topishga ruxsat berish uchun qidiruv kalit so‘zlari sifatida standart muallif nomlaridan foydalaning</ xabar>
+	<message key="rt.admin.contexts.options.citedBy">Qidiruv kalit so‘zlari sifatida birlamchi muallif nomlaridan foydalaning va ushbu maqolaga havolalarni qidirishda kontekstni tavsiflang.</message>
+	<message key="rt.admin.contexts.options.defineTerms"><![CDATA[O'quvchi tomonidan ta'kidlangan so'zni qidiruv kalit so'zi sifatida birlamchi belgilang yoki ushbu material uchun hech narsa ajratib ko'rsatilmagan bo'lsa (masalan, kontekst uchun) bo'sh qoldiring. "Atamalar ta'rifi"). Ushbu kontekstni so‘zlarga ikki marta bosish orqali ochishga ruxsat berish uchun <a href="{$settingsUrl}">RST sozlamalari</a>da “Term ta’riflari” sozlamasi yoqilgan bo‘lishi kerak.]]></message>
+	<message key="rt.admin.contexts.options.geoTerms">Geo-indekslangan ma'lumotlardan standart qidiruv kalit so'zlari sifatida foydalaning.</message>
+	<message key="rt.admin.contexts.options">Tanlovlar</message>
+	<message key="rt.admin.management">Boshqarish</message>
+
+	<message key="rt.admin.sharing">Ulashish</message>
+	<message key="rt.admin.sharing.enabled">Boshqalar bilan almashishni yoqish</message>
+	<message key="rt.admin.sharing.description"><![CDATA[O'quvchilaringizga kontentingizni boshqalar bilan baham ko'rish imkoniyatini berish uchun <a href="https://www.addthis.com"> saytida ro'yxatdan o'ting. addthis .com</a>ni kiriting va quyida olingan “Ulashish” tugmasi kodini joylashtiring.]]></message>
+
+	<message key="rt.admin.sharing.basic">Asosiy sozlamalar</message>
+	<message key="rt.admin.sharing.userNameLabel">AddThis.com foydalanuvchi nomi</message>
+	<message key="rt.admin.sharing.buttonStyleLabel">Tugma uslubi</message>
+	<message key="rt.admin.sharing.dropDownMenuLabel">Ochiladigan menyudan foydalanish</message>
+	<message key="rt.admin.sharing.advanced">Kengaytirilgan sozlamalar (ixtiyoriy)</message>
+	<message key="rt.admin.sharing.customizationLink"><![CDATA[Qarang: <a href="https://www.addthis.com/academy/how-to-create-custom-buttons-with-addthis //>AdThis.com</a>ni sozlash uchun hujjatlar.]]></message>
+	<message key="rt.admin.sharing.brandLabel">Brend</message>
+	<message key="rt.admin.sharing.dropDownLabel"><![CDATA[Ochiladigan menyu opsiyalari <br /> (vergul bilan ajratilgan ro'yxat)]]></message>
+	<message key="rt.admin.sharing.languageLabel">Til</message>
+	<message key="rt.admin.sharing.logolabel">Logo</message>
+	<message key="rt.admin.sharing.logoBackgroundLabel">Logo foni</message>
+	<message key="rt.admin.sharing.logoColorLabel">Logo rangi</message>
+
+	<message key="rt.admin.readingToolsEnabled">O‘qish vositalari</message>
+	<message key="rt.admin.searches.confirmDelete">Ushbu qidiruv so‘rovini o‘chirib tashlamoqchimisiz?</message>
+	<xabar kaliti="rt.admin.searches.createSearch">Qidiruv so'rovini yarating</message>
+	<message key="rt.admin.searches.edit.editSearch">Qidiruv so'rovini tahrirlash</message>
+	<message key="rt.admin.selectedVersion">Aloqador elementlar</message>
+	<message key="rt.admin.settings.abstract">Referat (materialning referatini ifodalaydi).</message>
+	<message key="rt.admin.settings.viewReviewPolicy">Ko'rib chiqish qoidalarini ko'rsatish</message>
+	<message key="rt.admin.settings.authorBio">Muallif haqida (muallif tomonidan kiritilgan biografik ma'lumotlarni ko'rsatadi).</message>
+	<message key="rt.admin.settings.captureCite">Materialdan qanday iqtibos keltirish kerak (materialga bibliografik havola ko'rsatilgan).</message>
+	<message key="rt.admin.settings.defineTerms">Shartlarni ko‘rish (o‘quvchilarga materialdagi istalgan so‘z ustiga ikki marta bosish orqali lug‘atni ochish imkonini beradi).</message>
+	<message key="rt.admin.settings.disableRelatedItems">Aloqador elementlarni o'chirish</message>
+	<message key="rt.admin.settings.emailAuthor">Muallifga elektron xat yuboring (muallifning elektron pochta manzili bilan elektron pochta shablonini ochadi).</message>
+	<message key="rt.admin.settings.emailOthers">Hamkasbingizga xabar bering (materialga havola bilan elektron pochta shablonini ochadi).</message>
+	<message key="rt.admin.settings.findingReferences">Ma'lumotnomalarni toping</message>
+	<message key="rt.admin.settings.printerFriendly">Chop etish uchun qulay versiya (materialning chop etish uchun qulay versiyasini ko‘rsatadi).</message>
+	<message key="rt.admin.settings.supplementaryFiles">Qo‘shimcha fayllar (yozuvga muallif tomonidan kiritilgan fayllar ro‘yxatini ko‘rsatadi).</message>
+	<message key="rt.admin.settings.viewMetadata">Indekslash uchun metadata (muallif va tizim tomonidan taqdim etilgan indekslash uchun ishlatiladigan metama'lumotlarni ko'rsatadi).</message>
+	<message key="rt.admin.status">Holat</message>
+	<message key="rt.admin.configureSharing">AddThis-ni sozlash</message>
+	<message key="rt.admin.validateUrls.complete">Tasdiqlash tugallandi.</message>
+	<message key="rt.admin.validateUrls.ok">OK</message>
+	<message key="rt.admin.validateUrls.urlIsInvalid">{$url} noto‘g‘ri.</message>
+	<message key="rt.admin.validateUrls">O‘quvchi vositalari uchun URL manzillarini tekshirish</message>
+	<message key="rt.admin.validateUrls.validate">Tasdiqlash</message>
+	<message key="rt.admin.versions.confirmDelete">Ushbu versiyani va barcha tegishli kontekst va qidiruvlarni o‘chirib tashlamoqchimisiz?</message>
+	<message key="rt.admin.versions.confirmRestore">Haqiqatan ham barcha versiyalarni standart sozlamalariga qaytarmoqchimisiz? Ha bo'lsa, siz Sozlamalar sahifasida faol versiyani tanlashingiz kerak.</message>
+	<message key="rt.admin.versions.createVersion">Versiya yaratish</message>
+	<message key="rt.admin.versions.edit.editVersion">Versiyani tahrirlash</message>
+	<message key="rt.admin.versions.export">Eksport</message>
+	<message key="rt.admin.versions.importVersion">Import versiyasi</message>
+	<message key="rt.admin.versions.metadata">Metama'lumotlar</message>
+	<message key="rt.admin.versions.restoreVersions">Versiyalarni standart holatga qaytarish</message>
+	<message key="rt.authorBio">Muallif haqida</message>
+	<message key="rt.captureCite.format">Bibliografik iqtibos formati</message>
+	<message key="rt.captureCite">Materialdan iqtibos keltirish</message>
+	<message key="rt.captureCite.online">Onlayn</message>
+	<message key="rt.captureCite.web">Veb</message>
+	<message key="rt.colleague">Hamkasbga xabar berish</message>
+	<message key="rt.context.abbrev">Qisqacha</message>
+	<message key="rt.context.and">VA</message>
+	<message key="rt.context.citesContextDescription">Agar maqola Google Scholar'da indekslangan bo'lsa, unga "Iqtibos keltirgan: X" kabi havola hamroh bo'lishi mumkin, bu esa undan iqtibos keltirgan asarlar ro'yxatiga olib keladi. Shuningdek, Google Scholar maqola va muallif nomini o'z ichiga olgan barcha materiallarni ko'rsatadi. Faqat kutubxonangiz orqali mavjud boʻlgan onlayn resurslarga kirish uchun Akademiya sozlamalariga oʻting va tashkilotingiz uchun kutubxona havolalarini yoqishingiz kerak boʻlishi mumkin.</message>
+	<message key="rt.context">Kontekst</message>
+	<message key="rt.context.defineTermsDescription">Agar material HTML formatida bo'lsa (PDF o'rniga), matndagi istalgan so'zni ikki marta bosish uning Term maydonida paydo bo'lishiga olib keladi (so'zlarni terish yoki nusxalash ham mumkin) bu sohaga). Qidiruvingiz uchun foydalanilayotgan resurs haqida ko'proq ma'lumot olish uchun "Resurs haqida" tugmasini bosing. Bu manbalar ularning dolzarbligi va ushbu resurs tarkibiga toʻliq yoki qisman ochiq (bepul) kirishni taʼminlash asosida tanlangan.</message>
+	<message key="rt.context.description">Tavsif</message>
+	<message key="rt.context.order">Buyurtma</message>
+	<message key="rt.contexts">Kontekstlar</message>
+	<message key="rt.context.searchDescription">Kalit so'zlar mualliflar tomonidan tanlangan. Ular o'quvchi tomonidan o'zgartirilishi yoki o'chirilishi mumkin, chunki ikki yoki uchta qisqa atama yoki iboralar so'z birikmasi (VA) bo'yicha eng aniq qidirish imkonini beradi. Haqida ko'proq ma'lumot olish uchunIzlash uchun foydalaniladigan manbalar, "Resurs haqida" tugmasini bosing. Bu manbalar oʻzlarining dolzarbligi va ushbu resurs tarkibiga toʻliq yoki qisman ochiq (bepul) kirishni taʼminlash uchun tanlangan.</message>
+	<message key="rt.context.searchTerms">Kalit so'zlar</message>
+	<message key="rt.context.termToDefine">Muddati</message>
+	<message key="rt.context.title">Sarlavha</message>
+	<message key="rt.emailAuthor">Muallifga xat yuboring</message>
+	<message key="rt.email.needLogin"><![CDATA[* <a target="_parent" href="{$loginUrl}">ro‘yxatdan o‘tish</a>]]></message>
+	<message key="rt.email.sent">Xabaringiz yuborildi.</message>
+	<message key="rt.findingReferences">Ma'lumotnomalarni toping</message>
+	<message key="rt.findingReferences.googleScholar">Google Scholar</message>
+	<message key="rt.findingReferences.windowsLiveAcademic">Windows Live Akademik</message>
+	<message key="rt.lookUp">Shartlarni ko‘rish</message>
+	<message key="rt.metadata.dublinCore.contributor">Hamkor ishtirokchi</message>
+	<message key="rt.metadata.dublinCore.coverage">Qamrash</message>
+	<message key="rt.metadata.dublinCore.date">Sana</message>
+	<message key="rt.metadata.dublinCore.description">Tavsif</message>
+	<message key="rt.metadata.dublinCore">Dublin yadrosi</message>
+	<message key="rt.metadata.dublinCore.format">Format</message>
+	<message key="rt.metadata.dublinCore.identifier">Identifikator</message>
+	<message key="rt.metadata.dublinCore.language">Til</message>
+	<message key="rt.metadata.dublinCore.publisher">Nashriyot</message>
+	<message key="rt.metadata.dublinCore.relation">Munosabatlar</message>
+	<message key="rt.metadata.dublinCore.rights">Huquqlar</message>
+	<message key="rt.metadata.dublinCore.source">Manba</message>
+	<message key="rt.metadata.dublinCore.subject">Mavzu</message>
+	<message key="rt.metadata.dublinCore.title">Sarlavha</message>
+	<message key="rt.metadata.dublinCore.type">Tur</message>
+	<message key="rt.metadata.forThisDocument">Ushbu hujjat uchun metadata</message>
+	<message key="rt.metadata.pkp.abstract">Referat</message>
+	<message key="rt.metadata.pkp.copyright">Huquqlar va ruxsatlar</message>
+	<message key="rt.metadata.pkp.coverage">Geofazoviy joylashuv, xronologik davr, tadqiqot namunasi (jins, yosh va boshqalar)</message>
+	<message key="rt.metadata.pkp.date">(YYYY-AA-KK)</message>
+	<message key="rt.metadata.pkp.discipline">Fanlar</message>
+	<message key="rt.metadata.pkp.format">Fayl formati</message>
+	<message key="rt.metadata.pkp.genre"><![CDATA[Holat va janr]]></message>
+	<message key="rt.metadata.pkpItem">PKP metadata elementlari</message>
+	<message key="rt.metadata.pkp.language">Ruscha=ru, inglizcha=en</message>
+	<message key="rt.metadata.pkp.publisher">Organizer, joylashuv</message>
+	<message key="rt.metadata.pkp.source">Sarlavha; Hajmi, raqami (yil)</message>
+	<message key="rt.metadata.pkp.sponsors">Homiylar</message>
+	<message key="rt.metadata.pkp.subject">Kalit so'zlar</message>
+	<message key="rt.metadata.pkp.suppFiles">Qo‘shimcha fayllar</message>
+	<message key="rt.metadata.pkp.title">Hujjat nomi</message>
+	<message key="rt.metadata.pkp.type">Tur</message>
+	<message key="rt.metadata.pkp.uri">Yagona manba identifikatori (URI)</message>
+	<message key="rt.printVersion">Chop etish versiyasi</message>
+	<message key="rt.readingTools">O‘qish vositalari</message>
+	<message key="rt.relatedItems">Aloqador elementlar</message>
+	<message key="rt.reviewPolicy">Siyosatni ko‘rib chiqish</message>
+	<message key="rt.search.description">Tavsif</message>
+	<message key="rt.searches">Qidiruv so‘rovlari</message>
+	<message key="rt.search.order">Buyurtma</message>
+	<message key="rt.search">Qidiruv</message>
+	<message key="rt.search.searchPost">Nashr qilish uchun ma'lumotlar</message>
+	<message key="rt.search.searchUrl">Qidirish uchun URL</message>
+	<message key="rt.search.suggest">Manbani taklif qilish</message>
+	<message key="rt.search.title">Sarlavha</message>
+	<message key="rt.search.url">URL</message>
+	<message key="rt.suppFiles.download">Yuklab olish</message>
+	<message key="rt.suppFiles">Qo‘shimcha fayllar</message>
+	<message key="rt.suppFiles.viewMetadata">Indekslash uchun metadata</message>
+	<message key="rt.version.description">Tavsif</message>
+	<message key="rt.version.key">Kalit</message>
+	<message key="rt.version.locale">Til</message>
+	<message key="rt.versions">Tegishli elementlar to‘plami</message>
+	<message key="rt.version.title">Sarlavha</message>
+	<message key="rt.version">Versiya</message>
+	<message key="rt.viewMetadata">Indekslash uchun metadata</message>
+</locale>
